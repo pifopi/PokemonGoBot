@@ -63,17 +63,17 @@ void OutputMoveListLink(const MoveList& fastMoveList, const MoveList& chargedMov
     std::ofstream file("links.txt");
     for (auto [moveName, type] : fastMoveList)
     {
-        file << std::format("https://gamepress.gg/pokemongo/pokemon-move/{}\n", GetLinkFromMoveName(moveName));
+        file << std::format("https://gamepress.gg/pokemongo/pokemon-move/{}\n", GetPageNameFromMoveName(moveName));
     }
 
     for (auto [moveName, type] : chargedMoveList)
     {
-        file << std::format("https://gamepress.gg/pokemongo/pokemon-move/{}\n", GetLinkFromMoveName(moveName));
+        file << std::format("https://gamepress.gg/pokemongo/pokemon-move/{}\n", GetPageNameFromMoveName(moveName));
     }
 }
 
 //https://gamepress.gg/pokemongo/comprehensive-dps-spreadsheet
-NonOwnedPokemonList ReadNonOwnedPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList)
+GamepressPokemonList ReadGamepressPokemonList()
 {
     std::string path = "../data/comprehensive_dps.csv";
     std::ifstream file(path);
@@ -81,7 +81,7 @@ NonOwnedPokemonList ReadNonOwnedPokemonList(const MoveList& fastMoveList, const 
     std::string header;
     std::getline(file, header);
 
-    NonOwnedPokemonList nonOwnedPokemonList;
+    GamepressPokemonList gamepressPokemonList;
 
     std::string line;
     while (std::getline(file, line))//"Mega Rayquaza","Dragon Tail","Dragon Ascent","29.698","1122.2","73.63","5713"
@@ -93,38 +93,38 @@ NonOwnedPokemonList ReadNonOwnedPokemonList(const MoveList& fastMoveList, const 
 
         std::size_t index = 0;
 
-        NonOwnedPokemon nonOwnedPokemon;
+        GamepressPokemon gamepressPokemon;
 
-        nonOwnedPokemon.pokemonName = items[index++];
-        nonOwnedPokemon.pokemonName.erase(std::remove(nonOwnedPokemon.pokemonName.begin(), nonOwnedPokemon.pokemonName.end(), '"'), nonOwnedPokemon.pokemonName.end());
+        gamepressPokemon.pokemonName = items[index++];
+        gamepressPokemon.pokemonName.erase(std::remove(gamepressPokemon.pokemonName.begin(), gamepressPokemon.pokemonName.end(), '"'), gamepressPokemon.pokemonName.end());
 
-        nonOwnedPokemon.fastMoveName = items[index++];
-        nonOwnedPokemon.fastMoveName.erase(std::remove(nonOwnedPokemon.fastMoveName.begin(), nonOwnedPokemon.fastMoveName.end(), '"'), nonOwnedPokemon.fastMoveName.end());
+        gamepressPokemon.fastMoveName = items[index++];
+        gamepressPokemon.fastMoveName.erase(std::remove(gamepressPokemon.fastMoveName.begin(), gamepressPokemon.fastMoveName.end(), '"'), gamepressPokemon.fastMoveName.end());
 
-        nonOwnedPokemon.chargedMoveName = items[index++];
-        nonOwnedPokemon.chargedMoveName.erase(std::remove(nonOwnedPokemon.chargedMoveName.begin(), nonOwnedPokemon.chargedMoveName.end(), '"'), nonOwnedPokemon.chargedMoveName.end());
+        gamepressPokemon.chargedMoveName = items[index++];
+        gamepressPokemon.chargedMoveName.erase(std::remove(gamepressPokemon.chargedMoveName.begin(), gamepressPokemon.chargedMoveName.end(), '"'), gamepressPokemon.chargedMoveName.end());
 
-        nonOwnedPokemon.DPS = items[index++];
-        std::replace(nonOwnedPokemon.DPS.begin(), nonOwnedPokemon.DPS.end(), '.', ',');
+        gamepressPokemon.DPS = items[index++];
+        std::replace(gamepressPokemon.DPS.begin(), gamepressPokemon.DPS.end(), '.', ',');
 
-        nonOwnedPokemon.TDO = items[index++];
-        std::replace(nonOwnedPokemon.TDO.begin(), nonOwnedPokemon.TDO.end(), '.', ',');
+        gamepressPokemon.TDO = items[index++];
+        std::replace(gamepressPokemon.TDO.begin(), gamepressPokemon.TDO.end(), '.', ',');
 
-        nonOwnedPokemon.ER = items[index++];
-        std::replace(nonOwnedPokemon.ER.begin(), nonOwnedPokemon.ER.end(), '.', ',');
+        gamepressPokemon.ER = items[index++];
+        std::replace(gamepressPokemon.ER.begin(), gamepressPokemon.ER.end(), '.', ',');
 
-        nonOwnedPokemon.CP = items[index++];
-        std::replace(nonOwnedPokemon.CP.begin(), nonOwnedPokemon.CP.end(), '.', ',');
+        gamepressPokemon.CP = items[index++];
+        std::replace(gamepressPokemon.CP.begin(), gamepressPokemon.CP.end(), '.', ',');
 
         //Assert the format have not changed
         assert(index == 7);
 
-        nonOwnedPokemonList.emplace_back(std::move(nonOwnedPokemon));
+        gamepressPokemonList.push_back(std::move(gamepressPokemon));
     }
-    return nonOwnedPokemonList;
+    return gamepressPokemonList;
 }
 
-OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const NonOwnedPokemonList& nonOwnedPokemonList)
+OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const GamepressPokemonList& gamepressPokemonList)
 {
     std::string path = "../data/Pokemon - POGO owned.csv";
     std::ifstream inFile(path);
@@ -147,16 +147,24 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
         OwnedPokemon ownedPokemon;
 
         ownedPokemon.pokemonName = items[index++];
-        assert(std::find_if(nonOwnedPokemonList.begin(), nonOwnedPokemonList.end(), [&ownedPokemon](const NonOwnedPokemon& nonOwnedPokemon)
-            {
-                return nonOwnedPokemon.pokemonName == ownedPokemon.pokemonName;
-            }) != nonOwnedPokemonList.end());
 
         ownedPokemon.fastMoveName = items[index++];
         assert(fastMoveList.contains(ownedPokemon.fastMoveName));
 
         ownedPokemon.chargedMoveName = items[index++];
         assert(chargedMoveList.contains(ownedPokemon.chargedMoveName));
+
+        assert(std::find_if(gamepressPokemonList.begin(), gamepressPokemonList.end(), [&ownedPokemon](const GamepressPokemon& gamepressPokemon)
+            {
+                if (ownedPokemon.pokemonName == "Lurantis" &&
+                    ownedPokemon.fastMoveName == "Leafage")
+                {
+                    return true;//TODO remove hack once gamepress is up to date
+                }
+                return gamepressPokemon.pokemonName == ownedPokemon.pokemonName &&
+                       gamepressPokemon.fastMoveName == ownedPokemon.fastMoveName &&
+                       gamepressPokemon.chargedMoveName == ownedPokemon.chargedMoveName;
+            }) != gamepressPokemonList.end());
 
         std::string canMega = items[index++];
         if (canMega == "TRUE")
@@ -175,28 +183,52 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
         //Assert the format have not changed
         assert(index == 4);
 
-        ownedPokemonList.emplace_back(std::move(ownedPokemon));
+        ownedPokemonList.push_back(std::move(ownedPokemon));
     }
     return ownedPokemonList;
 }
 
-OwnedStatusList GenerateOwnedStatusList(const NonOwnedPokemonList& nonOwnedPokemonList, const OwnedPokemonList& ownedPokemonList)
+BestMovePoolList GenerateBestMovePoolList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const GamepressPokemonList& gamepressPokemonList)
+{
+    BestMovePoolList bestMovePoolList;
+
+    for (const GamepressPokemon& gamepressPokemon : gamepressPokemonList)
+    {
+        Type fastMoveType = GetTypeFromMove(gamepressPokemon.fastMoveName, fastMoveList);
+        Type chargedMoveType = GetTypeFromMove(gamepressPokemon.chargedMoveName, chargedMoveList);
+
+        if (fastMoveType == chargedMoveType)
+        {
+            auto iter = std::find_if(bestMovePoolList.begin(), bestMovePoolList.end(), [&gamepressPokemon, fastMoveType](const BestMovePool& bestMovePool)
+                {
+                    return gamepressPokemon.pokemonName == bestMovePool.pokemonName &&
+                           fastMoveType == bestMovePool.type;
+                });
+            if (iter == bestMovePoolList.end())
+            {
+                bestMovePoolList.emplace_back(gamepressPokemon.pokemonName, gamepressPokemon.fastMoveName, gamepressPokemon.chargedMoveName, fastMoveType);
+            }
+        }
+    }
+    return bestMovePoolList;
+}
+
+OwnedStatusList GenerateOwnedStatusList(const GamepressPokemonList& gamepressPokemonList, const OwnedPokemonList& ownedPokemonList)
 {
     OwnedStatusList ownedStatusList;
-    for (const NonOwnedPokemon& nonOwnedPokemon : nonOwnedPokemonList)
+    for (const GamepressPokemon& gamepressPokemon : gamepressPokemonList)
     {
-        OwnedStatus ownedStatus;
-        PokemonInstance pokemonInstance{ nonOwnedPokemon.pokemonName,nonOwnedPokemon.fastMoveName,nonOwnedPokemon.chargedMoveName };
+        OwnedStatus ownedStatus{ gamepressPokemon.pokemonName,gamepressPokemon.fastMoveName,gamepressPokemon.chargedMoveName };
 
         for (const OwnedPokemon& ownedPokemon : ownedPokemonList)
         {
-            bool isMegaForm = IsMegaFrom(ownedPokemon.pokemonName, nonOwnedPokemon.pokemonName);
+            bool isMegaForm = IsMegaFrom(ownedPokemon.pokemonName, gamepressPokemon.pokemonName);
 
-            if (ownedPokemon.pokemonName == nonOwnedPokemon.pokemonName ||
+            if (ownedPokemon.pokemonName == gamepressPokemon.pokemonName ||
                 isMegaForm)
             {
-                if (ownedPokemon.fastMoveName == nonOwnedPokemon.fastMoveName &&
-                    ownedPokemon.chargedMoveName == nonOwnedPokemon.chargedMoveName)
+                if (ownedPokemon.fastMoveName == gamepressPokemon.fastMoveName &&
+                    ownedPokemon.chargedMoveName == gamepressPokemon.chargedMoveName)
                 {
                     ++ownedStatus.owned;
                 }
@@ -218,57 +250,101 @@ OwnedStatusList GenerateOwnedStatusList(const NonOwnedPokemonList& nonOwnedPokem
                 }
             }
         }
-        ownedStatusList.emplace(std::move(pokemonInstance), std::move(ownedStatus));
+        ownedStatusList.push_back(std::move(ownedStatus));
     }
     return ownedStatusList;
 }
 
-void OutputResult(const MoveList& fastMoveList, const MoveList& chargedMoveList, const NonOwnedPokemonList& nonOwnedPokemonList, const OwnedStatusList& ownedStatusList)
+OutputPokemonList GenerateOutputPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const GamepressPokemonList& gamepressPokemonList, const OwnedStatusList& ownedStatusList, const BestMovePoolList& bestMovePoolList)
+{
+    OutputPokemonList outputPokemonList;
+    std::map<std::string, uint32_t> ownedWithNonBestMovesList;
+
+    for (const GamepressPokemon& gamepressPokemon : gamepressPokemonList)
+    {
+        OutputPokemon outputPokemon;
+        outputPokemon.pokemonName = gamepressPokemon.pokemonName;
+        outputPokemon.fastMoveName = GetHyperLinkFromMoveName(gamepressPokemon.fastMoveName);
+        outputPokemon.chargedMoveName = GetHyperLinkFromMoveName(gamepressPokemon.chargedMoveName);
+        outputPokemon.DPS = gamepressPokemon.DPS;
+        outputPokemon.TDO = gamepressPokemon.TDO;
+        outputPokemon.ER = gamepressPokemon.ER;
+        outputPokemon.CP = gamepressPokemon.CP;
+
+        Type fastMoveType = GetTypeFromMove(gamepressPokemon.fastMoveName, fastMoveList);
+        outputPokemon.fastMoveType = GetStringFromType(fastMoveType);
+
+        Type chargedMoveType = GetTypeFromMove(gamepressPokemon.chargedMoveName, chargedMoveList);
+        outputPokemon.chargedMoveType = GetStringFromType(chargedMoveType);
+
+        if (fastMoveType == chargedMoveType)
+        {
+            outputPokemon.typeIfSameTypes = GetStringFromType(fastMoveType);
+        }
+
+        outputPokemon.isMega = IsMega(gamepressPokemon.pokemonName);
+        outputPokemon.isShadow = gamepressPokemon.pokemonName.starts_with("Shadow ");
+
+        auto iter = find_if(bestMovePoolList.begin(), bestMovePoolList.end(), [&gamepressPokemon](const BestMovePool& bestMovePool)
+            {
+                return gamepressPokemon.pokemonName == bestMovePool.pokemonName &&
+                       gamepressPokemon.fastMoveName == bestMovePool.fastMoveName &&
+                       gamepressPokemon.chargedMoveName == bestMovePool.chargedMoveName;
+            });
+        outputPokemon.isTheBest = iter != bestMovePoolList.end();
+
+        auto it = find_if(ownedStatusList.begin(), ownedStatusList.end(), [&gamepressPokemon](const OwnedStatus& ownedStatus)
+            {
+                return gamepressPokemon.pokemonName == ownedStatus.pokemonName &&
+                       gamepressPokemon.fastMoveName == ownedStatus.fastMoveName &&
+                      gamepressPokemon.chargedMoveName == ownedStatus.chargedMoveName;
+            });
+        assert(it != ownedStatusList.end());
+
+        outputPokemon.owned = it->owned;
+        outputPokemon.ownedWithOtherMoves = it->ownedWithOtherMoves;
+
+        //ownedWithNonBestMoves will be set at the end of the loop, for now, only increment current counter
+        if (!outputPokemon.isTheBest)
+        {
+            ownedWithNonBestMovesList[outputPokemon.pokemonName] += outputPokemon.owned;
+        }
+
+        outputPokemon.canMega = it->canMega;
+        outputPokemon.couldMega = it->couldMega;
+
+        outputPokemonList.push_back(std::move(outputPokemon));
+    }
+
+    //After a first pass done above, we can loop again to count for each of those pokemon, how many of them do not have the best moves
+    for (OutputPokemon& outputPokemon : outputPokemonList)
+    {
+        outputPokemon.ownedWithNonBestMoves = ownedWithNonBestMovesList[outputPokemon.pokemonName];
+    }
+
+    return outputPokemonList;
+}
+
+void OutputResult(const OutputPokemonList& outputPokemonList)
 {
     std::ofstream file("output.txt");
 
-    file << "Pokemon,Fast Move,Charged Move,DPS,TDO,ER,CP,Fast Move Type,Charged Move Type,Type if same types,Is mega,Is shadow,Is the best,Owned,Owned With Other Moves,Can Mega,Could Mega\n";
+    file << "Pokemon,Fast Move,Charged Move,DPS,TDO,ER,CP,Fast Move Type,Charged Move Type,Type if same types,Is mega,Is shadow,Is the best,Owned,Owned With Other Moves,Owned With Non Best Moves,Can Mega,Could Mega\n";
 
-    std::map<std::string, std::vector<Type>> bestPokemonList;
-
-    for (const NonOwnedPokemon& nonOwnedPokemon : nonOwnedPokemonList)
+    for (const OutputPokemon& outputPokemon : outputPokemonList)
     {
-        file << nonOwnedPokemon.pokemonName << ",";
+        file << outputPokemon.pokemonName << ",";
+        file << outputPokemon.fastMoveName << ",";
+        file << outputPokemon.chargedMoveName << ",";
+        file << outputPokemon.DPS << ",";
+        file << outputPokemon.TDO << ",";
+        file << outputPokemon.ER << ",";
+        file << outputPokemon.CP << ",";
+        file << outputPokemon.fastMoveType << ",";
+        file << outputPokemon.chargedMoveType << ",";
+        file << outputPokemon.typeIfSameTypes << ",";
 
-        file << GetHyperLinkFromMoveName(nonOwnedPokemon.fastMoveName) << ",";
-
-        file << GetHyperLinkFromMoveName(nonOwnedPokemon.chargedMoveName) << ",";
-
-        file << nonOwnedPokemon.DPS << ",";
-
-        file << nonOwnedPokemon.TDO << ",";
-
-        file << nonOwnedPokemon.ER << ",";
-
-        file << nonOwnedPokemon.CP << ",";
-
-        //Fast move type
-        auto iterFastMove = fastMoveList.find(nonOwnedPokemon.fastMoveName);
-        assert(iterFastMove != fastMoveList.end());
-        Type fastMoveType = iterFastMove->second;
-        file << GetStringFromType(fastMoveType) << ",";
-
-        //Charged move type
-        auto iterChargedMove = chargedMoveList.find(nonOwnedPokemon.chargedMoveName);
-        assert(iterChargedMove != chargedMoveList.end());
-        Type chargedMoveType = iterChargedMove->second;
-        file << GetStringFromType(chargedMoveType) << ",";
-
-        //Type if same types
-        if (fastMoveType == chargedMoveType)
-        {
-            file << GetStringFromType(chargedMoveType);
-        }
-        file << ",";
-
-        //Is mega
-        if (nonOwnedPokemon.pokemonName.starts_with("Mega ") ||
-            nonOwnedPokemon.pokemonName.starts_with("Primal "))
+        if (outputPokemon.isMega)
         {
             file << "TRUE,";
         }
@@ -277,8 +353,7 @@ void OutputResult(const MoveList& fastMoveList, const MoveList& chargedMoveList,
             file << "FALSE,";
         }
 
-        //Is shadow
-        if (nonOwnedPokemon.pokemonName.starts_with("Shadow "))
+        if (outputPokemon.isShadow)
         {
             file << "TRUE,";
         }
@@ -287,50 +362,20 @@ void OutputResult(const MoveList& fastMoveList, const MoveList& chargedMoveList,
             file << "FALSE,";
         }
 
-        //Is the best
-        if (fastMoveType == chargedMoveType)
+        if (outputPokemon.isTheBest)
         {
-            auto iter = bestPokemonList.find(nonOwnedPokemon.pokemonName);
-            if (iter == bestPokemonList.end())
-            {
-                //It is the first time this pokemon appear
-                std::vector<Type> typeList;
-                typeList.emplace_back(fastMoveType);
-                bestPokemonList.emplace(nonOwnedPokemon.pokemonName, std::move(typeList));
-                file << "TRUE,";
-            }
-            else
-            {
-                std::vector<Type>& typeList = iter->second;
-                auto it = std::find(typeList.begin(), typeList.end(), fastMoveType);
-                if (it == typeList.end())
-                {
-                    //It is the first time this pokemon appear for this type
-                    typeList.emplace_back(fastMoveType);
-                    file << "TRUE,";
-                }
-                else
-                {
-                    //This duo pokemon + type already appeared
-                    file << "FALSE,";
-                }
-            }
+            file << "TRUE,";
         }
         else
         {
             file << "FALSE,";
         }
 
-        PokemonInstance pokemonInstance{ nonOwnedPokemon.pokemonName,nonOwnedPokemon.fastMoveName,nonOwnedPokemon.chargedMoveName };
-        const OwnedStatus& ownedStatus = ownedStatusList.at(pokemonInstance);
-
-        file << ownedStatus.owned << ",";
-
-        file << ownedStatus.ownedWithOtherMoves << ",";
-
-        file << ownedStatus.canMega << ",";
-
-        file << ownedStatus.couldMega << ",";
+        file << outputPokemon.owned << ",";
+        file << outputPokemon.ownedWithOtherMoves << ",";
+        file << outputPokemon.ownedWithNonBestMoves << ",";
+        file << outputPokemon.canMega << ",";
+        file << outputPokemon.couldMega << ",";
 
         file << "\n";
     }
@@ -341,9 +386,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     MoveList fastMoveList = ReadFastMoveList();
     MoveList chargedMoveList = ReadChargedMoveList();
     OutputMoveListLink(fastMoveList, chargedMoveList);
-    NonOwnedPokemonList nonOwnedPokemonList = ReadNonOwnedPokemonList(fastMoveList, chargedMoveList);
-    OwnedPokemonList ownedPokemonList = ReadOwnedPokemonList(fastMoveList, chargedMoveList, nonOwnedPokemonList);
-    OwnedStatusList ownedStatusList = GenerateOwnedStatusList(nonOwnedPokemonList, ownedPokemonList);
-    OutputResult(fastMoveList, chargedMoveList, nonOwnedPokemonList, ownedStatusList);
+    GamepressPokemonList gamepressPokemonList = ReadGamepressPokemonList();
+    OwnedPokemonList ownedPokemonList = ReadOwnedPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList);
+    BestMovePoolList bestMovePoolList = GenerateBestMovePoolList(fastMoveList, chargedMoveList, gamepressPokemonList);
+    OwnedStatusList ownedStatusList = GenerateOwnedStatusList(gamepressPokemonList, ownedPokemonList);
+    OutputPokemonList outputPokemonList =GenerateOutputPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList, ownedStatusList, bestMovePoolList);
+    OutputResult(outputPokemonList);
     return 0;
 }

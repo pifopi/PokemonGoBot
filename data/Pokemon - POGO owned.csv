@@ -32,14 +32,14 @@ Sylveon,Charm,Dazzling Gleam,FALSE
 Houndoom,Snarl,Foul Play,TRUE
 Emboar,Ember,Flame Charge,FALSE
 Excadrill,Metal Claw,Iron Head,FALSE
-Tyranitar,Bite,Crunch,TRUE
+Tyranitar,Bite,Brutal Swing,TRUE
 Gardevoir,Charm,Dazzling Gleam,FALSE
 Blastoise,Water Gun,Skull Bash,TRUE
 Gyarados,Waterfall,Hydro Pump,FALSE
 Chesnaught,Vine Whip,Solar Beam,FALSE
 Jolteon,Volt Switch,Discharge,FALSE
-Tyranitar,Bite,Crunch,TRUE
-Rhydon,Mud Slap,Stone Edge,FALSE
+Tyranitar,Bite,Brutal Swing,TRUE
+Rhyperior,Smack Down,Surf,FALSE
 Aggron,Iron Tail,Stone Edge,FALSE
 Glaceon,Frost Breath,Avalanche,FALSE
 Delphox,Fire Spin,Mystical Fire,FALSE
@@ -64,7 +64,7 @@ Togekiss,Air Slash,Aerial Ace,FALSE
 Hydreigon,Dragon Breath,Dragon Pulse,FALSE
 Skuntank,Poison Jab,Crunch,FALSE
 Tyrantrum,Rock Throw,Meteor Beam,FALSE
-Houndoom,Fire Fang,Flamethrower,FALSE
+Houndoom,Fire Fang,Flamethrower,TRUE
 Stoutland,Ice Fang,Play Rough,FALSE
 Gengar,Shadow Claw,Shadow Ball,FALSE
 Sawsbuck,Feint Attack,Solar Beam,FALSE
@@ -130,7 +130,7 @@ Yanma,Wing Attack,Aerial Ace,FALSE
 Hypno,Confusion,Psychic,FALSE
 Charizard,Fire Spin,Overheat,TRUE
 Blaziken,Fire Spin,Blaze Kick,FALSE
-Feebas,Tackle,Mirror Coat,FALSE
+Milotic,Dragon Tail,Blizzard,FALSE
 Drapion,Poison Sting,Crunch,FALSE
 Dodrio,Steel Wing,Aerial Ace,FALSE
 Blastoise,Water Gun,Hydro Cannon,FALSE
@@ -146,11 +146,13 @@ Rampardos,Smack Down,Rock Slide,FALSE
 Tyrantrum,Rock Throw,Meteor Beam,FALSE
 Cradily,Infestation,Grass Knot,FALSE
 Rampardos,Smack Down,Rock Slide,FALSE
-Squirtle,Bubble,Water Pulse,FALSE
-Alakazam,Psycho Cut,Dazzling Gleam,FALSE
-Wailmer,Water Gun,Heavy Slam,FALSE
+Blastoise,Bite,Flash Cannon,FALSE
+Alakazam,Confusion,Future Sight,FALSE
+Wailord,Water Gun,Hyper Beam,FALSE
 Wigglytuff,Feint Attack,Dazzling Gleam,FALSE
-Hoppip,Bullet Seed,Dazzling Gleam,FALSE
+Jumpluff,Fairy Wind,Energy Ball,FALSE
 Jolteon,Volt Switch,Discharge,FALSE
-Petilil,Hidden Power (Ground),Seed Bomb,FALSE
+Lilligant,Charm,Petal Blizzard,FALSE
 Hitmontop,Counter,Stone Edge,FALSE
+Jumpluff,Fairy Wind,Solar Beam,FALSE
+Charizard,Fire Spin,Dragon Claw,TRUE

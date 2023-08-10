@@ -11,7 +11,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 file(GLOB MAIN_SOURCES
 	src/main.cpp
 	src/types.h
-	src/utils.cpp
 	src/utils.h
 )
 

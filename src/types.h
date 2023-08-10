@@ -46,7 +46,7 @@ std::array typeList
 
 using MoveList = std::map<std::string, Type>;
 
-struct NonOwnedPokemon
+struct GamepressPokemon
 {
     std::string pokemonName{};
     std::string fastMoveName{};
@@ -56,7 +56,7 @@ struct NonOwnedPokemon
     std::string ER{};
     std::string CP{};
 };
-using NonOwnedPokemonList = std::vector<NonOwnedPokemon>;
+using GamepressPokemonList = std::vector<GamepressPokemon>;
 
 struct OwnedPokemon
 {
@@ -67,19 +67,47 @@ struct OwnedPokemon
 };
 using OwnedPokemonList = std::vector<OwnedPokemon>;
 
-struct PokemonInstance
+struct OwnedStatus
 {
     std::string pokemonName{};
     std::string fastMoveName{};
     std::string chargedMoveName{};
-
-    auto operator<=>(const PokemonInstance&) const = default;
-};
-struct OwnedStatus
-{
     uint32_t owned{};
     uint32_t ownedWithOtherMoves{};
     uint32_t canMega{};
     uint32_t couldMega{};
 };
-using OwnedStatusList = std::map<PokemonInstance, OwnedStatus>;
+using OwnedStatusList = std::vector<OwnedStatus>;
+
+struct BestMovePool
+{
+    std::string pokemonName{};
+    std::string fastMoveName{};
+    std::string chargedMoveName{};
+    Type type{};
+};
+using BestMovePoolList = std::vector<BestMovePool>;
+
+struct OutputPokemon
+{
+    std::string pokemonName{};
+    std::string fastMoveName{};
+    std::string chargedMoveName{};
+    std::string DPS{};
+    std::string TDO{};
+    std::string ER{};
+    std::string CP{};
+    std::string fastMoveType{};
+    std::string chargedMoveType{};
+    std::string typeIfSameTypes{};
+    bool isMega{};
+    bool isShadow{};
+    bool isTheBest{};
+    uint32_t owned{};
+    uint32_t ownedWithOtherMoves{};
+    uint32_t ownedWithNonBestMoves{};
+    uint32_t canMega{};
+    uint32_t couldMega{};
+};
+using OutputPokemonList = std::vector<OutputPokemon>;
+

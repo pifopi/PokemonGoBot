@@ -28,7 +28,14 @@ std::string GetStringFromType(Type type)
     }
 }
 
-std::string GetLinkFromMoveName(const std::string& moveName)
+Type GetTypeFromMove(const std::string& moveName, const MoveList& moveList)
+{
+    auto it = moveList.find(moveName);
+    assert(it != moveList.end());
+    return it->second;
+}
+
+std::string GetPageNameFromMoveName(const std::string& moveName)
 {
     std::string moveNameFormatted = moveName;
     std::transform(moveNameFormatted.begin(), moveNameFormatted.end(), moveNameFormatted.begin(),
@@ -80,7 +87,7 @@ std::string GetLinkFromMoveName(const std::string& moveName)
 
 std::string GetHyperLinkFromMoveName(const std::string& moveName)
 {
-    return std::format("=HYPERLINK(\"https://gamepress.gg/pokemongo/pokemon-move/{}\";\"{}\")", GetLinkFromMoveName(moveName), moveName);
+    return std::format("=HYPERLINK(\"https://gamepress.gg/pokemongo/pokemon-move/{}\";\"{}\")", GetPageNameFromMoveName(moveName), moveName);
 }
 
 std::vector<std::string> Split(const std::string& string, char delim)
@@ -96,20 +103,17 @@ std::vector<std::string> Split(const std::string& string, char delim)
     return result;
 }
 
+bool IsMega(const std::string& pokemonName)
+{
+    return pokemonName.starts_with("Mega ") || pokemonName.starts_with("Primal ");
+}
+
 bool IsMegaFrom(const std::string& baseForm, const std::string& megaForm)
 {
-    if (!megaForm.starts_with("Mega ") &&
-        !megaForm.starts_with("Primal "))
+    if (!IsMega(megaForm))
     {
         return false;
     }
 
-    if (megaForm.contains(baseForm))
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return megaForm.contains(baseForm);
 }
