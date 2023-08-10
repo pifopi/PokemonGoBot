@@ -1,0 +1,15 @@
+Dazzling Gleam
+2 Energy 	
+	3.50 	100 	2.10 	57.14
+Disarming Voice
+3 Energy 	
+	3.90 	70 	3.20 	38.08
+Draining Kiss
+2 Energy 	
+	2.60 	60 	1.00 	27.70
+Moonblast
+1 Energy 	
+	3.90 	130 	2.20 	43.33
+Play Rough
+2 Energy 	
+	2.90 	90 	1.30 	55.85 

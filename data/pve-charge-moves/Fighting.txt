@@ -1,0 +1,39 @@
+Brick Break
+3 Energy 	
+	1.60 	40 	0.80 	30.30
+Cross Chop
+2 Energy 	
+	1.50 	50 	0.80 	33.33
+Low Sweep
+3 Energy 	
+	1.90 	40 	1.30 	25.52
+Submission
+2 Energy 	
+	2.20 	60 	1.80 	32.72
+Close Combat
+1 Energy 	
+	2.30 	100 	1.00 	43.48
+Dynamic Punch
+2 Energy 	
+	2.70 	90 	1.20 	59.99
+Focus Blast
+1 Energy 	
+	3.50 	140 	3.00 	56.00
+Power-Up Punch
+3 Energy 	
+	2.00 	50 	1.70 	37.88
+Aura Sphere
+2 Energy 	
+	1.80 	90 	1.00 	90.00
+Superpower
+2 Energy 	
+	3.00 	85 	2.10 	48.16
+Flying Press
+2 Energy 	
+	2.30 	110 	1.00 	105.23
+Sacred Sword
+3 Energy 	
+	1.20 	55 	0.50 	76.38
+Drain Punch
+3 Energy 	
+	2.40 	50 	1.00 	31.56 

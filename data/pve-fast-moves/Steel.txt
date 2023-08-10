@@ -1,0 +1,15 @@
+Bullet Punch
+	
+	9 	10 	10.00 	11.11 	0.90
+Metal Claw
+	
+	8 	7 	11.43 	10.00 	0.70
+Steel Wing
+	
+	11 	6 	13.75 	7.50 	0.80
+Iron Tail
+	
+	15 	7 	13.64 	6.36 	1.10
+Hidden Power (Steel)
+	
+	15 	15 	10.00 	10.00 	1.50 

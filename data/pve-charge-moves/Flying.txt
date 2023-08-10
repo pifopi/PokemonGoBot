@@ -1,0 +1,42 @@
+Aerial Ace
+3 Energy 	
+	2.40 	55 	1.90 	38.20
+Air Cutter
+2 Energy 	
+	2.70 	60 	1.80 	26.66
+Drill Peck
+3 Energy 	
+	2.30 	65 	1.70 	55.66
+Hurricane
+1 Energy 	
+	2.70 	110 	1.20 	44.81
+Brave Bird
+1 Energy 	
+	2.00 	130 	1.00 	84.50
+Sky Attack
+2 Energy 	
+	2.00 	80 	1.50 	64.00
+Fly
+1 Energy 	
+	1.80 	80 	1.20 	71.10
+Aeroblast
+1 Energy 	
+	3.40 	180 	3.20 	95.29
+Feather Dance
+2 Energy 	
+	2.80 	35 	1.70 	8.75
+Acrobatics
+1 Energy 	
+	2.00 	100 	0.60 	50.00
+Aeroblast+
+1 Energy 	
+	3.40 	200 	3.20 	117.64
+Aeroblast++
+1 Energy 	
+	3.40 	225 	3.20 	148.91
+Dragon Ascent
+2 Energy 	
+	3.50 	140 	3.20 	112.00
+Oblivion Wing
+2 Energy 	
+	2.00 	85 	1.50 	72.25 

@@ -1,0 +1,27 @@
+Discharge
+3 Energy 	
+	2.50 	65 	1.70 	51.21
+Thunder
+1 Energy 	
+	2.40 	100 	1.20 	41.67
+Thunder Punch
+3 Energy 	
+	1.80 	45 	1.70 	34.09
+Thunderbolt
+2 Energy 	
+	2.50 	80 	1.80 	51.20
+Wild Charge
+2 Energy 	
+	2.60 	90 	1.70 	62.32
+Zap Cannon
+1 Energy 	
+	3.70 	140 	3.00 	52.98
+Parabolic Charge
+2 Energy 	
+	2.80 	65 	1.20 	30.17
+Techno Blast (Shock)
+1 Energy 	
+	2.00 	120 	1.60 	72.00
+Fusion Bolt
+1 Energy 	
+	2.00 	140 	1.25 	98.00 

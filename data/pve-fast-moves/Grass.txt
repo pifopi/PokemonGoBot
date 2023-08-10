@@ -1,0 +1,18 @@
+Razor Leaf
+	
+	13 	7 	13.00 	7.00 	1.00
+Vine Whip
+	
+	7 	6 	11.67 	10.00 	0.60
+Bullet Seed
+	
+	8 	14 	7.27 	12.73 	1.10
+Hidden Power (Grass)
+	
+	15 	15 	10.00 	10.00 	1.50
+Magical Leaf
+	
+	16 	16 	11.43 	11.43 	1.40
+Leafage
+	
+	9 	6 	12.86 	8.57 	0.70 

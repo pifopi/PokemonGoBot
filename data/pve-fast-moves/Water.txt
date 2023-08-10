@@ -1,0 +1,18 @@
+Bubble
+	
+	12 	14 	10.00 	11.67 	1.20
+Water Gun
+	
+	5 	5 	10.00 	10.00 	0.50
+Splash
+	
+	0 	20 	0.00 	11.56 	1.73
+Waterfall
+	
+	16 	8 	13.33 	6.67 	1.20
+Hidden Power (Water)
+	
+	15 	15 	10.00 	10.00 	1.50
+Water Shuriken
+	
+	10 	15 	9.09 	13.64 	1.10 

@@ -1,0 +1,15 @@
+Confusion
+	
+	20 	15 	12.50 	9.38 	1.60
+Psycho Cut
+	
+	5 	8 	8.33 	13.33 	0.60
+Zen Headbutt
+	
+	12 	10 	10.91 	9.09 	1.10
+Extrasensory
+	
+	12 	12 	10.91 	10.91 	1.10
+Hidden Power (Psychic)
+	
+	15 	15 	10.00 	10.00 	1.50 

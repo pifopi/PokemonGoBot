@@ -1,0 +1,9 @@
+Dragon Breath
+	
+	6 	4 	12.00 	8.00 	0.50
+Dragon Tail
+	
+	15 	9 	13.64 	8.18 	1.10
+Hidden Power (Dragon)
+	
+	15 	15 	10.00 	10.00 	1.50 

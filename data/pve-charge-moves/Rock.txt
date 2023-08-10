@@ -1,0 +1,27 @@
+Ancient Power
+3 Energy 	
+	3.50 	70 	2.85 	42.42
+Power Gem
+2 Energy 	
+	2.90 	80 	1.95 	44.14
+Rock Slide
+2 Energy 	
+	2.70 	80 	1.50 	47.41
+Rock Tomb
+2 Energy 	
+	3.20 	70 	2.25 	30.63
+Stone Edge
+1 Energy 	
+	2.30 	100 	0.70 	43.48
+Rock Blast
+3 Energy 	
+	2.10 	50 	1.60 	36.08
+Weather Ball Rock
+3 Energy 	
+	1.60 	60 	1.35 	68.18
+Rock Wrecker
+2 Energy 	
+	3.60 	110 	2.00 	67.23
+Meteor Beam
+1 Energy 	
+	1.90 	140 	1.00 	103.15 

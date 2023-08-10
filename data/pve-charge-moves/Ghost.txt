@@ -1,0 +1,24 @@
+Shadow Ball
+2 Energy 	
+	3.00 	100 	2.40 	66.66
+Ominous Wind
+3 Energy 	
+	2.30 	50 	1.85 	32.94
+Night Shade
+2 Energy 	
+	2.60 	60 	2.10 	27.70
+Shadow Sneak
+3 Energy 	
+	2.90 	50 	2.20 	26.12
+Shadow Punch
+3 Energy 	
+	1.70 	40 	1.30 	28.52
+Shadow Bone
+2 Energy 	
+	2.80 	80 	2.25 	45.71
+Poltergeist
+1 Energy 	
+	3.60 	140 	2.80 	54.45
+Shadow Force
+1 Energy 	
+	1.90 	140 	1.70 	103.15 

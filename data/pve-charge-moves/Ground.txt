@@ -1,0 +1,30 @@
+Bone Club
+3 Energy 	
+	1.60 	40 	1.00 	30.30
+Bulldoze
+2 Energy 	
+	3.50 	80 	2.60 	36.58
+Dig
+2 Energy 	
+	4.70 	100 	2.80 	42.56
+Earthquake
+1 Energy 	
+	3.60 	140 	2.70 	54.45
+Mud Bomb
+3 Energy 	
+	2.30 	55 	1.70 	39.85
+Drill Run
+2 Energy 	
+	2.80 	80 	1.70 	45.71
+Sand Tomb
+2 Energy 	
+	4.00 	60 	1.70 	27.27
+Precipice Blades
+1 Energy 	
+	1.70 	130 	1.40 	99.41
+Earth Power
+2 Energy 	
+	3.60 	100 	2.70 	55.56
+High Horsepower
+1 Energy 	
+	1.60 	110 	1.00 	75.63 

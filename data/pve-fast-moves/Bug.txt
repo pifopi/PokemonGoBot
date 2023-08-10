@@ -1,0 +1,15 @@
+Bug Bite
+	
+	5 	6 	10.00 	12.00 	0.50
+Fury Cutter
+	
+	3 	6 	7.50 	15.00 	0.40
+Infestation
+	
+	10 	14 	9.09 	12.73 	1.10
+Struggle Bug
+	
+	15 	15 	10.00 	10.00 	1.50
+Hidden Power (Bug)
+	
+	15 	15 	10.00 	10.00 	1.50 

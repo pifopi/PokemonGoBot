@@ -1,0 +1,15 @@
+Frost Breath
+	
+	10 	8 	11.11 	8.89 	0.90
+Ice Shard
+	
+	12 	12 	10.00 	10.00 	1.20
+Powder Snow
+	
+	6 	15 	6.00 	15.00 	1.00
+Ice Fang
+	
+	12 	20 	8.00 	13.33 	1.50
+Hidden Power (Ice)
+	
+	15 	15 	10.00 	10.00 	1.50 

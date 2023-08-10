@@ -1,0 +1,12 @@
+Acid
+	
+	9 	8 	11.25 	10.00 	0.80
+Poison Sting
+	
+	5 	7 	8.33 	11.67 	0.60
+Poison Jab
+	
+	10 	7 	12.50 	8.75 	0.80
+Hidden Power (Poison)
+	
+	15 	15 	10.00 	10.00 	1.50 

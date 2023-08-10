@@ -1,0 +1,21 @@
+Dark Pulse
+2 Energy 	
+	3.00 	80 	1.40 	42.67
+Night Slash
+3 Energy 	
+	2.20 	50 	1.30 	34.44
+Crunch
+3 Energy 	
+	3.20 	70 	1.30 	46.41
+Foul Play
+2 Energy 	
+	2.00 	70 	1.70 	49.00
+Payback
+1 Energy 	
+	2.20 	100 	1.10 	45.45
+Brutal Swing
+3 Energy 	
+	1.90 	65 	1.20 	67.38
+Obstruct
+3 Energy 	
+	1.70 	20 	0.50 	7.13 

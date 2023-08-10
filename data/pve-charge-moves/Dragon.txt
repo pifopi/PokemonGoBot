@@ -1,0 +1,18 @@
+Dragon Claw
+3 Energy 	
+	1.70 	50 	1.10 	44.56
+Dragon Pulse
+2 Energy 	
+	3.60 	90 	2.15 	45.00
+Twister
+3 Energy 	
+	2.80 	45 	0.95 	21.91
+Outrage
+2 Energy 	
+	3.90 	110 	2.50 	62.06
+Draco Meteor
+1 Energy 	
+	3.60 	150 	3.00 	62.51
+Breaking Swipe
+3 Energy 	
+	0.80 	35 	0.27 	46.40 

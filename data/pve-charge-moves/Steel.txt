@@ -1,0 +1,27 @@
+Flash Cannon
+1 Energy 	
+	2.70 	100 	1.60 	37.04
+Iron Head
+2 Energy 	
+	1.90 	60 	1.30 	37.90
+Magnet Bomb
+3 Energy 	
+	2.80 	70 	2.20 	53.03
+Gyro Ball
+2 Energy 	
+	3.30 	80 	3.00 	38.78
+Heavy Slam
+2 Energy 	
+	2.10 	70 	1.50 	46.66
+Doom Desire
+3 Energy 	
+	1.70 	70 	1.40 	87.35
+Meteor Mash
+2 Energy 	
+	2.60 	100 	2.30 	76.92
+Mirror Shot
+3 Energy 	
+	2.40 	50 	1.80 	31.56
+Double Iron Bash
+3 Energy 	
+	2.00 	70 	1.30 	74.24 

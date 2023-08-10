@@ -1,0 +1,21 @@
+Cross Poison
+3 Energy 	
+	1.50 	40 	0.90 	32.33
+Gunk Shot
+1 Energy 	
+	3.10 	130 	1.70 	54.52
+Poison Fang
+3 Energy 	
+	1.70 	35 	0.90 	21.84
+Sludge
+3 Energy 	
+	2.10 	50 	1.20 	36.08
+Sludge Bomb
+2 Energy 	
+	2.30 	80 	1.10 	55.65
+Sludge Wave
+1 Energy 	
+	3.20 	110 	2.00 	37.82
+Acid Spray
+2 Energy 	
+	3.00 	20 	2.10 	2.67 

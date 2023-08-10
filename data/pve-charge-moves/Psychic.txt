@@ -1,0 +1,36 @@
+Psybeam
+2 Energy 	
+	3.20 	70 	1.30 	30.63
+Psychic
+2 Energy 	
+	2.80 	90 	1.30 	57.85
+Psyshock
+3 Energy 	
+	2.70 	65 	2.00 	47.41
+Psystrike
+2 Energy 	
+	2.30 	90 	1.00 	70.43
+Heart Stamp
+3 Energy 	
+	1.90 	40 	1.10 	25.52
+Future Sight
+1 Energy 	
+	2.70 	120 	1.40 	53.33
+Mirror Coat
+2 Energy 	
+	2.60 	60 	2.30 	27.70
+Psycho Boost
+2 Energy 	
+	4.00 	70 	3.50 	24.50
+Synchronoise
+2 Energy 	
+	2.60 	80 	0.85 	49.23
+Psychic Fangs
+3 Energy 	
+	1.20 	30 	0.40 	22.73
+Luster Purge
+1 Energy 	
+	1.50 	100 	0.50 	66.67
+Mist Ball
+1 Energy 	
+	2.00 	105 	1.20 	55.13 

@@ -1,0 +1,39 @@
+Petal Blizzard
+1 Energy 	
+	2.60 	110 	1.70 	46.54
+Power Whip
+2 Energy 	
+	2.60 	90 	1.25 	62.32
+Seed Bomb
+3 Energy 	
+	2.10 	55 	1.20 	43.65
+Solar Beam
+1 Energy 	
+	4.90 	180 	2.70 	66.11
+Leaf Blade
+3 Energy 	
+	2.40 	70 	1.25 	61.88
+Grass Knot
+2 Energy 	
+	2.60 	90 	1.70 	62.32
+Energy Ball
+2 Energy 	
+	3.90 	90 	3.00 	41.54
+Mega Drain
+2 Energy 	
+	2.60 	25 	0.95 	4.81
+Frenzy Plant
+2 Energy 	
+	2.60 	100 	2.15 	76.92
+Leaf Tornado
+3 Energy 	
+	3.10 	45 	2.00 	19.80
+Leaf Storm
+1 Energy 	
+	2.50 	130 	1.10 	67.60
+Seed Flare
+1 Energy 	
+	2.70 	120 	2.50 	53.33
+Giga Drain
+1 Energy 	
+	3.90 	50 	1.20 	12.82 

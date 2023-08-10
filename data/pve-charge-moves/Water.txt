@@ -1,0 +1,57 @@
+Aqua Jet
+3 Energy 	
+	2.60 	45 	1.70 	23.60
+Aqua Tail
+3 Energy 	
+	1.90 	50 	1.20 	39.88
+Bubble Beam
+3 Energy 	
+	1.90 	45 	1.45 	32.29
+Hydro Pump
+1 Energy 	
+	3.30 	130 	0.90 	51.21
+Scald
+2 Energy 	
+	3.70 	80 	1.30 	34.59
+Water Pulse
+2 Energy 	
+	3.20 	70 	2.20 	30.63
+Brine
+2 Energy 	
+	2.30 	60 	1.50 	31.31
+Scald (Blastoise)
+1 Energy 	
+	4.70 	50 	2.50 	5.32
+Hydro Pump (Blastoise)
+	
+	4.50 	90 	2.20 	18.00
+Surf
+2 Energy 	
+	1.70 	65 	1.40 	49.71
+Origin Pulse
+1 Energy 	
+	1.70 	130 	1.40 	99.41
+Hydro Cannon
+2 Energy 	
+	1.90 	90 	0.50 	85.27
+Weather Ball Water
+3 Energy 	
+	1.60 	55 	1.35 	57.30
+Muddy Water
+3 Energy 	
+	2.20 	50 	1.20 	34.44
+Crabhammer
+2 Energy 	
+	1.90 	85 	1.50 	76.06
+Octazooka
+2 Energy 	
+	2.30 	50 	1.30 	21.74
+Techno Blast (Douse)
+1 Energy 	
+	2.00 	120 	1.60 	72.00
+Razor Shell
+3 Energy 	
+	1.30 	45 	0.65 	47.21
+Liquidation
+3 Energy 	
+	3.00 	70 	2.00 	49.49 

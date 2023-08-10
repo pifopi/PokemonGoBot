@@ -1,0 +1,18 @@
+Spark
+	
+	6 	9 	8.57 	12.86 	0.70
+Thunder Shock
+	
+	5 	8 	8.33 	13.33 	0.60
+Charge Beam
+	
+	8 	15 	7.27 	13.64 	1.10
+Volt Switch
+	
+	14 	21 	8.75 	13.13 	1.60
+Thunder Fang
+	
+	12 	16 	10.00 	13.33 	1.20
+Hidden Power (Electric)
+	
+	15 	15 	10.00 	10.00 	1.50 

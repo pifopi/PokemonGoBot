@@ -1,0 +1,21 @@
+Bug Buzz
+2 Energy 	
+	3.70 	100 	2.00 	54.06
+Megahorn
+1 Energy 	
+	2.20 	110 	1.70 	55.00
+Signal Beam
+2 Energy 	
+	2.90 	75 	1.80 	38.79
+X-Scissor
+3 Energy 	
+	1.60 	45 	1.20 	38.36
+Silver Wind
+3 Energy 	
+	3.70 	70 	1.70 	40.13
+Fell Stinger
+3 Energy 	
+	2.20 	50 	1.80 	34.44
+Lunge
+3 Energy 	
+	2.90 	55 	2.40 	31.62 

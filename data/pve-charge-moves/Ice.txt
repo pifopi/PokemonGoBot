@@ -1,0 +1,30 @@
+Blizzard
+1 Energy 	
+	3.10 	130 	1.50 	54.52
+Ice Beam
+2 Energy 	
+	3.30 	90 	1.30 	49.09
+Ice Punch
+3 Energy 	
+	1.90 	50 	1.30 	39.88
+Icy Wind
+3 Energy 	
+	3.30 	60 	2.00 	33.05
+Aurora Beam
+2 Energy 	
+	3.55 	80 	3.35 	36.06
+Avalanche
+2 Energy 	
+	2.70 	90 	1.70 	59.99
+Weather Ball Ice
+3 Energy 	
+	1.60 	55 	1.35 	57.30
+Techno Blast (Chill)
+1 Energy 	
+	2.00 	120 	1.60 	72.00
+Icicle Spear
+3 Energy 	
+	2.20 	60 	1.20 	49.58
+Glaciate
+1 Energy 	
+	2.50 	160 	1.50 	102.40 

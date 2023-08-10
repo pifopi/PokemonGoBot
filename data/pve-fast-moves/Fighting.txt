@@ -1,0 +1,18 @@
+Karate Chop
+	
+	8 	10 	10.00 	12.50 	0.80
+Low Kick
+	
+	6 	6 	10.00 	10.00 	0.60
+Rock Smash
+	
+	15 	10 	11.54 	7.69 	1.30
+Counter
+	
+	12 	8 	13.33 	8.89 	0.90
+Hidden Power (Fighting)
+	
+	15 	15 	10.00 	10.00 	1.50
+Double Kick
+	
+	10 	13 	10.00 	13.00 	1.00 
