@@ -63,7 +63,6 @@ struct OwnedPokemon
     std::string pokemonName{};
     std::string fastMoveName{};
     std::string chargedMoveName{};
-    bool canMega{};
 };
 using OwnedPokemonList = std::vector<OwnedPokemon>;
 
@@ -74,8 +73,6 @@ struct OwnedStatus
     std::string chargedMoveName{};
     uint32_t owned{};
     uint32_t ownedWithOtherMoves{};
-    uint32_t canMega{};
-    uint32_t couldMega{};
 };
 using OwnedStatusList = std::vector<OwnedStatus>;
 
@@ -106,8 +103,6 @@ struct OutputPokemon
     uint32_t owned{};
     uint32_t ownedWithOtherMoves{};
     uint32_t ownedWithNonBestMoves{};
-    uint32_t canMega{};
-    uint32_t couldMega{};
 };
 using OutputPokemonList = std::vector<OutputPokemon>;
 
