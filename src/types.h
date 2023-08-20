@@ -2,6 +2,7 @@
 
 enum class Type
 {
+    Invalid,
     Bug,
     Dark,
     Dragon,
@@ -44,13 +45,18 @@ std::array typeList
     Type::Water
 };
 
-using MoveList = std::map<std::string, Type>;
+struct Move
+{
+    std::string name;
+    Type type;
+};
+using MoveList = std::vector<Move>;
 
 struct GamepressPokemon
 {
-    std::string pokemonName{};
-    std::string fastMoveName{};
-    std::string chargedMoveName{};
+    std::string name{};
+    const Move* fastMove{};
+    const Move* chargedMove{};
     std::string DPS{};
     std::string TDO{};
     std::string ER{};
@@ -58,48 +64,57 @@ struct GamepressPokemon
 };
 using GamepressPokemonList = std::vector<GamepressPokemon>;
 
-struct OwnedPokemon
+struct LegacyMoves
 {
     std::string pokemonName{};
-    std::string fastMoveName{};
-    std::string chargedMoveName{};
+    std::vector<const Move*> fastMoves;
+    std::vector<const Move*> chargedMoves;
+};
+using LegacyMovesList = std::vector<LegacyMoves>;
+
+struct OwnedPokemon
+{
+    std::string name{};
+    const Move* fastMove{};
+    const Move* chargedMove{};
 };
 using OwnedPokemonList = std::vector<OwnedPokemon>;
 
+struct BestMovePool
+{
+    std::string name{};
+    const Move* fastMove{};
+    const Move* chargedMove{};
+    bool isLegacy{};
+};
+using BestMovePoolList = std::vector<BestMovePool>;
+
 struct OwnedStatus
 {
-    std::string pokemonName{};
-    std::string fastMoveName{};
-    std::string chargedMoveName{};
+    std::string name{};
+    const Move* fastMove{};
+    const Move* chargedMove{};
     uint32_t owned{};
     uint32_t ownedWithOtherMoves{};
 };
 using OwnedStatusList = std::vector<OwnedStatus>;
 
-struct BestMovePool
-{
-    std::string pokemonName{};
-    std::string fastMoveName{};
-    std::string chargedMoveName{};
-    Type type{};
-};
-using BestMovePoolList = std::vector<BestMovePool>;
-
 struct OutputPokemon
 {
-    std::string pokemonName{};
-    std::string fastMoveName{};
-    std::string chargedMoveName{};
+    std::string name{};
+    std::string fastMoveHyperlink;
+    std::string chargedMoveHyperlink;
     std::string DPS{};
     std::string TDO{};
     std::string ER{};
     std::string CP{};
-    std::string fastMoveType{};
-    std::string chargedMoveType{};
     std::string typeIfSameTypes{};
+    bool fastMoveIsBest{};
+    bool chargedMoveIsBest{};
+    bool fastMoveIsLegacy{};
+    bool chargedMoveIsLegacy{};
     bool isMega{};
     bool isShadow{};
-    bool isTheBest{};
     uint32_t owned{};
     uint32_t ownedWithOtherMoves{};
     uint32_t ownedWithNonBestMoves{};

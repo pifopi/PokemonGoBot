@@ -28,16 +28,9 @@ std::string GetStringFromType(Type type)
     }
 }
 
-Type GetTypeFromMove(const std::string& moveName, const MoveList& moveList)
+std::string GetPageNameFromMove(const Move& move)
 {
-    auto it = moveList.find(moveName);
-    assert(it != moveList.end());
-    return it->second;
-}
-
-std::string GetPageNameFromMoveName(const std::string& moveName)
-{
-    std::string moveNameFormatted = moveName;
+    std::string moveNameFormatted = move.name;
     std::transform(moveNameFormatted.begin(), moveNameFormatted.end(), moveNameFormatted.begin(),
         [](unsigned char c)
         {
@@ -85,9 +78,19 @@ std::string GetPageNameFromMoveName(const std::string& moveName)
     return moveNameFormatted;
 }
 
-std::string GetHyperLinkFromMoveName(const std::string& moveName)
+std::string GetHyperLinkFromMove(const Move& move)
 {
-    return std::format("=HYPERLINK(\"https://gamepress.gg/pokemongo/pokemon-move/{}\";\"{}\")", GetPageNameFromMoveName(moveName), moveName);
+    return std::format("=HYPERLINK(\"https://gamepress.gg/pokemongo/pokemon-move/{}\";\"{}\")", GetPageNameFromMove(move), move.name);
+}
+
+const Move* GetMoveFromMoveName(const MoveList& moveList, const std::string& moveName)
+{
+    auto it = std::find_if(moveList.begin(), moveList.end(), [&moveName](const Move& move)
+        {
+            return move.name == moveName;
+        });
+    assert(it != moveList.end());
+    return &*it;
 }
 
 std::vector<std::string> Split(const std::string& string, char delim)
@@ -116,4 +119,16 @@ bool IsMegaFrom(const std::string& baseForm, const std::string& megaForm)
     }
 
     return megaForm.contains(baseForm);
+}
+
+std::string GetCSVStringFromBool(bool value)
+{
+    if (value)
+    {
+        return "TRUE";
+    }
+    else
+    {
+        return "FALSE";
+    }
 }
