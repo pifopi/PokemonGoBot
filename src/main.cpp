@@ -12,6 +12,31 @@
 #include "types.h"
 #include "utils.h"
 
+void ProcessPokeGenieExport()
+{
+    std::ifstream inFile("../data/poke_genie_export.csv");
+
+    std::ofstream outFile("poke_genie_export.csv");
+
+    std::string header;
+    std::getline(inFile, header);
+    outFile << header << "\n";
+
+    std::string line;
+    while (std::getline(inFile, line))
+    {
+        std::vector<std::string> items = Split(line, ',');
+
+        for (std::string& item : items)
+        {
+            std::replace(item.begin(), item.end(), '.', ',');
+            item.erase(std::remove(item.begin(), item.end(), '"'), item.end());
+            outFile << std::format("\"{}\",", item);
+        }
+        outFile << "\n";
+    }
+}
+
 //https://gamepress.gg/pokemongo/pve-fast-moves
 MoveList ReadFastMoveList()
 {
@@ -75,8 +100,7 @@ void OutputMoveListLink(const MoveList& fastMoveList, const MoveList& chargedMov
 //https://gamepress.gg/pokemongo/comprehensive-dps-spreadsheet
 GamepressPokemonList ReadGamepressPokemonList()
 {
-    std::string path = "../data/comprehensive_dps.csv";
-    std::ifstream file(path);
+    std::ifstream file("../data/comprehensive_dps.csv");
 
     std::string header;
     std::getline(file, header);
@@ -126,16 +150,15 @@ GamepressPokemonList ReadGamepressPokemonList()
 
 OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const GamepressPokemonList& gamepressPokemonList)
 {
-    std::string path = "../data/poke_genie_export.csv";
-    std::ifstream inFile(path);
+    std::ifstream file("../data/poke_genie_export.csv");
 
     std::string header;
-    std::getline(inFile, header);
+    std::getline(file, header);
 
     OwnedPokemonList ownedPokemonList;
 
     std::string line;
-    while (std::getline(inFile, line))
+    while (std::getline(file, line))
     {
         std::vector<std::string> items = Split(line, ',');
 
@@ -355,14 +378,15 @@ void OutputResult(const OutputPokemonList& outputPokemonList)
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
+    ProcessPokeGenieExport();
     MoveList fastMoveList = ReadFastMoveList();
     MoveList chargedMoveList = ReadChargedMoveList();
     OutputMoveListLink(fastMoveList, chargedMoveList);
     GamepressPokemonList gamepressPokemonList = ReadGamepressPokemonList();
     OwnedPokemonList ownedPokemonList = ReadOwnedPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList);
-    BestMovePoolList bestMovePoolList = GenerateBestMovePoolList(fastMoveList, chargedMoveList, gamepressPokemonList);
     OwnedStatusList ownedStatusList = GenerateOwnedStatusList(gamepressPokemonList, ownedPokemonList);
-    OutputPokemonList outputPokemonList =GenerateOutputPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList, ownedStatusList, bestMovePoolList);
+    BestMovePoolList bestMovePoolList = GenerateBestMovePoolList(fastMoveList, chargedMoveList, gamepressPokemonList);
+    OutputPokemonList outputPokemonList = GenerateOutputPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList, ownedStatusList, bestMovePoolList);
     OutputResult(outputPokemonList);
     return 0;
 }
