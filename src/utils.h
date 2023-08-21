@@ -94,6 +94,11 @@ std::string GetHyperLinkFromPokemon(const std::string& index, const std::string&
         formFormatted = "-alolan";
         nameFormatted = std::format("Alolan {}", name);
     }
+    else if (form == "Galarian")
+    {
+        formFormatted = "-galarian";
+        nameFormatted = std::format("Galarian {}", name);
+    }
     return std::format("=HYPERLINK(\"https://gamepress.gg/pokemongo/pokemon/{}{}\";\"{}\")", index, formFormatted, nameFormatted);
 }
 

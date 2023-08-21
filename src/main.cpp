@@ -224,6 +224,10 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
         {
             name = std::format("Alolan {}", name);
         }
+        else if (form == "Galarian")
+        {
+            name = std::format("Galarian {}", name);
+        }
 
         std::string& fastMoveName = items[13];
         std::replace(fastMoveName.begin(), fastMoveName.end(), '-', ' ');
