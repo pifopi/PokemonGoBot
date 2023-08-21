@@ -21,12 +21,14 @@ void ProcessPokeGenieExport()
 
     std::string header;
     std::getline(inFile, header);
-    outFile << header << "\n";
+    outFile << "Hyperlink," << header << "\n";
 
     std::string line;
     while (std::getline(inFile, line))
     {
         std::vector<std::string> items = Split(line, ',');
+
+        outFile << std::format("{},", GetHyperLinkFromPokemon(items[3], items[1], items[2]));
 
         for (std::string& item : items)
         {

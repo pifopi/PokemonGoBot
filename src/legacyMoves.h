@@ -22,7 +22,7 @@ static const std::map<std::string, std::pair<std::vector<std::string>, std::vect
 	{"Arcanine", {{"Bite"},{"Bulldoze"}}},
 	{"Alakazam", {{"Counter"},{"Dazzling Gleam", "Psychic"}}},
 	{"Machamp", {{"Karate Chop"},{"Stone Edge", "Submission", "Payback"}}},
-	{"Golem", {{"Mud Shot"},{}}},
+	{"Alolan Golem", {{"Rollout"},{}}},
 	{"Dodrio", {{},{"Air Cutter"}}},
 	{"Gengar", {{"Lick"},{"Sludge Wave", "Dark Pulse", "Psychic", "Shadow Punch"}}},
 	{"Hypno", {{},{"Psyshock"}}},
