@@ -176,6 +176,11 @@ LegacyMovesList ReadLegacyMoves(const GamepressPokemonList& gamepressPokemonList
 
     for (const auto& [pokemonName, legacyMovesNames] : s_legacyMovesMap)
     {
+        assert(std::find_if(legacyMovesList.begin(), legacyMovesList.end(), [&pokemonName](const LegacyMoves& legacyMoves)
+            {
+                return legacyMoves.pokemonName == pokemonName;
+            }) == legacyMovesList.end());
+
         std::vector<const Move*> legacyFastMoves;
         for (const std::string& legacyFastMoveName : legacyMovesNames.first)
         {
@@ -197,7 +202,7 @@ LegacyMovesList ReadLegacyMoves(const GamepressPokemonList& gamepressPokemonList
     return legacyMovesList;
 }
 
-OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const GamepressPokemonList& gamepressPokemonList)
+OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveList& chargedMoveList, const GamepressPokemonList& gamepressPokemonList, const LegacyMovesList& legacyMovesList)
 {
     std::ifstream file("../data/poke_genie_export.csv");
 
@@ -236,6 +241,11 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
         std::string& chargedMoveName = items[14];
         //std::replace(chargedMoveName.begin(), chargedMoveName.end(), '-', ' '); // breaks X-scissor so keep uncommented
         const Move* chargedMove = GetMoveFromMoveName(chargedMoveList, chargedMoveName);
+
+        assert(std::find_if(legacyMovesList.begin(), legacyMovesList.end(), [&name](const LegacyMoves& legacyMoves)
+            {
+                return legacyMoves.pokemonName == name;
+            }) != legacyMovesList.end());
 
         assert(std::find_if(gamepressPokemonList.begin(), gamepressPokemonList.end(), [&name, fastMove, chargedMove](const GamepressPokemon& gamepressPokemon)
             {
@@ -449,7 +459,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     OutputMoveListLink(fastMoveList, chargedMoveList);
     GamepressPokemonList gamepressPokemonList = ReadGamepressPokemonList(fastMoveList, chargedMoveList);
     LegacyMovesList legacyMovesList = ReadLegacyMoves(gamepressPokemonList, fastMoveList, chargedMoveList);
-    OwnedPokemonList ownedPokemonList = ReadOwnedPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList);
+    OwnedPokemonList ownedPokemonList = ReadOwnedPokemonList(fastMoveList, chargedMoveList, gamepressPokemonList, legacyMovesList);
     OwnedStatusList ownedStatusList = GenerateOwnedStatusList(gamepressPokemonList, ownedPokemonList);
     BestMovePoolList bestMovePoolList = GenerateBestMovePoolList(gamepressPokemonList, legacyMovesList);
     OutputPokemonList outputPokemonList = GenerateOutputPokemonList(gamepressPokemonList, legacyMovesList, ownedStatusList, bestMovePoolList);
