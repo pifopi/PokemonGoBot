@@ -221,6 +221,15 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
 
         std::string& name = items[1];
 
+        if (name == "Zacian")
+        {
+            name = "Zacian - Hero of Many Battles";
+        }
+        else if (name == "Zamazenta")
+        {
+            name = "Zamazenta - Hero of Many Battles";
+        }
+
         //TODO handle shadow
         //TODO handle other regions
         //TOPO handle second charged move
@@ -233,13 +242,31 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
         {
             name = std::format("Galarian {}", name);
         }
+        else if (name == "Giratina" && form == "Altered")
+        {
+            name = "Giratina (Altered Forme)";
+        }
+        else if (name == "Landorus" && form == "Normal")
+        {
+            name = "Landorus (Incarnate Forme)";
+        }
+        else if (name == "Zygarde" && form == "10%")
+        {
+            name = "Zygarde (10% Forme)";
+        }
 
         std::string& fastMoveName = items[13];
-        std::replace(fastMoveName.begin(), fastMoveName.end(), '-', ' ');
+        if (fastMoveName != "Lock-On")
+        {
+            std::replace(fastMoveName.begin(), fastMoveName.end(), '-', ' ');
+        }
         const Move* fastMove = GetMoveFromMoveName(fastMoveList, fastMoveName);
 
         std::string& chargedMoveName = items[14];
-        //std::replace(chargedMoveName.begin(), chargedMoveName.end(), '-', ' '); // breaks X-scissor so keep uncommented
+        if (fastMoveName != "X-scissor")
+        {
+            std::replace(fastMoveName.begin(), fastMoveName.end(), '-', ' ');
+        }
         const Move* chargedMove = GetMoveFromMoveName(chargedMoveList, chargedMoveName);
 
         assert(std::find_if(legacyMovesList.begin(), legacyMovesList.end(), [&name](const LegacyMoves& legacyMoves)
@@ -249,10 +276,14 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
 
         assert(std::find_if(gamepressPokemonList.begin(), gamepressPokemonList.end(), [&name, fastMove, chargedMove](const GamepressPokemon& gamepressPokemon)
             {
-                if ((name == "Lurantis" && fastMove->name == "Leafage") ||
-                    (name == "Greninja" && fastMove->name == "Water Shuriken"))
+                if ((name == "Lurantis" && fastMove->name == "Leafage"))
                 {
                     return true;//TODO remove hack once gamepress is up to date
+                }
+                if (fastMove->name == "Hidden Power" ||
+                    chargedMove->name == "Frustration")
+                {
+                    return true;//too many corner cases
                 }
                 return gamepressPokemon.name == name &&
                     gamepressPokemon.fastMove == fastMove &&
