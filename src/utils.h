@@ -102,12 +102,18 @@ std::string GetHyperLinkFromPokemon(const std::string& index, const std::string&
     return std::format("=HYPERLINK(\"https://gamepress.gg/pokemongo/pokemon/{}{}\";\"{}\")", index, formFormatted, nameFormatted);
 }
 
-const Move* GetMoveFromMoveName(const MoveList& moveList, const std::string& moveName)
+auto GetMoveFromMoveNameUnsafe(const MoveList& moveList, const std::string& moveName)
 {
     auto it = std::find_if(moveList.begin(), moveList.end(), [&moveName](const Move& move)
         {
             return move.name == moveName;
         });
+    return it;
+}
+
+const Move* GetMoveFromMoveName(const MoveList& moveList, const std::string& moveName)
+{
+    auto it = GetMoveFromMoveNameUnsafe(moveList, moveName);
     assert(it != moveList.end());
     return &*it;
 }

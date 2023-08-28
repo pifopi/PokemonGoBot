@@ -9,7 +9,6 @@
 #include <vector>
 #include <windows.h>
 
-#include "legacyMoves.h"
 #include "types.h"
 #include "utils.h"
 
@@ -44,9 +43,9 @@ void ProcessPokeGenieExport()
 MoveList ReadFastMoveList()
 {
     MoveList moveList;
-    for (Type type : typeList)
+    for (const Type type : typeList)
     {
-        std::string path = "../data/pve-fast-moves/" + GetStringFromType(type) + ".txt";
+        const std::string path = "../data/pve-fast-moves/" + GetStringFromType(type) + ".txt";
         std::ifstream file(path);
 
         std::string moveName;
@@ -70,9 +69,9 @@ MoveList ReadFastMoveList()
 MoveList ReadChargedMoveList()
 {
     MoveList moveList;
-    for (Type type : typeList)
+    for (const Type type : typeList)
     {
-        std::string path = "../data/pve-charge-moves/" + GetStringFromType(type) + ".txt";
+        const std::string path = "../data/pve-charge-moves/" + GetStringFromType(type) + ".txt";
         std::ifstream file(path);
 
         std::string moveName;
@@ -165,6 +164,11 @@ GamepressPokemonList ReadGamepressPokemonList(const MoveList& fastMoveList, cons
     return gamepressPokemonList;
 }
 
+//https://pokemongo.fandom.com/wiki/List_of_legacy_moves
+//https://www.convertcsv.com/html-table-to-csv.htm
+//Force Wrap values in double quotes
+//No line breaks in CSV (Use this to remove line breaks in field values)
+//1st
 LegacyMovesList ReadLegacyMoves(const GamepressPokemonList& gamepressPokemonList, const MoveList& fastMoveList, const MoveList& chargedMoveList)
 {
     std::ifstream file("../data/legacy_moves.csv");
@@ -174,29 +178,103 @@ LegacyMovesList ReadLegacyMoves(const GamepressPokemonList& gamepressPokemonList
 
     LegacyMovesList legacyMovesList;
 
-    for (const auto& [pokemonName, legacyMovesNames] : s_legacyMovesMap)
+    std::string line;
+    while (std::getline(file, line))//"Venusaur","Grass Poison","","Frenzy Plant"
     {
-        assert(std::find_if(legacyMovesList.begin(), legacyMovesList.end(), [&pokemonName](const LegacyMoves& legacyMoves)
+        std::vector<std::string> items = Split(line, ',');
+
+        //Assert the format have not changed
+        assert(items.size() == 4);
+
+        std::string& name = items[0];
+        name.erase(std::remove(name.begin(), name.end(), '"'), name.end());
+        if (name == "Altered Giratina")
+        {
+            name = "Giratina (Altered Forme)";
+        }
+        else if (name == "Origin Giratina")
+        {
+            name = "Giratina (Origin Forme)";
+        }
+
+        std::string previousUnmatchedString;//Will store the unmatched strings remaining after checking the list of moves
+
+        std::vector<const Move*> fastMoves;
+        for (const std::string& fastMoveNameItem : Split(items[2], ' '))
+        {
+            std::string fastMoveName = previousUnmatchedString.empty() ? fastMoveNameItem : std::format("{} {}", previousUnmatchedString, fastMoveNameItem);
+            fastMoveName.erase(std::remove(fastMoveName.begin(), fastMoveName.end(), '"'), fastMoveName.end());
+            auto it = GetMoveFromMoveNameUnsafe(fastMoveList, fastMoveName);
+            if (it == fastMoveList.end() ||
+                std::find_if(gamepressPokemonList.begin(), gamepressPokemonList.end(), [&name, it](const GamepressPokemon& gamepressPokemon)
+                    {
+                        return gamepressPokemon.name == name &&
+                            gamepressPokemon.fastMove == &*it;
+                    }) == gamepressPokemonList.end())
             {
-                return legacyMoves.pokemonName == pokemonName;
-            }) == legacyMovesList.end());
-
-        std::vector<const Move*> legacyFastMoves;
-        for (const std::string& legacyFastMoveName : legacyMovesNames.first)
-        {
-            legacyFastMoves.push_back(GetMoveFromMoveName(fastMoveList, legacyFastMoveName));
+                if ((name == "Porygon" && fastMoveName == "Quick Attack"))
+                {
+                    // Move is not available anymore
+                    previousUnmatchedString.clear();
+                    continue;
+                }
+                previousUnmatchedString = fastMoveName;
+            }
+            else
+            {
+                fastMoves.push_back(&*it);
+                previousUnmatchedString.clear();
+            }
         }
+        assert(previousUnmatchedString.empty());
 
-        std::vector<const Move*> legacyChargedMoves;
-        for (const std::string& legacyChargedMoveName : legacyMovesNames.second)
+        std::vector<const Move*> chargedMoves;
+        for (const std::string& chargedMoveNameItem : Split(items[3], ' '))
         {
-            legacyChargedMoves.push_back(GetMoveFromMoveName(chargedMoveList, legacyChargedMoveName));
+            std::string chargedMoveName = previousUnmatchedString.empty() ? chargedMoveNameItem : std::format("{} {}", previousUnmatchedString, chargedMoveNameItem);
+            chargedMoveName.erase(std::remove(chargedMoveName.begin(), chargedMoveName.end(), '"'), chargedMoveName.end());
+            if (chargedMoveName == "Fire Weather Ball")
+            {
+                chargedMoveName = "Weather Ball Fire";
+            }
+            else if (chargedMoveName == "Tri Attack")
+            {
+                chargedMoveName = "Tri-Attack";
+            }
+            auto it = GetMoveFromMoveNameUnsafe(chargedMoveList, chargedMoveName);
+            if (it == chargedMoveList.end() ||
+                std::find_if(gamepressPokemonList.begin(), gamepressPokemonList.end(), [&name, it](const GamepressPokemon& gamepressPokemon)
+                    {
+                        return gamepressPokemon.name == name &&
+                            gamepressPokemon.chargedMove == &*it;
+                    }) == gamepressPokemonList.end())
+            {
+                if (name == "Umbreon" && chargedMoveName == "Psychic") //TODO update when gamepress fixed
+                {
+                    previousUnmatchedString.clear();
+                    continue;
+                }
+                if ((name == "Gastrodon" && chargedMoveName == "Earthquake") ||
+                    name.contains("Genesect") && chargedMoveName.contains("Techno Blast"))
+                {
+                    // Move is not available anymore
+                    previousUnmatchedString.clear();
+                    continue;
+                }
+                previousUnmatchedString = chargedMoveName;
+            }
+            else
+            {
+                chargedMoves.push_back(&*it);
+                previousUnmatchedString.clear();
+            }
         }
+        assert(previousUnmatchedString.empty());
 
         legacyMovesList.emplace_back(
-            pokemonName,
-            std::move(legacyFastMoves),
-            std::move(legacyChargedMoves)
+            std::move(name),
+            std::move(fastMoves),
+            std::move(chargedMoves)
         );
     }
     return legacyMovesList;
@@ -269,11 +347,6 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
         }
         const Move* chargedMove = GetMoveFromMoveName(chargedMoveList, chargedMoveName);
 
-        assert(std::find_if(legacyMovesList.begin(), legacyMovesList.end(), [&name](const LegacyMoves& legacyMoves)
-            {
-                return legacyMoves.pokemonName == name;
-            }) != legacyMovesList.end());
-
         assert(std::find_if(gamepressPokemonList.begin(), gamepressPokemonList.end(), [&name, fastMove, chargedMove](const GamepressPokemon& gamepressPokemon)
             {
                 if ((name == "Lurantis" && fastMove->name == "Leafage"))
@@ -283,7 +356,7 @@ OwnedPokemonList ReadOwnedPokemonList(const MoveList& fastMoveList, const MoveLi
                 if (fastMove->name == "Hidden Power" ||
                     chargedMove->name == "Frustration")
                 {
-                    return true;//too many corner cases
+                    return true;//Too many corner cases
                 }
                 return gamepressPokemon.name == name &&
                     gamepressPokemon.fastMove == fastMove &&
