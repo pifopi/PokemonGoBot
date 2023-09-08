@@ -27,4 +27,7 @@ Earth Power
 	3.60 	100 	2.70 	55.56
 High Horsepower
 1 Energy 	
-	1.60 	110 	1.00 	75.63 
+	1.60 	110 	1.00 	75.63
+Scorching Sands
+2 Energy 	
+	3.20 	95 	1.60 	56.41 

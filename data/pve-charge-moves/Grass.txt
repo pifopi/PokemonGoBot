@@ -36,4 +36,7 @@ Seed Flare
 	2.70 	120 	2.50 	53.33
 Giga Drain
 1 Energy 	
-	3.90 	50 	1.20 	12.82 
+	3.90 	50 	1.20 	12.82
+Trailblaze
+2 Energy 	
+	2.00 	65 	1.20 	42.25 

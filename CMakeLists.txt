@@ -10,7 +10,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 file(GLOB MAIN_SOURCES
 	src/main.cpp
+	src/moves.cpp
+	src/moves.h
+	src/pokemons.cpp
+	src/pokemons.h
 	src/types.h
+	src/utils.cpp
 	src/utils.h
 )
 

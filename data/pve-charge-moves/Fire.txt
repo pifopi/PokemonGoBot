@@ -32,7 +32,7 @@ Blaze Kick
 3 Energy 	
 	1.20 	45 	0.45 	51.14
 V-create
-1 Energy 	
+3 Energy 	
 	2.80 	95 	1.70 	97.68
 Techno Blast (Burn)
 1 Energy 	

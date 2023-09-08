@@ -27,4 +27,7 @@ Icicle Spear
 	2.20 	60 	1.20 	49.58
 Glaciate
 1 Energy 	
-	2.50 	160 	1.50 	102.40 
+	2.50 	160 	1.50 	102.40
+Triple Axel
+3 Energy 	
+	2.00 	60 	1.50 	54.55 

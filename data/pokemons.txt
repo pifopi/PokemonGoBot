@@ -1,0 +1,3395 @@
+No. 	Pic 	Name 	Type 	Abilities 	Base Stats
+HP 	Att 	Def 	S.Att 	S.Def 	Spd
+#0001 	
+	Bulbasaur 		Overgrow
+Chlorophyll 	45 	49 	49 	65 	65 	45
+#0002 	
+	Ivysaur 		Overgrow
+Chlorophyll 	60 	62 	63 	80 	80 	60
+#0003 	
+	Venusaur 		Overgrow
+Chlorophyll 	80 	82 	83 	100 	100 	80
+#0004 	
+	Charmander 		Blaze
+Solar Power 	39 	52 	43 	60 	50 	65
+#0005 	
+	Charmeleon 		Blaze
+Solar Power 	58 	64 	58 	80 	65 	80
+#0006 	
+	Charizard 		Blaze
+Solar Power 	78 	84 	78 	109 	85 	100
+#0007 	
+	Squirtle 		Torrent
+Rain Dish 	44 	48 	65 	50 	64 	43
+#0008 	
+	Wartortle 		Torrent
+Rain Dish 	59 	63 	80 	65 	80 	58
+#0009 	
+	Blastoise 		Torrent
+Rain Dish 	79 	83 	100 	85 	105 	78
+#0010 	
+	Caterpie 		Shield Dust
+Run Away 	45 	30 	35 	20 	20 	45
+#0011 	
+	Metapod 		Shed Skin 	50 	20 	55 	25 	25 	30
+#0012 	
+	Butterfree 		Compoundeyes
+Tinted Lens 	60 	45 	50 	90 	80 	70
+#0013 	
+	Weedle 		Shield Dust
+Run Away 	40 	35 	30 	20 	20 	50
+#0014 	
+	Kakuna 		Shed Skin 	45 	25 	50 	25 	25 	35
+#0015 	
+	Beedrill 		Swarm
+Sniper 	65 	90 	40 	45 	80 	75
+#0016 	
+	Pidgey 		Keen Eye
+Tangled Feet
+Big Pecks 	40 	45 	40 	35 	35 	56
+#0017 	
+	Pidgeotto 		Keen Eye
+Tangled Feet
+Big Pecks 	63 	60 	55 	50 	50 	71
+#0018 	
+	Pidgeot 		Keen Eye
+Tangled Feet
+Big Pecks 	83 	80 	75 	70 	70 	101
+#0019 	
+	Rattata 		Run Away
+Guts
+Hustle 	30 	56 	35 	25 	35 	72
+#0020 	
+	Raticate 		Run Away
+Guts
+Hustle 	55 	81 	60 	50 	70 	97
+#0021 	
+	Spearow 		Keen Eye
+Sniper 	40 	60 	30 	31 	31 	70
+#0022 	
+	Fearow 		Keen Eye
+Sniper 	65 	90 	65 	61 	61 	100
+#0023 	
+	Ekans 		Intimidate
+Shed Skin
+Unnerve 	35 	60 	44 	40 	54 	55
+#0024 	
+	Arbok 		Intimidate
+Shed Skin
+Unnerve 	60 	95 	69 	65 	79 	80
+#0025 	
+	Pikachu 		Static
+Lightning Rod 	35 	55 	40 	50 	50 	90
+#0026 	
+	Raichu 		Static
+Lightning Rod 	60 	90 	55 	90 	80 	110
+#0027 	
+	Sandshrew 		Sand Veil
+Sand Rush 	50 	75 	85 	20 	30 	40
+#0028 	
+	Sandslash 		Sand Veil
+Sand Rush 	75 	100 	110 	45 	55 	65
+#0029 	
+	Nidoran♀ 		Poison Point
+Rivalry
+Hustle 	55 	47 	52 	40 	40 	41
+#0030 	
+	Nidorina 		Poison Point
+Rivalry
+Hustle 	70 	62 	67 	55 	55 	56
+#0031 	
+	Nidoqueen 		Poison Point
+Rivalry
+Sheer Force 	90 	92 	87 	75 	85 	76
+#0032 	
+	Nidoran♂ 		Poison Point
+Rivalry
+Hustle 	46 	57 	40 	40 	40 	50
+#0033 	
+	Nidorino 		Poison Point
+Rivalry
+Hustle 	61 	72 	57 	55 	55 	65
+#0034 	
+	Nidoking 		Poison Point
+Rivalry
+Sheer Force 	81 	102 	77 	85 	75 	85
+#0035 	
+	Clefairy 		Cute Charm
+Magic Guard
+Friend Guard 	70 	45 	48 	60 	65 	35
+#0036 	
+	Clefable 		Cute Charm
+Magic Guard
+Unaware 	95 	70 	73 	95 	90 	60
+#0037 	
+	Vulpix 		Flash Fire
+Drought 	38 	41 	40 	50 	65 	65
+#0038 	
+	Ninetales 		Flash Fire
+Drought 	73 	76 	75 	81 	100 	100
+#0039 	
+	Jigglypuff 		Cute Charm
+Competitive
+Friend Guard 	115 	45 	20 	45 	25 	20
+#0040 	
+	Wigglytuff 		Cute Charm
+Competitive
+Frisk 	140 	70 	45 	85 	50 	45
+#0041 	
+	Zubat 		Inner Focus
+Infiltrator 	40 	45 	35 	30 	40 	55
+#0042 	
+	Golbat 		Inner Focus
+Infiltrator 	75 	80 	70 	65 	75 	90
+#0043 	
+	Oddish 		Chlorophyll
+Run Away 	45 	50 	55 	75 	65 	30
+#0044 	
+	Gloom 		Chlorophyll
+Stench 	60 	65 	70 	85 	75 	40
+#0045 	
+	Vileplume 		Chlorophyll
+Effect Spore 	75 	80 	85 	110 	90 	50
+#0046 	
+	Paras 		Effect Spore
+Dry Skin
+Damp 	35 	70 	55 	45 	55 	25
+#0047 	
+	Parasect 		Effect Spore
+Dry Skin
+Damp 	60 	95 	80 	60 	80 	30
+#0048 	
+	Venonat 		Compoundeyes
+Tinted Lens
+Run Away 	60 	55 	50 	40 	55 	45
+#0049 	
+	Venomoth 		Shield Dust
+Tinted Lens
+Wonder Skin 	70 	65 	60 	90 	75 	90
+#0050 	
+	Diglett 		Sand Veil
+Arena Trap
+Sand Force 	10 	55 	25 	35 	45 	95
+#0051 	
+	Dugtrio 		Sand Veil
+Arena Trap
+Sand Force 	35 	100 	50 	50 	70 	120
+#0052 	
+	Meowth 		Pickup
+Technician
+Unnerve 	40 	45 	35 	40 	40 	90
+#0053 	
+	Persian 		Limber
+Technician
+Unnerve 	65 	70 	60 	65 	65 	115
+#0054 	
+	Psyduck 		Damp
+Cloud Nine
+Swift Swim 	50 	52 	48 	65 	50 	55
+#0055 	
+	Golduck 		Damp
+Cloud Nine
+Swift Swim 	80 	82 	78 	95 	80 	85
+#0056 	
+	Mankey 		Vital Spirit
+Anger Point
+Defiant 	40 	80 	35 	35 	45 	70
+#0057 	
+	Primeape 		Vital Spirit
+Anger Point
+Defiant 	65 	105 	60 	60 	70 	95
+#0058 	
+	Growlithe 		Intimidate
+Flash Fire
+Justified 	55 	70 	45 	70 	50 	60
+#0059 	
+	Arcanine 		Intimidate
+Flash Fire
+Justified 	90 	110 	80 	100 	80 	95
+#0060 	
+	Poliwag 		Water Absorb
+Damp
+Swift Swim 	40 	50 	40 	40 	40 	90
+#0061 	
+	Poliwhirl 		Water Absorb
+Damp
+Swift Swim 	65 	65 	65 	50 	50 	90
+#0062 	
+	Poliwrath 		Water Absorb
+Damp
+Swift Swim 	90 	95 	95 	70 	90 	70
+#0063 	
+	Abra 		Synchronize
+Inner Focus
+Magic Guard 	25 	20 	15 	105 	55 	90
+#0064 	
+	Kadabra 		Synchronize
+Inner Focus
+Magic Guard 	40 	35 	30 	120 	70 	105
+#0065 	
+	Alakazam 		Synchronize
+Inner Focus
+Magic Guard 	55 	50 	45 	135 	95 	120
+#0066 	
+	Machop 		Guts
+No Guard
+Steadfast 	70 	80 	50 	35 	35 	35
+#0067 	
+	Machoke 		Guts
+No Guard
+Steadfast 	80 	100 	70 	50 	60 	45
+#0068 	
+	Machamp 		Guts
+No Guard
+Steadfast 	90 	130 	80 	65 	85 	55
+#0069 	
+	Bellsprout 		Chlorophyll
+Gluttony 	50 	75 	35 	70 	30 	40
+#0070 	
+	Weepinbell 		Chlorophyll
+Gluttony 	65 	90 	50 	85 	45 	55
+#0071 	
+	Victreebel 		Chlorophyll
+Gluttony 	80 	105 	65 	100 	70 	70
+#0072 	
+	Tentacool 		Clear Body
+Liquid Ooze
+Rain Dish 	40 	40 	35 	50 	100 	70
+#0073 	
+	Tentacruel 		Clear Body
+Liquid Ooze
+Rain Dish 	80 	70 	65 	80 	120 	100
+#0074 	
+	Geodude 		Rock Head
+Sturdy
+Sand Veil 	40 	80 	100 	30 	30 	20
+#0075 	
+	Graveler 		Rock Head
+Sturdy
+Sand Veil 	55 	95 	115 	45 	45 	35
+#0076 	
+	Golem 		Rock Head
+Sturdy
+Sand Veil 	80 	120 	130 	55 	65 	45
+#0077 	
+	Ponyta 		Run Away
+Flash Fire
+Flame Body 	50 	85 	55 	65 	65 	90
+#0078 	
+	Rapidash 		Run Away
+Flash Fire
+Flame Body 	65 	100 	70 	80 	80 	105
+#0079 	
+	Slowpoke 		Oblivious
+Own Tempo
+Regenerator 	90 	65 	65 	40 	40 	15
+#0080 	
+	Slowbro 		Oblivious
+Own Tempo
+Regenerator 	95 	75 	110 	100 	80 	30
+#0081 	
+	Magnemite 		Magnet Pull
+Sturdy
+Analytic 	25 	35 	70 	95 	55 	45
+#0082 	
+	Magneton 		Magnet Pull
+Sturdy
+Analytic 	50 	60 	95 	120 	70 	70
+#0083 	
+	Farfetch'd 		Keen Eye
+Inner Focus
+Defiant 	52 	90 	55 	58 	62 	60
+#0084 	
+	Doduo 		Run Away
+Early Bird
+Tangled Feet 	35 	85 	45 	35 	35 	75
+#0085 	
+	Dodrio 		Run Away
+Early Bird
+Tangled Feet 	60 	110 	70 	60 	60 	110
+#0086 	
+	Seel 		Thick Fat
+Hydration
+Ice Body 	65 	45 	55 	45 	70 	45
+#0087 	
+	Dewgong 		Thick Fat
+Hydration
+Ice Body 	90 	70 	80 	70 	95 	70
+#0088 	
+	Grimer 		Stench
+Sticky Hold
+Poison Touch 	80 	80 	50 	40 	50 	25
+#0089 	
+	Muk 		Stench
+Sticky Hold
+Poison Touch 	105 	105 	75 	65 	100 	50
+#0090 	
+	Shellder 		Shell Armor
+Skill Link
+Overcoat 	30 	65 	100 	45 	25 	40
+#0091 	
+	Cloyster 		Shell Armor
+Skill Link
+Overcoat 	50 	95 	180 	85 	45 	70
+#0092 	
+	Gastly 		Levitate 	30 	35 	30 	100 	35 	80
+#0093 	
+	Haunter 		Levitate 	45 	50 	45 	115 	55 	95
+#0094 	
+	Gengar 		Cursed Body 	60 	65 	60 	130 	75 	110
+#0095 	
+	Onix 		Rock Head
+Sturdy
+Weak Armor 	35 	45 	160 	30 	45 	70
+#0096 	
+	Drowzee 		Insomnia
+Forewarn
+Inner Focus 	60 	48 	45 	43 	90 	42
+#0097 	
+	Hypno 		Insomnia
+Forewarn
+Inner Focus 	85 	73 	70 	73 	115 	67
+#0098 	
+	Krabby 		Hyper Cutter
+Shell Armor
+Sheer Force 	30 	105 	90 	25 	25 	50
+#0099 	
+	Kingler 		Hyper Cutter
+Shell Armor
+Sheer Force 	55 	130 	115 	50 	50 	75
+#0100 	
+	Voltorb 		Soundproof
+Static
+Aftermath 	40 	30 	50 	55 	55 	100
+#0101 	
+	Electrode 		Soundproof
+Static
+Aftermath 	60 	50 	70 	80 	80 	150
+#0102 	
+	Exeggcute 		Chlorophyll
+Harvest 	60 	40 	80 	60 	45 	40
+#0103 	
+	Exeggutor 		Chlorophyll
+Harvest 	95 	95 	85 	125 	75 	55
+#0104 	
+	Cubone 		Rock Head
+Lightning Rod
+Battle Armor 	50 	50 	95 	40 	50 	35
+#0105 	
+	Marowak 		Rock Head
+Lightning Rod
+Battle Armor 	60 	80 	110 	50 	80 	45
+#0106 	
+	Hitmonlee 		Limber
+Reckless
+Unburden 	50 	120 	53 	35 	110 	87
+#0107 	
+	Hitmonchan 		Keen Eye
+Iron Fist
+Inner Focus 	50 	105 	79 	35 	110 	76
+#0108 	
+	Lickitung 		Own Tempo
+Oblivious
+Cloud Nine 	90 	55 	75 	60 	75 	30
+#0109 	
+	Koffing 		Levitate
+Neutralizing Gas
+Stench 	40 	65 	95 	60 	45 	35
+#0110 	
+	Weezing 		Levitate
+Neutralizing Gas
+Stench 	65 	90 	120 	85 	70 	60
+#0111 	
+	Rhyhorn 		Lightning Rod
+Rock Head
+Reckless 	80 	85 	95 	30 	30 	25
+#0112 	
+	Rhydon 		Lightning Rod
+Rock Head
+Reckless 	105 	130 	120 	45 	45 	40
+#0113 	
+	Chansey 		Natural Cure
+Serene Grace
+Healer 	250 	5 	5 	35 	105 	50
+#0114 	
+	Tangela 		Chlorophyll
+Leaf Guard
+Regenerator 	65 	55 	115 	100 	40 	60
+#0115 	
+	Kangaskhan 		Early Bird
+Scrappy
+Inner Focus 	105 	95 	80 	40 	80 	90
+#0116 	
+	Horsea 		Swift Swim
+Sniper
+Damp 	30 	40 	70 	70 	25 	60
+#0117 	
+	Seadra 		Poison Point
+Sniper
+Damp 	55 	65 	95 	95 	45 	85
+#0118 	
+	Goldeen 		Swift Swim
+Water Veil
+Lightning Rod 	45 	67 	60 	35 	50 	63
+#0119 	
+	Seaking 		Swift Swim
+Water Veil
+Lightning Rod 	80 	92 	65 	65 	80 	68
+#0120 	
+	Staryu 		Illuminate
+Natural Cure
+Analytic 	30 	45 	55 	70 	55 	85
+#0121 	
+	Starmie 		Illuminate
+Natural Cure
+Analytic 	60 	75 	85 	100 	85 	115
+#0122 	
+	Mr. Mime 		Soundproof
+Filter
+Technician 	40 	45 	65 	100 	120 	90
+#0123 	
+	Scyther 		Swarm
+Technician
+Steadfast 	70 	110 	80 	55 	80 	105
+#0124 	
+	Jynx 		Oblivious
+Forewarn
+Dry Skin 	65 	50 	35 	115 	95 	95
+#0125 	
+	Electabuzz 		Static
+Vital Spirit 	65 	83 	57 	95 	85 	105
+#0126 	
+	Magmar 		Flame Body
+Vital Spirit 	65 	95 	57 	100 	85 	93
+#0127 	
+	Pinsir 		Hyper Cutter
+Mold Breaker
+Moxie 	65 	125 	100 	55 	70 	85
+#0128 	
+	Tauros 		Intimidate
+Anger Point
+Sheer Force 	75 	100 	95 	40 	70 	110
+#0129 	
+	Magikarp 		Swift Swim
+Rattled 	20 	10 	55 	15 	20 	80
+#0130 	
+	Gyarados 		Intimidate
+Moxie 	95 	125 	79 	60 	100 	81
+#0131 	
+	Lapras 		Water Absorb
+Shell Armor
+Hydration 	130 	85 	80 	85 	95 	60
+#0132 	
+	Ditto 		Limber
+Imposter 	48 	48 	48 	48 	48 	48
+#0133 	
+	Eevee 		Run Away
+Adaptability
+Anticipation 	55 	55 	50 	45 	65 	55
+#0134 	
+	Vaporeon 		Water Absorb
+Hydration 	130 	65 	60 	110 	95 	65
+#0135 	
+	Jolteon 		Volt Absorb
+Quick Feet 	65 	65 	60 	110 	95 	130
+#0136 	
+	Flareon 		Flash Fire
+Guts 	65 	130 	60 	95 	110 	65
+#0137 	
+	Porygon 		Trace
+Download
+Analytic 	65 	60 	70 	85 	75 	40
+#0138 	
+	Omanyte 		Swift Swim
+Shell Armor
+Weak Armor 	35 	40 	100 	90 	55 	35
+#0139 	
+	Omastar 		Swift Swim
+Shell Armor
+Weak Armor 	70 	60 	125 	115 	70 	55
+#0140 	
+	Kabuto 		Swift Swim
+Battle Armor
+Weak Armor 	30 	80 	90 	55 	45 	55
+#0141 	
+	Kabutops 		Swift Swim
+Battle Armor
+Weak Armor 	60 	115 	105 	65 	70 	80
+#0142 	
+	Aerodactyl 		Rock Head
+Pressure
+Unnerve 	80 	105 	65 	60 	75 	130
+#0143 	
+	Snorlax 		Immunity
+Thick Fat
+Gluttony 	160 	110 	65 	65 	110 	30
+#0144 	
+	Articuno 		Pressure
+Snow Cloak 	90 	85 	100 	95 	125 	85
+#0145 	
+	Zapdos 		Pressure
+Static 	90 	90 	85 	125 	90 	100
+#0146 	
+	Moltres 		Pressure
+Flame Body 	90 	100 	90 	125 	85 	90
+#0147 	
+	Dratini 		Shed Skin
+Marvel Scale 	41 	64 	45 	50 	50 	50
+#0148 	
+	Dragonair 		Shed Skin
+Marvel Scale 	61 	84 	65 	70 	70 	70
+#0149 	
+	Dragonite 		Inner Focus
+Multiscale 	91 	134 	95 	100 	100 	80
+#0150 	
+	Mewtwo 		Pressure
+Unnerve 	106 	110 	90 	154 	90 	130
+#0151 	
+	Mew 		Synchronize 	100 	100 	100 	100 	100 	100
+#0152 	
+	Chikorita 		Overgrow
+Leaf Guard 	45 	49 	65 	49 	65 	45
+#0153 	
+	Bayleef 		Overgrow
+Leaf Guard 	60 	62 	80 	63 	80 	60
+#0154 	
+	Meganium 		Overgrow
+Leaf Guard 	80 	82 	100 	83 	100 	80
+#0155 	
+	Cyndaquil 		Blaze
+Flash Fire 	39 	52 	43 	60 	50 	65
+#0156 	
+	Quilava 		Blaze
+Flash Fire 	58 	64 	58 	80 	65 	80
+#0157 	
+	Typhlosion 		Blaze
+Flash Fire 	78 	84 	78 	109 	85 	100
+#0158 	
+	Totodile 		Torrent
+Sheer Force 	50 	65 	64 	44 	48 	43
+#0159 	
+	Croconaw 		Torrent
+Sheer Force 	65 	80 	80 	59 	63 	58
+#0160 	
+	Feraligatr 		Torrent
+Sheer Force 	85 	105 	100 	79 	83 	78
+#0161 	
+	Sentret 		Run Away
+Keen Eye
+Frisk 	35 	46 	34 	35 	45 	20
+#0162 	
+	Furret 		Run Away
+Keen Eye
+Frisk 	85 	76 	64 	45 	55 	90
+#0163 	
+	Hoothoot 		Insomnia
+Keen Eye
+Tinted Lens 	60 	30 	30 	36 	56 	50
+#0164 	
+	Noctowl 		Insomnia
+Keen Eye
+Tinted Lens 	100 	50 	50 	86 	96 	70
+#0165 	
+	Ledyba 		Swarm
+Early Bird
+Rattled 	40 	20 	30 	40 	80 	55
+#0166 	
+	Ledian 		Swarm
+Early Bird
+Iron Fist 	55 	35 	50 	55 	110 	85
+#0167 	
+	Spinarak 		Swarm
+Insomnia
+Sniper 	40 	60 	40 	40 	40 	30
+#0168 	
+	Ariados 		Swarm
+Insomnia
+Sniper 	70 	90 	70 	60 	70 	40
+#0169 	
+	Crobat 		Inner Focus
+Infiltrator 	85 	90 	80 	70 	80 	130
+#0170 	
+	Chinchou 		Volt Absorb
+Illuminate
+Water Absorb 	75 	38 	38 	56 	56 	67
+#0171 	
+	Lanturn 		Volt Absorb
+Illuminate
+Water Absorb 	125 	58 	58 	76 	76 	67
+#0172 	
+	Pichu 		Static
+Lightning Rod 	20 	40 	15 	35 	35 	60
+#0173 	
+	Cleffa 		Cute Charm
+Magic Guard
+Friend Guard 	50 	25 	28 	45 	55 	15
+#0174 	
+	Igglybuff 		Cute Charm
+Competitive
+Friend Guard 	90 	30 	15 	40 	20 	15
+#0175 	
+	Togepi 		Hustle
+Serene Grace
+Super Luck 	35 	20 	65 	40 	65 	20
+#0176 	
+	Togetic 		Hustle
+Serene Grace
+Super Luck 	55 	40 	85 	80 	105 	40
+#0177 	
+	Natu 		Synchronize
+Early Bird
+Magic Bounce 	40 	50 	45 	70 	45 	70
+#0178 	
+	Xatu 		Synchronize
+Early Bird
+Magic Bounce 	65 	75 	70 	95 	70 	95
+#0179 	
+	Mareep 		Static
+Plus 	55 	40 	40 	65 	45 	35
+#0180 	
+	Flaaffy 		Static
+Plus 	70 	55 	55 	80 	60 	45
+#0181 	
+	Ampharos 		Static
+Plus 	90 	75 	85 	115 	90 	55
+#0182 	
+	Bellossom 		Chlorophyll
+Healer 	75 	80 	95 	90 	100 	50
+#0183 	
+	Marill 		Thick Fat
+Huge Power
+Sap Sipper 	70 	20 	50 	20 	50 	40
+#0184 	
+	Azumarill 		Thick Fat
+Huge Power
+Sap Sipper 	100 	50 	80 	60 	80 	50
+#0185 	
+	Sudowoodo 		Sturdy
+Rock Head
+Rattled 	70 	100 	115 	30 	65 	30
+#0186 	
+	Politoed 		Water Absorb
+Damp
+Drizzle 	90 	75 	75 	90 	100 	70
+#0187 	
+	Hoppip 		Chlorophyll
+Leaf Guard
+Infiltrator 	35 	35 	40 	35 	55 	50
+#0188 	
+	Skiploom 		Chlorophyll
+Leaf Guard
+Infiltrator 	55 	45 	50 	45 	65 	80
+#0189 	
+	Jumpluff 		Chlorophyll
+Leaf Guard
+Infiltrator 	75 	55 	70 	55 	95 	110
+#0190 	
+	Aipom 		Run Away
+Pickup
+Skill Link 	55 	70 	55 	40 	55 	85
+#0191 	
+	Sunkern 		Chlorophyll
+Solar Power
+Early Bird 	30 	30 	30 	30 	30 	30
+#0192 	
+	Sunflora 		Chlorophyll
+Solar Power
+Early Bird 	75 	75 	55 	105 	85 	30
+#0193 	
+	Yanma 		Speed Boost
+Compoundeyes
+Frisk 	65 	65 	45 	75 	45 	95
+#0194 	
+	Wooper 		Damp
+Water Absorb
+Unaware 	55 	45 	45 	25 	25 	15
+#0195 	
+	Quagsire 		Damp
+Water Absorb
+Unaware 	95 	85 	85 	65 	65 	35
+#0196 	
+	Espeon 		Synchronize
+Magic Bounce 	65 	65 	60 	130 	95 	110
+#0197 	
+	Umbreon 		Synchronize
+Inner Focus 	95 	65 	110 	60 	130 	65
+#0198 	
+	Murkrow 		Insomnia
+Super Luck
+Prankster 	60 	85 	42 	85 	42 	91
+#0199 	
+	Slowking 		Oblivious
+Own Tempo
+Regenerator 	95 	75 	80 	100 	110 	30
+#0200 	
+	Misdreavus 		Levitate 	60 	60 	60 	85 	85 	85
+#0201 	
+	Unown 		Levitate 	48 	72 	48 	72 	48 	48
+#0202 	
+	Wobbuffet 		Shadow Tag
+Telepathy 	190 	33 	58 	33 	58 	33
+#0203 	
+	Girafarig 		Inner Focus
+Early Bird
+Sap Sipper 	70 	80 	65 	90 	65 	85
+#0204 	
+	Pineco 		Sturdy
+Overcoat 	50 	65 	90 	35 	35 	15
+#0205 	
+	Forretress 		Sturdy
+Overcoat 	75 	90 	140 	60 	60 	40
+#0206 	
+	Dunsparce 		Serene Grace
+Run Away
+Rattled 	100 	70 	70 	65 	65 	45
+#0207 	
+	Gligar 		Hyper Cutter
+Sand Veil
+Immunity 	65 	75 	105 	35 	65 	85
+#0208 	
+	Steelix 		Rock Head
+Sturdy
+Sheer Force 	75 	85 	200 	55 	65 	30
+#0209 	
+	Snubbull 		Intimidate
+Run Away
+Rattled 	60 	80 	50 	40 	40 	30
+#0210 	
+	Granbull 		Intimidate
+Quick Feet
+Rattled 	90 	120 	75 	60 	60 	45
+#0211 	
+	Qwilfish 		Poison Point
+Swift Swim
+Intimidate 	65 	95 	85 	55 	55 	85
+#0212 	
+	Scizor 		Swarm
+Technician
+Light Metal 	70 	130 	100 	55 	80 	65
+#0213 	
+	Shuckle 		Sturdy
+Gluttony
+Contrary 	20 	10 	230 	10 	230 	5
+#0214 	
+	Heracross 		Swarm
+Guts
+Moxie 	80 	125 	75 	40 	95 	85
+#0215 	
+	Sneasel 		Inner Focus
+Keen Eye
+Pickpocket 	55 	95 	55 	35 	75 	115
+#0216 	
+	Teddiursa 		Pickup
+Quick Feet
+Honey Gather 	60 	80 	50 	50 	50 	40
+#0217 	
+	Ursaring 		Guts
+Quick Feet
+Unnerve 	90 	130 	75 	75 	75 	55
+#0218 	
+	Slugma 		Magma Armor
+Flame Body
+Weak Armor 	40 	40 	40 	70 	40 	20
+#0219 	
+	Magcargo 		Magma Armor
+Flame Body
+Weak Armor 	60 	50 	120 	90 	80 	30
+#0220 	
+	Swinub 		Oblivious
+Snow Cloak
+Thick Fat 	50 	50 	40 	30 	30 	50
+#0221 	
+	Piloswine 		Oblivious
+Snow Cloak
+Thick Fat 	100 	100 	80 	60 	60 	50
+#0222 	
+	Corsola 		Hustle
+Natural Cure
+Regenerator 	65 	55 	95 	65 	95 	35
+#0223 	
+	Remoraid 		Hustle
+Sniper
+Moody 	35 	65 	35 	65 	35 	65
+#0224 	
+	Octillery 		Suction Cups
+Sniper
+Moody 	75 	105 	75 	105 	75 	45
+#0225 	
+	Delibird 		Vital Spirit
+Hustle
+Insomnia 	45 	55 	45 	65 	45 	75
+#0226 	
+	Mantine 		Swift Swim
+Water Absorb
+Water Veil 	85 	40 	70 	80 	140 	70
+#0227 	
+	Skarmory 		Keen Eye
+Sturdy
+Weak Armor 	65 	80 	140 	40 	70 	70
+#0228 	
+	Houndour 		Early Bird
+Flash Fire
+Unnerve 	45 	60 	30 	80 	50 	65
+#0229 	
+	Houndoom 		Early Bird
+Flash Fire
+Unnerve 	75 	90 	50 	110 	80 	95
+#0230 	
+	Kingdra 		Swift Swim
+Sniper
+Damp 	75 	95 	95 	95 	95 	85
+#0231 	
+	Phanpy 		Pickup
+Sand Veil 	90 	60 	60 	40 	40 	40
+#0232 	
+	Donphan 		Sturdy
+Sand Veil 	90 	120 	120 	60 	60 	50
+#0233 	
+	Porygon2 		Trace
+Download
+Analytic 	85 	80 	90 	105 	95 	60
+#0234 	
+	Stantler 		Intimidate
+Frisk
+Sap Sipper 	73 	95 	62 	85 	65 	85
+#0235 	
+	Smeargle 		Own Tempo
+Technician
+Moody 	55 	20 	35 	20 	45 	75
+#0236 	
+	Tyrogue 		Guts
+Steadfast
+Vital Spirit 	35 	35 	35 	35 	35 	35
+#0237 	
+	Hitmontop 		Intimidate
+Technician
+Steadfast 	50 	95 	95 	35 	110 	70
+#0238 	
+	Smoochum 		Oblivious
+Forewarn
+Hydration 	45 	30 	15 	85 	65 	65
+#0239 	
+	Elekid 		Static
+Vital Spirit 	45 	63 	37 	65 	55 	95
+#0240 	
+	Magby 		Flame Body
+Vital Spirit 	45 	75 	37 	70 	55 	83
+#0241 	
+	Miltank 		Thick Fat
+Scrappy
+Sap Sipper 	95 	80 	105 	40 	70 	100
+#0242 	
+	Blissey 		Natural Cure
+Serene Grace
+Healer 	255 	10 	10 	75 	135 	55
+#0243 	
+	Raikou 		Pressure
+Inner Focus 	90 	85 	75 	115 	100 	115
+#0244 	
+	Entei 		Pressure
+Inner Focus 	115 	115 	85 	90 	75 	100
+#0245 	
+	Suicune 		Pressure
+Inner Focus 	100 	75 	115 	90 	115 	85
+#0246 	
+	Larvitar 		Guts
+Sand Veil 	50 	64 	50 	45 	50 	41
+#0247 	
+	Pupitar 		Shed Skin 	70 	84 	70 	65 	70 	51
+#0248 	
+	Tyranitar 		Sand Stream
+Unnerve 	100 	134 	110 	95 	100 	61
+#0249 	
+	Lugia 		Pressure
+Multiscale 	106 	90 	130 	90 	154 	110
+#0250 	
+	Ho-Oh 		Pressure
+Regenerator 	106 	130 	90 	110 	154 	90
+#0251 	
+	Celebi 		Natural Cure 	100 	100 	100 	100 	100 	100
+#0252 	
+	Treecko 		Overgrow
+Unburden 	40 	45 	35 	65 	55 	70
+#0253 	
+	Grovyle 		Overgrow
+Unburden 	50 	65 	45 	85 	65 	95
+#0254 	
+	Sceptile 		Overgrow
+Unburden 	70 	85 	65 	105 	85 	120
+#0255 	
+	Torchic 		Blaze
+Speed Boost 	45 	60 	40 	70 	50 	45
+#0256 	
+	Combusken 		Blaze
+Speed Boost 	60 	85 	60 	85 	60 	55
+#0257 	
+	Blaziken 		Blaze
+Speed Boost 	80 	120 	70 	110 	70 	80
+#0258 	
+	Mudkip 		Torrent
+Damp 	50 	70 	50 	50 	50 	40
+#0259 	
+	Marshtomp 		Torrent
+Damp 	70 	85 	70 	60 	70 	50
+#0260 	
+	Swampert 		Torrent
+Damp 	100 	110 	90 	85 	90 	60
+#0261 	
+	Poochyena 		Run Away
+Quick Feet
+Rattled 	35 	55 	35 	30 	30 	35
+#0262 	
+	Mightyena 		Intimidate
+Quick Feet
+Moxie 	70 	90 	70 	60 	60 	70
+#0263 	
+	Zigzagoon 		Pickup
+Gluttony
+Quick Feet 	38 	30 	41 	30 	41 	60
+#0264 	
+	Linoone 		Pickup
+Gluttony
+Quick Feet 	78 	70 	61 	50 	61 	100
+#0265 	
+	Wurmple 		Shield Dust
+Run Away 	45 	45 	35 	20 	30 	20
+#0266 	
+	Silcoon 		Shed Skin 	50 	35 	55 	25 	25 	15
+#0267 	
+	Beautifly 		Swarm
+Rivalry 	60 	70 	50 	100 	50 	65
+#0268 	
+	Cascoon 		Shed Skin 	50 	35 	55 	25 	25 	15
+#0269 	
+	Dustox 		Shield Dust
+Compoundeyes 	60 	50 	70 	50 	90 	65
+#0270 	
+	Lotad 		Swift Swim
+Rain Dish
+Own Tempo 	40 	30 	30 	40 	50 	30
+#0271 	
+	Lombre 		Swift Swim
+Rain Dish
+Own Tempo 	60 	50 	50 	60 	70 	50
+#0272 	
+	Ludicolo 		Swift Swim
+Rain Dish
+Own Tempo 	80 	70 	70 	90 	100 	70
+#0273 	
+	Seedot 		Chlorophyll
+Early Bird
+Pickpocket 	40 	40 	50 	30 	30 	30
+#0274 	
+	Nuzleaf 		Chlorophyll
+Early Bird
+Pickpocket 	70 	70 	40 	60 	40 	60
+#0275 	
+	Shiftry 		Chlorophyll
+Early Bird
+Pickpocket 	90 	100 	60 	90 	60 	80
+#0276 	
+	Taillow 		Guts
+Scrappy 	40 	55 	30 	30 	30 	85
+#0277 	
+	Swellow 		Guts
+Scrappy 	60 	85 	60 	75 	50 	125
+#0278 	
+	Wingull 		Keen Eye
+Hydration
+Rain Dish 	40 	30 	30 	55 	30 	85
+#0279 	
+	Pelipper 		Keen Eye
+Drizzle
+Rain Dish 	60 	50 	100 	95 	70 	65
+#0280 	
+	Ralts 		Synchronize
+Trace
+Telepathy 	28 	25 	25 	45 	35 	40
+#0281 	
+	Kirlia 		Synchronize
+Trace
+Telepathy 	38 	35 	35 	65 	55 	50
+#0282 	
+	Gardevoir 		Synchronize
+Trace
+Telepathy 	68 	65 	65 	125 	115 	80
+#0283 	
+	Surskit 		Swift Swim
+Rain Dish 	40 	30 	32 	50 	52 	65
+#0284 	
+	Masquerain 		Intimidate
+Unnerve 	70 	60 	62 	100 	82 	80
+#0285 	
+	Shroomish 		Effect Spore
+Poison Heal
+Quick Feet 	60 	40 	60 	40 	60 	35
+#0286 	
+	Breloom 		Effect Spore
+Poison Heal
+Technician 	60 	130 	80 	60 	60 	70
+#0287 	
+	Slakoth 		Truant 	60 	60 	60 	35 	35 	30
+#0288 	
+	Vigoroth 		Vital Spirit 	80 	80 	80 	55 	55 	90
+#0289 	
+	Slaking 		Truant 	150 	160 	100 	95 	65 	100
+#0290 	
+	Nincada 		Compoundeyes
+Run Away 	31 	45 	90 	30 	30 	40
+#0291 	
+	Ninjask 		Speed Boost
+Infiltrator 	61 	90 	45 	50 	50 	160
+#0292 	
+	Shedinja 		Wonder Guard 	1 	90 	45 	30 	30 	40
+#0293 	
+	Whismur 		Soundproof
+Rattled 	64 	51 	23 	51 	23 	28
+#0294 	
+	Loudred 		Soundproof
+Scrappy 	84 	71 	43 	71 	43 	48
+#0295 	
+	Exploud 		Soundproof
+Scrappy 	104 	91 	63 	91 	73 	68
+#0296 	
+	Makuhita 		Thick Fat
+Guts
+Sheer Force 	72 	60 	30 	20 	30 	25
+#0297 	
+	Hariyama 		Thick Fat
+Guts
+Sheer Force 	144 	120 	60 	40 	60 	50
+#0298 	
+	Azurill 		Thick Fat
+Huge Power
+Sap Sipper 	50 	20 	40 	20 	40 	20
+#0299 	
+	Nosepass 		Sturdy
+Magnet Pull
+Sand Force 	30 	45 	135 	45 	90 	30
+#0300 	
+	Skitty 		Cute Charm
+Normalize
+Wonder Skin 	50 	45 	45 	35 	35 	50
+#0301 	
+	Delcatty 		Cute Charm
+Normalize
+Wonder Skin 	70 	65 	65 	55 	55 	90
+#0302 	
+	Sableye 		Keen Eye
+Stall
+Prankster 	50 	75 	75 	65 	65 	50
+#0303 	
+	Mawile 		Hyper Cutter
+Intimidate
+Sheer Force 	50 	85 	85 	55 	55 	50
+#0304 	
+	Aron 		Sturdy
+Rock Head
+Heavy Metal 	50 	70 	100 	40 	40 	30
+#0305 	
+	Lairon 		Sturdy
+Rock Head
+Heavy Metal 	60 	90 	140 	50 	50 	40
+#0306 	
+	Aggron 		Sturdy
+Rock Head
+Heavy Metal 	70 	110 	180 	60 	60 	50
+#0307 	
+	Meditite 		Pure Power
+Telepathy 	30 	40 	55 	40 	55 	60
+#0308 	
+	Medicham 		Pure Power
+Telepathy 	60 	60 	75 	60 	75 	80
+#0309 	
+	Electrike 		Static
+Lightning Rod
+Minus 	40 	45 	40 	65 	40 	65
+#0310 	
+	Manectric 		Static
+Lightning Rod
+Minus 	70 	75 	60 	105 	60 	105
+#0311 	
+	Plusle 		Plus
+Lightning Rod 	60 	50 	40 	85 	75 	95
+#0312 	
+	Minun 		Minus
+Volt Absorb 	60 	40 	50 	75 	85 	95
+#0313 	
+	Volbeat 		Illuminate
+Swarm
+Prankster 	65 	73 	75 	47 	85 	85
+#0314 	
+	Illumise 		Oblivious
+Tinted Lens
+Prankster 	65 	47 	75 	73 	85 	85
+#0315 	
+	Roselia 		Natural Cure
+Poison Point
+Leaf Guard 	50 	60 	45 	100 	80 	65
+#0316 	
+	Gulpin 		Liquid Ooze
+Sticky Hold
+Gluttony 	70 	43 	53 	43 	53 	40
+#0317 	
+	Swalot 		Liquid Ooze
+Sticky Hold
+Gluttony 	100 	73 	83 	73 	83 	55
+#0318 	
+	Carvanha 		Rough Skin
+Speed Boost 	45 	90 	20 	65 	20 	65
+#0319 	
+	Sharpedo 		Rough Skin
+Speed Boost 	70 	120 	40 	95 	40 	95
+#0320 	
+	Wailmer 		Water Veil
+Oblivious
+Pressure 	130 	70 	35 	70 	35 	60
+#0321 	
+	Wailord 		Water Veil
+Oblivious
+Pressure 	170 	90 	45 	90 	45 	60
+#0322 	
+	Numel 		Oblivious
+Simple
+Own Tempo 	60 	60 	40 	65 	45 	35
+#0323 	
+	Camerupt 		Magma Armor
+Solid Rock
+Anger Point 	70 	100 	70 	105 	75 	40
+#0324 	
+	Torkoal 		White Smoke
+Drought
+Shell Armor 	70 	85 	140 	85 	70 	20
+#0325 	
+	Spoink 		Thick Fat
+Own Tempo
+Gluttony 	60 	25 	35 	70 	80 	60
+#0326 	
+	Grumpig 		Thick Fat
+Own Tempo
+Gluttony 	80 	45 	65 	90 	110 	80
+#0327 	
+	Spinda 		Own Tempo
+Tangled Feet
+Contrary 	60 	60 	60 	60 	60 	60
+#0328 	
+	Trapinch 		Hyper Cutter
+Arena Trap
+Sheer Force 	45 	100 	45 	45 	45 	10
+#0329 	
+	Vibrava 		Levitate 	50 	70 	50 	50 	50 	70
+#0330 	
+	Flygon 		Levitate 	80 	100 	80 	80 	80 	100
+#0331 	
+	Cacnea 		Sand Veil
+Water Absorb 	50 	85 	40 	85 	40 	35
+#0332 	
+	Cacturne 		Sand Veil
+Water Absorb 	70 	115 	60 	115 	60 	55
+#0333 	
+	Swablu 		Natural Cure
+Cloud Nine 	45 	40 	60 	40 	75 	50
+#0334 	
+	Altaria 		Natural Cure
+Cloud Nine 	75 	70 	90 	70 	105 	80
+#0335 	
+	Zangoose 		Immunity
+Toxic Boost 	73 	115 	60 	60 	60 	90
+#0336 	
+	Seviper 		Shed Skin
+Infiltrator 	73 	100 	60 	100 	60 	65
+#0337 	
+	Lunatone 		Levitate 	90 	55 	65 	95 	85 	70
+#0338 	
+	Solrock 		Levitate 	90 	95 	85 	55 	65 	70
+#0339 	
+	Barboach 		Oblivious
+Anticipation
+Hydration 	50 	48 	43 	46 	41 	60
+#0340 	
+	Whiscash 		Oblivious
+Anticipation
+Hydration 	110 	78 	73 	76 	71 	60
+#0341 	
+	Corphish 		Hyper Cutter
+Shell Armor
+Adaptability 	43 	80 	65 	50 	35 	35
+#0342 	
+	Crawdaunt 		Hyper Cutter
+Shell Armor
+Adaptability 	63 	120 	85 	90 	55 	55
+#0343 	
+	Baltoy 		Levitate 	40 	40 	55 	40 	70 	55
+#0344 	
+	Claydol 		Levitate 	60 	70 	105 	70 	120 	75
+#0345 	
+	Lileep 		Suction Cups
+Storm Drain 	66 	41 	77 	61 	87 	23
+#0346 	
+	Cradily 		Suction Cups
+Storm Drain 	86 	81 	97 	81 	107 	43
+#0347 	
+	Anorith 		Battle Armor
+Swift Swim 	45 	95 	50 	40 	50 	75
+#0348 	
+	Armaldo 		Battle Armor
+Swift Swim 	75 	125 	100 	70 	80 	45
+#0349 	
+	Feebas 		Swift Swim
+Oblivious
+Adaptability 	20 	15 	20 	10 	55 	80
+#0350 	
+	Milotic 		Marvel Scale
+Competitive
+Cute Charm 	95 	60 	79 	100 	125 	81
+#0351 	
+	Castform 		Forecast 	70 	70 	70 	70 	70 	70
+#0352 	
+	Kecleon 		Color Change
+Protean 	60 	90 	70 	60 	120 	40
+#0353 	
+	Shuppet 		Insomnia
+Frisk
+Cursed Body 	44 	75 	35 	63 	33 	45
+#0354 	
+	Banette 		Insomnia
+Frisk
+Cursed Body 	64 	115 	65 	83 	63 	65
+#0355 	
+	Duskull 		Levitate
+Frisk 	20 	40 	90 	30 	90 	25
+#0356 	
+	Dusclops 		Pressure
+Frisk 	40 	70 	130 	60 	130 	25
+#0357 	
+	Tropius 		Chlorophyll
+Solar Power
+Harvest 	99 	68 	83 	72 	87 	51
+#0358 	
+	Chimecho 		Levitate 	75 	50 	80 	95 	90 	65
+#0359 	
+	Absol 		Pressure
+Super Luck
+Justified 	65 	130 	60 	75 	60 	75
+#0360 	
+	Wynaut 		Shadow Tag
+Telepathy 	95 	23 	48 	23 	48 	23
+#0361 	
+	Snorunt 		Inner Focus
+Ice Body
+Moody 	50 	50 	50 	50 	50 	50
+#0362 	
+	Glalie 		Inner Focus
+Ice Body
+Moody 	80 	80 	80 	80 	80 	80
+#0363 	
+	Spheal 		Thick Fat
+Ice Body
+Oblivious 	70 	40 	50 	55 	50 	25
+#0364 	
+	Sealeo 		Thick Fat
+Ice Body
+Oblivious 	90 	60 	70 	75 	70 	45
+#0365 	
+	Walrein 		Thick Fat
+Ice Body
+Oblivious 	110 	80 	90 	95 	90 	65
+#0366 	
+	Clamperl 		Shell Armor
+Rattled 	35 	64 	85 	74 	55 	32
+#0367 	
+	Huntail 		Swift Swim
+Water Veil 	55 	104 	105 	94 	75 	52
+#0368 	
+	Gorebyss 		Swift Swim
+Hydration 	55 	84 	105 	114 	75 	52
+#0369 	
+	Relicanth 		Swift Swim
+Rock Head
+Sturdy 	100 	90 	130 	45 	65 	55
+#0370 	
+	Luvdisc 		Swift Swim
+Hydration 	43 	30 	55 	40 	65 	97
+#0371 	
+	Bagon 		Rock Head
+Sheer Force 	45 	75 	60 	40 	30 	50
+#0372 	
+	Shelgon 		Rock Head
+Overcoat 	65 	95 	100 	60 	50 	50
+#0373 	
+	Salamence 		Intimidate
+Moxie 	95 	135 	80 	110 	80 	100
+#0374 	
+	Beldum 		Clear Body
+Light Metal 	40 	55 	80 	35 	60 	30
+#0375 	
+	Metang 		Clear Body
+Light Metal 	60 	75 	100 	55 	80 	50
+#0376 	
+	Metagross 		Clear Body
+Light Metal 	80 	135 	130 	95 	90 	70
+#0377 	
+	Regirock 		Clear Body
+Sturdy 	80 	100 	200 	50 	100 	50
+#0378 	
+	Regice 		Clear Body
+Ice Body 	80 	50 	100 	100 	200 	50
+#0379 	
+	Registeel 		Clear Body
+Light Metal 	80 	75 	150 	75 	150 	50
+#0380 	
+	Latias 		Levitate 	80 	80 	90 	110 	130 	110
+#0381 	
+	Latios 		Levitate 	80 	90 	80 	130 	110 	110
+#0382 	
+	Kyogre 		Drizzle 	100 	100 	90 	150 	140 	90
+#0383 	
+	Groudon 		Drought 	100 	150 	140 	100 	90 	90
+#0384 	
+	Rayquaza 		Air Lock 	105 	150 	90 	150 	90 	95
+#0385 	
+	Jirachi 		Serene Grace 	100 	100 	100 	100 	100 	100
+#0386 	
+	Deoxys 		Pressure 	50 	150 	50 	150 	50 	150
+#0387 	
+	Turtwig 		Overgrow
+Shell Armor 	55 	68 	64 	45 	55 	31
+#0388 	
+	Grotle 		Overgrow
+Shell Armor 	75 	89 	85 	55 	65 	36
+#0389 	
+	Torterra 		Overgrow
+Shell Armor 	95 	109 	105 	75 	85 	56
+#0390 	
+	Chimchar 		Blaze
+Iron Fist 	44 	58 	44 	58 	44 	61
+#0391 	
+	Monferno 		Blaze
+Iron Fist 	64 	78 	52 	78 	52 	81
+#0392 	
+	Infernape 		Blaze
+Iron Fist 	76 	104 	71 	104 	71 	108
+#0393 	
+	Piplup 		Torrent
+Defiant 	53 	51 	53 	61 	56 	40
+#0394 	
+	Prinplup 		Torrent
+Defiant 	64 	66 	68 	81 	76 	50
+#0395 	
+	Empoleon 		Torrent
+Defiant 	84 	86 	88 	111 	101 	60
+#0396 	
+	Starly 		Keen Eye
+Reckless 	40 	55 	30 	30 	30 	60
+#0397 	
+	Staravia 		Intimidate
+Reckless 	55 	75 	50 	40 	40 	80
+#0398 	
+	Staraptor 		Intimidate
+Reckless 	85 	120 	70 	50 	60 	100
+#0399 	
+	Bidoof 		Simple
+Unaware
+Moody 	59 	45 	40 	35 	40 	31
+#0400 	
+	Bibarel 		Simple
+Unaware
+Moody 	79 	85 	60 	55 	60 	71
+#0401 	
+	Kricketot 		Shed Skin
+Run Away 	37 	25 	41 	25 	41 	25
+#0402 	
+	Kricketune 		Swarm
+Technician 	77 	85 	51 	55 	51 	65
+#0403 	
+	Shinx 		Rivalry
+Intimidate
+Guts 	45 	65 	34 	40 	34 	45
+#0404 	
+	Luxio 		Rivalry
+Intimidate
+Guts 	60 	85 	49 	60 	49 	60
+#0405 	
+	Luxray 		Rivalry
+Intimidate
+Guts 	80 	120 	79 	95 	79 	70
+#0406 	
+	Budew 		Natural Cure
+Poison Point
+Leaf Guard 	40 	30 	35 	50 	70 	55
+#0407 	
+	Roserade 		Natural Cure
+Poison Point
+Technician 	60 	70 	65 	125 	105 	90
+#0408 	
+	Cranidos 		Mold Breaker
+Sheer Force 	67 	125 	40 	30 	30 	58
+#0409 	
+	Rampardos 		Mold Breaker
+Sheer Force 	97 	165 	60 	65 	50 	58
+#0410 	
+	Shieldon 		Sturdy
+Soundproof 	30 	42 	118 	42 	88 	30
+#0411 	
+	Bastiodon 		Sturdy
+Soundproof 	60 	52 	168 	47 	138 	30
+#0412 	
+	Burmy 		Shed Skin
+Overcoat 	40 	29 	45 	29 	45 	36
+#0413 	
+	Wormadam 		Anticipation
+Overcoat 	60 	59 	85 	79 	105 	36
+#0414 	
+	Mothim 		Swarm
+Tinted Lens 	70 	94 	50 	94 	50 	66
+#0415 	
+	Combee 		Honey Gather
+Hustle 	30 	30 	42 	30 	42 	70
+#0416 	
+	Vespiquen 		Pressure
+Unnerve 	70 	80 	102 	80 	102 	40
+#0417 	
+	Pachirisu 		Run Away
+Pickup
+Volt Absorb 	60 	45 	70 	45 	90 	95
+#0418 	
+	Buizel 		Swift Swim
+Water Veil 	55 	65 	35 	60 	30 	85
+#0419 	
+	Floatzel 		Swift Swim
+Water Veil 	85 	105 	55 	85 	50 	115
+#0420 	
+	Cherubi 		Chlorophyll 	45 	35 	45 	62 	53 	35
+#0421 	
+	Cherrim 		Flower Gift 	70 	60 	70 	87 	78 	85
+#0422 	
+	Shellos 		Sticky Hold
+Storm Drain
+Sand Force 	76 	48 	48 	57 	62 	34
+#0423 	
+	Gastrodon 		Sticky Hold
+Storm Drain
+Sand Force 	111 	83 	68 	92 	82 	39
+#0424 	
+	Ambipom 		Technician
+Pickup
+Skill Link 	75 	100 	66 	60 	66 	115
+#0425 	
+	Drifloon 		Aftermath
+Unburden
+Flare Boost 	90 	50 	34 	60 	44 	70
+#0426 	
+	Drifblim 		Aftermath
+Unburden
+Flare Boost 	150 	80 	44 	90 	54 	80
+#0427 	
+	Buneary 		Run Away
+Klutz
+Limber 	55 	66 	44 	44 	56 	85
+#0428 	
+	Lopunny 		Cute Charm
+Klutz
+Limber 	65 	76 	84 	54 	96 	105
+#0429 	
+	Mismagius 		Levitate 	60 	60 	60 	105 	105 	105
+#0430 	
+	Honchkrow 		Insomnia
+Super Luck
+Moxie 	100 	125 	52 	105 	52 	71
+#0431 	
+	Glameow 		Limber
+Own Tempo
+Keen Eye 	49 	55 	42 	42 	37 	85
+#0432 	
+	Purugly 		Thick Fat
+Own Tempo
+Defiant 	71 	82 	64 	64 	59 	112
+#0433 	
+	Chingling 		Levitate 	45 	30 	50 	65 	50 	45
+#0434 	
+	Stunky 		Stench
+Aftermath
+Keen Eye 	63 	63 	47 	41 	41 	74
+#0435 	
+	Skuntank 		Stench
+Aftermath
+Keen Eye 	103 	93 	67 	71 	61 	84
+#0436 	
+	Bronzor 		Levitate
+Heatproof
+Heavy Metal 	57 	24 	86 	24 	86 	23
+#0437 	
+	Bronzong 		Levitate
+Heatproof
+Heavy Metal 	67 	89 	116 	79 	116 	33
+#0438 	
+	Bonsly 		Sturdy
+Rock Head
+Rattled 	50 	80 	95 	10 	45 	10
+#0439 	
+	Mime Jr. 		Soundproof
+Filter
+Technician 	20 	25 	45 	70 	90 	60
+#0440 	
+	Happiny 		Natural Cure
+Serene Grace
+Friend Guard 	100 	5 	5 	15 	65 	30
+#0441 	
+	Chatot 		Keen Eye
+Tangled Feet
+Big Pecks 	76 	65 	45 	92 	42 	91
+#0442 	
+	Spiritomb 		Pressure
+Infiltrator 	50 	92 	108 	92 	108 	35
+#0443 	
+	Gible 		Sand Veil
+Rough Skin 	58 	70 	45 	40 	45 	42
+#0444 	
+	Gabite 		Sand Veil
+Rough Skin 	68 	90 	65 	50 	55 	82
+#0445 	
+	Garchomp 		Sand Veil
+Rough Skin 	108 	130 	95 	80 	85 	102
+#0446 	
+	Munchlax 		Pickup
+Thick Fat
+Gluttony 	135 	85 	40 	40 	85 	5
+#0447 	
+	Riolu 		Steadfast
+Inner Focus
+Prankster 	40 	70 	40 	35 	40 	60
+#0448 	
+	Lucario 		Steadfast
+Inner Focus
+Justified 	70 	110 	70 	115 	70 	90
+#0449 	
+	Hippopotas 		Sand Stream
+Sand Force 	68 	72 	78 	38 	42 	32
+#0450 	
+	Hippowdon 		Sand Stream
+Sand Force 	108 	112 	118 	68 	72 	47
+#0451 	
+	Skorupi 		Battle Armor
+Sniper
+Keen Eye 	40 	50 	90 	30 	55 	65
+#0452 	
+	Drapion 		Battle Armor
+Sniper
+Keen Eye 	70 	90 	110 	60 	75 	95
+#0453 	
+	Croagunk 		Anticipation
+Dry Skin
+Poison Touch 	48 	61 	40 	61 	40 	50
+#0454 	
+	Toxicroak 		Anticipation
+Dry Skin
+Poison Touch 	83 	106 	65 	86 	65 	85
+#0455 	
+	Carnivine 		Levitate 	74 	100 	72 	90 	72 	46
+#0456 	
+	Finneon 		Swift Swim
+Storm Drain
+Water Veil 	49 	49 	56 	49 	61 	66
+#0457 	
+	Lumineon 		Swift Swim
+Storm Drain
+Water Veil 	69 	69 	76 	69 	86 	91
+#0458 	
+	Mantyke 		Swift Swim
+Water Absorb
+Water Veil 	45 	20 	50 	60 	120 	50
+#0459 	
+	Snover 		Snow Warning
+Soundproof 	60 	62 	50 	62 	60 	40
+#0460 	
+	Abomasnow 		Snow Warning
+Soundproof 	90 	92 	75 	92 	85 	60
+#0461 	
+	Weavile 		Pressure
+Pickpocket 	70 	120 	65 	45 	85 	125
+#0462 	
+	Magnezone 		Magnet Pull
+Sturdy
+Analytic 	70 	70 	115 	130 	90 	60
+#0463 	
+	Lickilicky 		Own Tempo
+Oblivious
+Cloud Nine 	110 	85 	95 	80 	95 	50
+#0464 	
+	Rhyperior 		Lightning Rod
+Solid Rock
+Reckless 	115 	140 	130 	55 	55 	40
+#0465 	
+	Tangrowth 		Chlorophyll
+Leaf Guard
+Regenerator 	100 	100 	125 	110 	50 	50
+#0466 	
+	Electivire 		Motor Drive
+Vital Spirit 	75 	123 	67 	95 	85 	95
+#0467 	
+	Magmortar 		Flame Body
+Vital Spirit 	75 	95 	67 	125 	95 	83
+#0468 	
+	Togekiss 		Hustle
+Serene Grace
+Super Luck 	85 	50 	95 	120 	115 	80
+#0469 	
+	Yanmega 		Speed Boost
+Tinted Lens
+Frisk 	86 	76 	86 	116 	56 	95
+#0470 	
+	Leafeon 		Leaf Guard
+Chlorophyll 	65 	110 	130 	60 	65 	95
+#0471 	
+	Glaceon 		Snow Cloak
+Ice Body 	65 	60 	110 	130 	95 	65
+#0472 	
+	Gliscor 		Hyper Cutter
+Sand Veil
+Poison Heal 	75 	95 	125 	45 	75 	95
+#0473 	
+	Mamoswine 		Oblivious
+Snow Cloak
+Thick Fat 	110 	130 	80 	70 	60 	80
+#0474 	
+	Porygon-Z 		Adaptability
+Download
+Analytic 	85 	80 	70 	135 	75 	90
+#0475 	
+	Gallade 		Steadfast
+Justified 	68 	125 	65 	65 	115 	80
+#0476 	
+	Probopass 		Sturdy
+Magnet Pull
+Sand Force 	60 	55 	145 	75 	150 	40
+#0477 	
+	Dusknoir 		Pressure
+Frisk 	45 	100 	135 	65 	135 	45
+#0478 	
+	Froslass 		Snow Cloak
+Cursed Body 	70 	80 	70 	80 	70 	110
+#0479 	
+	Rotom 		Levitate 	50 	50 	77 	95 	77 	91
+#0480 	
+	Uxie 		Levitate 	75 	75 	130 	75 	130 	95
+#0481 	
+	Mesprit 		Levitate 	80 	105 	105 	105 	105 	80
+#0482 	
+	Azelf 		Levitate 	75 	125 	70 	125 	70 	115
+#0483 	
+	Dialga 		Pressure
+Telepathy 	100 	120 	120 	150 	100 	90
+#0484 	
+	Palkia 		Pressure
+Telepathy 	90 	120 	100 	150 	120 	100
+#0485 	
+	Heatran 		Flash Fire
+Flame Body 	91 	90 	106 	130 	106 	77
+#0486 	
+	Regigigas 		Slow Start 	110 	160 	110 	80 	110 	100
+#0487 	
+	Giratina 		Pressure
+Telepathy 	150 	100 	120 	100 	120 	90
+#0488 	
+	Cresselia 		Levitate 	120 	70 	110 	75 	120 	85
+#0489 	
+	Phione 		Hydration 	80 	80 	80 	80 	80 	80
+#0490 	
+	Manaphy 		Hydration 	100 	100 	100 	100 	100 	100
+#0491 	
+	Darkrai 		Bad Dreams 	70 	90 	90 	135 	90 	125
+#0492 	
+	Shaymin 		Natural Cure 	100 	100 	100 	100 	100 	100
+#0493 	
+	Arceus 		Multitype 	120 	120 	120 	120 	120 	120
+#0494 	
+	Victini 		Victory Star 	100 	100 	100 	100 	100 	100
+#0495 	
+	Snivy 		Overgrow
+Contrary 	45 	45 	55 	45 	55 	63
+#0496 	
+	Servine 		Overgrow
+Contrary 	60 	60 	75 	60 	75 	83
+#0497 	
+	Serperior 		Overgrow
+Contrary 	75 	75 	95 	75 	95 	113
+#0498 	
+	Tepig 		Blaze
+Thick Fat 	65 	63 	45 	45 	45 	45
+#0499 	
+	Pignite 		Blaze
+Thick Fat 	90 	93 	55 	70 	55 	55
+#0500 	
+	Emboar 		Blaze
+Reckless 	110 	123 	65 	100 	65 	65
+#0501 	
+	Oshawott 		Torrent
+Shell Armor 	55 	55 	45 	63 	45 	45
+#0502 	
+	Dewott 		Torrent
+Shell Armor 	75 	75 	60 	83 	60 	60
+#0503 	
+	Samurott 		Torrent
+Shell Armor 	95 	100 	85 	108 	70 	70
+#0504 	
+	Patrat 		Run Away
+Keen Eye
+Analytic 	45 	55 	39 	35 	39 	42
+#0505 	
+	Watchog 		Illuminate
+Keen Eye
+Analytic 	60 	85 	69 	60 	69 	77
+#0506 	
+	Lillipup 		Vital Spirit
+Pickup
+Run Away 	45 	60 	45 	25 	45 	55
+#0507 	
+	Herdier 		Intimidate
+Sand Rush
+Scrappy 	65 	80 	65 	35 	65 	60
+#0508 	
+	Stoutland 		Intimidate
+Sand Rush
+Scrappy 	85 	110 	90 	45 	90 	80
+#0509 	
+	Purrloin 		Limber
+Unburden
+Prankster 	41 	50 	37 	50 	37 	66
+#0510 	
+	Liepard 		Limber
+Unburden
+Prankster 	64 	88 	50 	88 	50 	106
+#0511 	
+	Pansage 		Gluttony
+Overgrow 	50 	53 	48 	53 	48 	64
+#0512 	
+	Simisage 		Gluttony
+Overgrow 	75 	98 	63 	98 	63 	101
+#0513 	
+	Pansear 		Gluttony
+Blaze 	50 	53 	48 	53 	48 	64
+#0514 	
+	Simisear 		Gluttony
+Blaze 	75 	98 	63 	98 	63 	101
+#0515 	
+	Panpour 		Gluttony
+Torrent 	50 	53 	48 	53 	48 	64
+#0516 	
+	Simipour 		Gluttony
+Torrent 	75 	98 	63 	98 	63 	101
+#0517 	
+	Munna 		Forewarn
+Synchronize
+Telepathy 	76 	25 	45 	67 	55 	24
+#0518 	
+	Musharna 		Forewarn
+Synchronize
+Telepathy 	116 	55 	85 	107 	95 	29
+#0519 	
+	Pidove 		Big Pecks
+Super Luck
+Rivalry 	50 	55 	50 	36 	30 	43
+#0520 	
+	Tranquill 		Big Pecks
+Super Luck
+Rivalry 	62 	77 	62 	50 	42 	65
+#0521 	
+	Unfezant 		Big Pecks
+Super Luck
+Rivalry 	80 	115 	80 	65 	55 	93
+#0522 	
+	Blitzle 		Lightning Rod
+Motor Drive
+Sap Sipper 	45 	60 	32 	50 	32 	76
+#0523 	
+	Zebstrika 		Lightning Rod
+Motor Drive
+Sap Sipper 	75 	100 	63 	80 	63 	116
+#0524 	
+	Roggenrola 		Sturdy
+Weak Armor
+Sand Force 	55 	75 	85 	25 	25 	15
+#0525 	
+	Boldore 		Sturdy
+Weak Armor
+Sand Force 	70 	105 	105 	50 	40 	20
+#0526 	
+	Gigalith 		Sturdy
+Sand Stream
+Sand Force 	85 	135 	130 	60 	80 	25
+#0527 	
+	Woobat 		Unaware
+Klutz
+Simple 	65 	45 	43 	55 	43 	72
+#0528 	
+	Swoobat 		Unaware
+Klutz
+Simple 	67 	57 	55 	77 	55 	114
+#0529 	
+	Drilbur 		Sand Rush
+Sand Force
+Mold Breaker 	60 	85 	40 	30 	45 	68
+#0530 	
+	Excadrill 		Sand Rush
+Sand Force
+Mold Breaker 	110 	135 	60 	50 	65 	88
+#0531 	
+	Audino 		Healer
+Regenerator
+Klutz 	103 	60 	86 	60 	86 	50
+#0532 	
+	Timburr 		Guts
+Sheer Force
+Iron Fist 	75 	80 	55 	25 	35 	35
+#0533 	
+	Gurdurr 		Guts
+Sheer Force
+Iron Fist 	85 	105 	85 	40 	50 	40
+#0534 	
+	Conkeldurr 		Guts
+Sheer Force
+Iron Fist 	105 	140 	95 	55 	65 	45
+#0535 	
+	Tympole 		Swift Swim
+Hydration
+Water Absorb 	50 	50 	40 	50 	40 	64
+#0536 	
+	Palpitoad 		Swift Swim
+Hydration
+Water Absorb 	75 	65 	55 	65 	55 	69
+#0537 	
+	Seismitoad 		Swift Swim
+Poison Touch
+Water Absorb 	105 	95 	75 	85 	75 	74
+#0538 	
+	Throh 		Guts
+Inner Focus
+Mold Breaker 	120 	100 	85 	30 	85 	45
+#0539 	
+	Sawk 		Sturdy
+Inner Focus
+Mold Breaker 	75 	125 	75 	30 	75 	85
+#0540 	
+	Sewaddle 		Swarm
+Chlorophyll
+Overcoat 	45 	53 	70 	40 	60 	42
+#0541 	
+	Swadloon 		Leaf Guard
+Chlorophyll
+Overcoat 	55 	63 	90 	50 	80 	42
+#0542 	
+	Leavanny 		Swarm
+Chlorophyll
+Overcoat 	75 	103 	80 	70 	80 	92
+#0543 	
+	Venipede 		Poison Point
+Swarm
+Speed Boost 	30 	45 	59 	30 	39 	57
+#0544 	
+	Whirlipede 		Poison Point
+Swarm
+Speed Boost 	40 	55 	99 	40 	79 	47
+#0545 	
+	Scolipede 		Poison Point
+Swarm
+Speed Boost 	60 	100 	89 	55 	69 	112
+#0546 	
+	Cottonee 		Prankster
+Infiltrator
+Chlorophyll 	40 	27 	60 	37 	50 	66
+#0547 	
+	Whimsicott 		Prankster
+Infiltrator
+Chlorophyll 	60 	67 	85 	77 	75 	116
+#0548 	
+	Petilil 		Chlorophyll
+Own Tempo
+Leaf Guard 	45 	35 	50 	70 	50 	30
+#0549 	
+	Lilligant 		Chlorophyll
+Own Tempo
+Leaf Guard 	70 	60 	75 	110 	75 	90
+#0550 	
+	Basculin 		Reckless
+Adaptability
+Mold Breaker 	70 	92 	65 	80 	55 	98
+#0551 	
+	Sandile 		Intimidate
+Moxie
+Anger Point 	50 	72 	35 	35 	35 	65
+#0552 	
+	Krokorok 		Intimidate
+Moxie
+Anger Point 	60 	82 	45 	45 	45 	74
+#0553 	
+	Krookodile 		Intimidate
+Moxie
+Anger Point 	95 	117 	80 	65 	70 	92
+#0554 	
+	Darumaka 		Hustle
+Inner Focus 	70 	90 	45 	15 	45 	50
+#0555 	
+	Darmanitan 		Sheer Force
+Zen Mode 	105 	140 	55 	30 	55 	95
+#0556 	
+	Maractus 		Water Absorb
+Chlorophyll
+Storm Drain 	75 	86 	67 	106 	67 	60
+#0557 	
+	Dwebble 		Sturdy
+Shell Armor
+Weak Armor 	50 	65 	85 	35 	35 	55
+#0558 	
+	Crustle 		Sturdy
+Shell Armor
+Weak Armor 	70 	105 	125 	65 	75 	45
+#0559 	
+	Scraggy 		Shed Skin
+Moxie
+Intimidate 	50 	75 	70 	35 	70 	48
+#0560 	
+	Scrafty 		Shed Skin
+Moxie
+Intimidate 	65 	90 	115 	45 	115 	58
+#0561 	
+	Sigilyph 		Wonder Skin
+Magic Guard
+Tinted Lens 	72 	58 	80 	103 	80 	97
+#0562 	
+	Yamask 		Mummy 	38 	30 	85 	55 	65 	30
+#0563 	
+	Cofagrigus 		Mummy 	58 	50 	145 	95 	105 	30
+#0564 	
+	Tirtouga 		Solid Rock
+Sturdy
+Swift Swim 	54 	78 	103 	53 	45 	22
+#0565 	
+	Carracosta 		Solid Rock
+Sturdy
+Swift Swim 	74 	108 	133 	83 	65 	32
+#0566 	
+	Archen 		Defeatist 	55 	112 	45 	74 	45 	70
+#0567 	
+	Archeops 		Defeatist 	75 	140 	65 	112 	65 	110
+#0568 	
+	Trubbish 		Stench
+Sticky Hold
+Aftermath 	50 	50 	62 	40 	62 	65
+#0569 	
+	Garbodor 		Stench
+Weak Armor
+Aftermath 	80 	95 	82 	60 	82 	75
+#0570 	
+	Zorua 		Illusion 	40 	65 	40 	80 	40 	65
+#0571 	
+	Zoroark 		Illusion 	60 	105 	60 	120 	60 	105
+#0572 	
+	Minccino 		Cute Charm
+Technician
+Skill Link 	55 	50 	40 	40 	40 	75
+#0573 	
+	Cinccino 		Cute Charm
+Technician
+Skill Link 	75 	95 	60 	65 	60 	115
+#0574 	
+	Gothita 		Frisk
+Competitive
+Shadow Tag 	45 	30 	50 	55 	65 	45
+#0575 	
+	Gothorita 		Frisk
+Competitive
+Shadow Tag 	60 	45 	70 	75 	85 	55
+#0576 	
+	Gothitelle 		Frisk
+Competitive
+Shadow Tag 	70 	55 	95 	95 	110 	65
+#0577 	
+	Solosis 		Overcoat
+Magic Guard
+Regenerator 	45 	30 	40 	105 	50 	20
+#0578 	
+	Duosion 		Overcoat
+Magic Guard
+Regenerator 	65 	40 	50 	125 	60 	30
+#0579 	
+	Reuniclus 		Overcoat
+Magic Guard
+Regenerator 	110 	65 	75 	125 	85 	30
+#0580 	
+	Ducklett 		Keen Eye
+Big Pecks
+Hydration 	62 	44 	50 	44 	50 	55
+#0581 	
+	Swanna 		Keen Eye
+Big Pecks
+Hydration 	75 	87 	63 	87 	63 	98
+#0582 	
+	Vanillite 		Ice Body
+Snow Cloak
+Weak Armor 	36 	50 	50 	65 	60 	44
+#0583 	
+	Vanillish 		Ice Body
+Snow Cloak
+Weak Armor 	51 	65 	65 	80 	75 	59
+#0584 	
+	Vanilluxe 		Ice Body
+Snow Warning
+Weak Armor 	71 	95 	85 	110 	95 	79
+#0585 	
+	Deerling 		Chlorophyll
+Sap Sipper
+Serene Grace 	60 	60 	50 	40 	50 	75
+#0586 	
+	Sawsbuck 		Chlorophyll
+Sap Sipper
+Serene Grace 	80 	100 	70 	60 	70 	95
+#0587 	
+	Emolga 		Static
+Motor Drive 	55 	75 	60 	75 	60 	103
+#0588 	
+	Karrablast 		Swarm
+Shed Skin
+No Guard 	50 	75 	45 	40 	45 	60
+#0589 	
+	Escavalier 		Swarm
+Shell Armor
+Overcoat 	70 	135 	105 	60 	105 	20
+#0590 	
+	Foongus 		Effect Spore
+Regenerator 	69 	55 	45 	55 	55 	15
+#0591 	
+	Amoonguss 		Effect Spore
+Regenerator 	114 	85 	70 	85 	80 	30
+#0592 	
+	Frillish 		Water Absorb
+Cursed Body
+Damp 	55 	40 	50 	65 	85 	40
+#0593 	
+	Jellicent 		Water Absorb
+Cursed Body
+Damp 	100 	60 	70 	85 	105 	60
+#0594 	
+	Alomomola 		Healer
+Hydration
+Regenerator 	165 	75 	80 	40 	45 	65
+#0595 	
+	Joltik 		Compoundeyes
+Unnerve
+Swarm 	50 	47 	50 	57 	50 	65
+#0596 	
+	Galvantula 		Compoundeyes
+Unnerve
+Swarm 	70 	77 	60 	97 	60 	108
+#0597 	
+	Ferroseed 		Iron Barbs 	44 	50 	91 	24 	86 	10
+#0598 	
+	Ferrothorn 		Iron Barbs
+Anticipation 	74 	94 	131 	54 	116 	20
+#0599 	
+	Klink 		Plus
+Minus
+Clear Body 	40 	55 	70 	45 	60 	30
+#0600 	
+	Klang 		Plus
+Minus
+Clear Body 	60 	80 	95 	70 	85 	50
+#0601 	
+	Klinklang 		Plus
+Minus
+Clear Body 	60 	100 	115 	70 	85 	90
+#0602 	
+	Tynamo 		Levitate 	35 	55 	40 	45 	40 	60
+#0603 	
+	Eelektrik 		Levitate 	65 	85 	70 	75 	70 	40
+#0604 	
+	Eelektross 		Levitate 	85 	115 	80 	105 	80 	50
+#0605 	
+	Elgyem 		Telepathy
+Synchronize
+Analytic 	55 	55 	55 	85 	55 	30
+#0606 	
+	Beheeyem 		Telepathy
+Synchronize
+Analytic 	75 	75 	75 	125 	95 	40
+#0607 	
+	Litwick 		Flash Fire
+Flame Body
+Infiltrator 	50 	30 	55 	65 	55 	20
+#0608 	
+	Lampent 		Flash Fire
+Flame Body
+Infiltrator 	60 	40 	60 	95 	60 	55
+#0609 	
+	Chandelure 		Flash Fire
+Flame Body
+Infiltrator 	60 	55 	90 	145 	90 	80
+#0610 	
+	Axew 		Rivalry
+Mold Breaker
+Unnerve 	46 	87 	60 	30 	40 	57
+#0611 	
+	Fraxure 		Rivalry
+Mold Breaker
+Unnerve 	66 	117 	70 	40 	50 	67
+#0612 	
+	Haxorus 		Rivalry
+Mold Breaker
+Unnerve 	76 	147 	90 	60 	70 	97
+#0613 	
+	Cubchoo 		Snow Cloak
+Slush Rush
+Rattled 	55 	70 	40 	60 	40 	40
+#0614 	
+	Beartic 		Snow Cloak
+Slush Rush
+Swift Swim 	95 	130 	80 	70 	80 	50
+#0615 	
+	Cryogonal 		Levitate 	80 	50 	50 	95 	135 	105
+#0616 	
+	Shelmet 		Hydration
+Shell Armor
+Overcoat 	50 	40 	85 	40 	65 	25
+#0617 	
+	Accelgor 		Hydration
+Sticky Hold
+Unburden 	80 	70 	40 	100 	60 	145
+#0618 	
+	Stunfisk 		Static
+Limber
+Sand Veil 	109 	66 	84 	81 	99 	32
+#0619 	
+	Mienfoo 		Inner Focus
+Regenerator
+Reckless 	45 	85 	50 	55 	50 	65
+#0620 	
+	Mienshao 		Inner Focus
+Regenerator
+Reckless 	65 	125 	60 	95 	60 	105
+#0621 	
+	Druddigon 		Rough Skin
+Sheer Force
+Mold Breaker 	77 	120 	90 	60 	90 	48
+#0622 	
+	Golett 		Iron Fist
+Klutz
+No Guard 	59 	74 	50 	35 	50 	35
+#0623 	
+	Golurk 		Iron Fist
+Klutz
+No Guard 	89 	124 	80 	55 	80 	55
+#0624 	
+	Pawniard 		Defiant
+Inner Focus
+Pressure 	45 	85 	70 	40 	40 	60
+#0625 	
+	Bisharp 		Defiant
+Inner Focus
+Pressure 	65 	125 	100 	60 	70 	70
+#0626 	
+	Bouffalant 		Reckless
+Sap Sipper
+Soundproof 	95 	110 	95 	40 	95 	55
+#0627 	
+	Rufflet 		Keen Eye
+Sheer Force
+Hustle 	70 	83 	50 	37 	50 	60
+#0628 	
+	Braviary 		Keen Eye
+Sheer Force
+Defiant 	100 	123 	75 	57 	75 	80
+#0629 	
+	Vullaby 		Big Pecks
+Overcoat
+Weak Armor 	70 	55 	75 	45 	65 	60
+#0630 	
+	Mandibuzz 		Big Pecks
+Overcoat
+Weak Armor 	110 	65 	105 	55 	95 	80
+#0631 	
+	Heatmor 		Gluttony
+Flash Fire
+White Smoke 	85 	97 	66 	105 	66 	65
+#0632 	
+	Durant 		Swarm
+Hustle
+Truant 	58 	109 	112 	48 	48 	109
+#0633 	
+	Deino 		Hustle 	52 	65 	50 	45 	50 	38
+#0634 	
+	Zweilous 		Hustle 	72 	85 	70 	65 	70 	58
+#0635 	
+	Hydreigon 		Levitate 	92 	105 	90 	125 	90 	98
+#0636 	
+	Larvesta 		Flame Body
+Swarm 	55 	85 	55 	50 	55 	60
+#0637 	
+	Volcarona 		Flame Body
+Swarm 	85 	60 	65 	135 	105 	100
+#0638 	
+	Cobalion 		Justified 	91 	90 	129 	90 	72 	108
+#0639 	
+	Terrakion 		Justified 	91 	129 	90 	72 	90 	108
+#0640 	
+	Virizion 		Justified 	91 	90 	72 	90 	129 	108
+#0641 	
+	Tornadus 		Prankster
+Defiant 	79 	115 	70 	125 	80 	111
+#0642 	
+	Thundurus 		Prankster
+Defiant 	79 	115 	70 	125 	80 	111
+#0643 	
+	Reshiram 		Turboblaze 	100 	120 	100 	150 	120 	90
+#0644 	
+	Zekrom 		Teravolt 	100 	150 	120 	120 	100 	90
+#0645 	
+	Landorus 		Sand Force
+Sheer Force 	89 	125 	90 	115 	80 	101
+#0646 	
+	Kyurem 		Pressure 	125 	130 	90 	130 	90 	95
+#0647 	
+	Keldeo 		Justified 	91 	72 	90 	129 	90 	108
+#0648 	
+	Meloetta 		Serene Grace 	100 	77 	77 	128 	128 	90
+#0649 	
+	Genesect 		Download 	71 	120 	95 	120 	95 	99
+#0650 	
+	Chespin 		Overgrow
+Bulletproof 	56 	61 	65 	48 	45 	38
+#0651 	
+	Quilladin 		Overgrow
+Bulletproof 	61 	78 	95 	56 	58 	57
+#0652 	
+	Chesnaught 		Overgrow
+Bulletproof 	88 	107 	122 	74 	75 	64
+#0653 	
+	Fennekin 		Blaze
+Magician 	40 	45 	40 	62 	60 	60
+#0654 	
+	Braixen 		Blaze
+Magician 	59 	59 	58 	90 	70 	73
+#0655 	
+	Delphox 		Blaze
+Magician 	75 	69 	72 	114 	100 	104
+#0656 	
+	Froakie 		Torrent
+Protean 	41 	56 	40 	62 	44 	71
+#0657 	
+	Frogadier 		Torrent
+Protean 	54 	63 	52 	83 	56 	97
+#0658 	
+	Greninja 		Torrent
+Protean 	72 	95 	67 	103 	71 	122
+#0659 	
+	Bunnelby 		Pickup
+Cheek Pouch
+Huge Power 	38 	36 	38 	32 	36 	57
+#0660 	
+	Diggersby 		Pickup
+Cheek Pouch
+Huge Power 	85 	56 	77 	50 	77 	78
+#0661 	
+	Fletchling 		Big Pecks
+Gale Wings 	45 	50 	43 	40 	38 	62
+#0662 	
+	Fletchinder 		Flame Body
+Gale Wings 	62 	73 	55 	56 	52 	84
+#0663 	
+	Talonflame 		Flame Body
+Gale Wings 	78 	81 	71 	74 	69 	126
+#0664 	
+	Scatterbug 		Shield Dust
+Compoundeyes
+Friend Guard 	38 	35 	40 	27 	25 	35
+#0665 	
+	Spewpa 		Shed Skin
+Friend Guard 	45 	22 	60 	27 	30 	29
+#0666 	
+	Vivillon 		Shield Dust
+Compoundeyes
+Friend Guard 	80 	52 	50 	90 	50 	89
+#0667 	
+	Litleo 		Rivalry
+Unnerve
+Moxie 	62 	50 	58 	73 	54 	72
+#0668 	
+	Pyroar 		Rivalry
+Unnerve
+Moxie 	86 	68 	72 	109 	66 	106
+#0669 	
+	Flabébé 		Flower Veil
+Symbiosis 	44 	38 	39 	61 	79 	42
+#0670 	
+	Floette 		Flower Veil
+Symbiosis 	54 	45 	47 	75 	98 	52
+#0671 	
+	Florges 		Flower Veil
+Symbiosis 	78 	65 	68 	112 	154 	75
+#0672 	
+	Skiddo 		Sap Sipper
+Grass Pelt 	66 	65 	48 	62 	57 	52
+#0673 	
+	Gogoat 		Sap Sipper
+Grass Pelt 	123 	100 	62 	97 	81 	68
+#0674 	
+	Pancham 		Iron Fist
+Mold Breaker
+Scrappy 	67 	82 	62 	46 	48 	43
+#0675 	
+	Pangoro 		Iron Fist
+Mold Breaker
+Scrappy 	95 	124 	78 	69 	71 	58
+#0676 	
+	Furfrou 		Fur Coat 	75 	80 	60 	65 	90 	102
+#0677 	
+	Espurr 		Keen Eye
+Infiltrator
+Own Tempo 	62 	48 	54 	63 	60 	68
+#0678 	
+	Meowstic 		Keen Eye
+Infiltrator
+Prankster 	74 	48 	76 	83 	81 	104
+#0679 	
+	Honedge 		No Guard 	45 	80 	100 	35 	37 	28
+#0680 	
+	Doublade 		No Guard 	59 	110 	150 	45 	49 	35
+#0681 	
+	Aegislash 		Stance Change 	60 	50 	140 	50 	140 	60
+#0682 	
+	Spritzee 		Healer
+Aroma Veil 	78 	52 	60 	63 	65 	23
+#0683 	
+	Aromatisse 		Healer
+Aroma Veil 	101 	72 	72 	99 	89 	29
+#0684 	
+	Swirlix 		Sweet Veil
+Unburden 	62 	48 	66 	59 	57 	49
+#0685 	
+	Slurpuff 		Sweet Veil
+Unburden 	82 	80 	86 	85 	75 	72
+#0686 	
+	Inkay 		Contrary
+Suction Cups
+Infiltrator 	53 	54 	53 	37 	46 	45
+#0687 	
+	Malamar 		Contrary
+Suction Cups
+Infiltrator 	86 	92 	88 	68 	75 	73
+#0688 	
+	Binacle 		Tough Claws
+Sniper
+Pickpocket 	42 	52 	67 	39 	56 	50
+#0689 	
+	Barbaracle 		Tough Claws
+Sniper
+Pickpocket 	72 	105 	115 	54 	86 	68
+#0690 	
+	Skrelp 		Poison Point
+Poison Touch
+Adaptability 	50 	60 	60 	60 	60 	30
+#0691 	
+	Dragalge 		Poison Point
+Poison Touch
+Adaptability 	65 	75 	90 	97 	123 	44
+#0692 	
+	Clauncher 		Mega Launcher 	50 	53 	62 	58 	63 	44
+#0693 	
+	Clawitzer 		Mega Launcher 	71 	73 	88 	120 	89 	59
+#0694 	
+	Helioptile 		Dry Skin
+Sand Veil
+Solar Power 	44 	38 	33 	61 	43 	70
+#0695 	
+	Heliolisk 		Dry Skin
+Sand Veil
+Solar Power 	62 	55 	52 	109 	94 	109
+#0696 	
+	Tyrunt 		Strong Jaw
+Sturdy 	58 	89 	77 	45 	45 	48
+#0697 	
+	Tyrantrum 		Strong Jaw
+Rock Head 	82 	121 	119 	69 	59 	71
+#0698 	
+	Amaura 		Refrigerate
+Snow Warning 	77 	59 	50 	67 	63 	46
+#0699 	
+	Aurorus 		Refrigerate
+Snow Warning 	123 	77 	72 	99 	92 	58
+#0700 	
+	Sylveon 		Cute Charm
+Pixilate 	95 	65 	65 	110 	130 	60
+#0701 	
+	Hawlucha 		Limber
+Unburden
+Mold Breaker 	78 	92 	75 	74 	63 	118
+#0702 	
+	Dedenne 		Cheek Pouch
+Pickup
+Plus 	67 	58 	57 	81 	67 	101
+#0703 	
+	Carbink 		Clear Body
+Sturdy 	50 	50 	150 	50 	150 	50
+#0704 	
+	Goomy 		Sap Sipper
+Hydration
+Gooey 	45 	50 	35 	55 	75 	40
+#0705 	
+	Sliggoo 		Sap Sipper
+Hydration
+Gooey 	68 	75 	53 	83 	113 	60
+#0706 	
+	Goodra 		Sap Sipper
+Hydration
+Gooey 	90 	100 	70 	110 	150 	80
+#0707 	
+	Klefki 		Prankster
+Magician 	57 	80 	91 	80 	87 	75
+#0708 	
+	Phantump 		Natural Cure
+Frisk
+Harvest 	43 	70 	48 	50 	60 	38
+#0709 	
+	Trevenant 		Natural Cure
+Frisk
+Harvest 	85 	110 	76 	65 	82 	56
+#0710 	
+	Pumpkaboo 		Pickup
+Frisk
+Insomnia 	49 	66 	70 	44 	55 	51
+#0711 	
+	Gourgeist 		Pickup
+Frisk
+Insomnia 	65 	90 	122 	58 	75 	84
+#0712 	
+	Bergmite 		Own Tempo
+Ice Body
+Sturdy 	55 	69 	85 	32 	35 	28
+#0713 	
+	Avalugg 		Own Tempo
+Ice Body
+Sturdy 	95 	117 	184 	44 	46 	28
+#0714 	
+	Noibat 		Frisk
+Infiltrator
+Telepathy 	40 	30 	35 	45 	40 	55
+#0715 	
+	Noivern 		Frisk
+Infiltrator
+Telepathy 	85 	70 	80 	97 	80 	123
+#0716 	
+	Xerneas 		Fairy Aura 	126 	131 	95 	131 	98 	99
+#0717 	
+	Yveltal 		Dark Aura 	126 	131 	95 	131 	98 	99
+#0718 	
+	Zygarde 		Aura Break 	108 	100 	121 	81 	95 	95
+#0719 	
+	Diancie 		Clear Body 	50 	100 	150 	100 	150 	50
+#0720 	
+	Hoopa 		Magician 	80 	110 	60 	150 	130 	70
+#0721 	
+	Volcanion 		Water Absorb 	80 	110 	120 	130 	90 	70
+#0722 	
+	Rowlet 		Overgrow
+Long Reach 	68 	55 	55 	50 	50 	42
+#0723 	
+	Dartrix 		Overgrow
+Long Reach 	78 	75 	75 	70 	70 	52
+#0724 	
+	Decidueye 		Overgrow
+Long Reach 	78 	107 	75 	100 	100 	70
+#0725 	
+	Litten 		Blaze
+Intimidate 	45 	65 	40 	60 	40 	70
+#0726 	
+	Torracat 		Blaze
+Intimidate 	65 	85 	50 	80 	50 	90
+#0727 	
+	Incineroar 		Blaze
+Intimidate 	95 	115 	90 	80 	90 	60
+#0728 	
+	Popplio 		Torrent
+Liquid Voice 	50 	54 	54 	66 	56 	40
+#0729 	
+	Brionne 		Torrent
+Liquid Voice 	60 	69 	69 	91 	81 	50
+#0730 	
+	Primarina 		Torrent
+Liquid Voice 	80 	74 	74 	126 	116 	60
+#0731 	
+	Pikipek 		Keen Eye
+Skill Link
+Pickup 	35 	75 	30 	30 	30 	65
+#0732 	
+	Trumbeak 		Keen Eye
+Skill Link
+Pickup 	55 	85 	50 	40 	50 	75
+#0733 	
+	Toucannon 		Keen Eye
+Skill Link
+Sheer Force 	80 	120 	75 	75 	75 	60
+#0734 	
+	Yungoos 		Stakeout
+Strong Jaw
+Adaptability 	48 	70 	30 	30 	30 	45
+#0735 	
+	Gumshoos 		Stakeout
+Strong Jaw
+Adaptability 	88 	110 	60 	55 	60 	45
+#0736 	
+	Grubbin 		Swarm 	47 	62 	45 	55 	45 	46
+#0737 	
+	Charjabug 		Battery 	57 	82 	95 	55 	75 	36
+#0738 	
+	Vikavolt 		Levitate 	77 	70 	90 	145 	75 	43
+#0739 	
+	Crabrawler 		Hyper Cutter
+Iron Fist
+Anger Point 	47 	82 	57 	42 	47 	63
+#0740 	
+	Crabominable 		Hyper Cutter
+Iron Fist
+Anger Point 	97 	132 	77 	62 	67 	43
+#0741 	
+	Oricorio 		Dancer 	75 	70 	70 	98 	70 	93
+#0742 	
+	Cutiefly 		Honey Gather
+Shield Dust
+Sweet Veil 	40 	45 	40 	55 	40 	84
+#0743 	
+	Ribombee 		Honey Gather
+Shield Dust
+Sweet Veil 	60 	55 	60 	95 	70 	124
+#0744 	
+	Rockruff 		Keen Eye
+Vital Spirit
+Steadfast 	45 	65 	40 	30 	40 	60
+#0745 	
+	Lycanroc 		Keen Eye
+Sand Rush
+Steadfast 	75 	115 	65 	55 	65 	112
+#0746 	
+	Wishiwashi 		Schooling 	45 	20 	20 	25 	25 	40
+#0747 	
+	Mareanie 		Merciless
+Limber
+Regenerator 	50 	53 	62 	43 	52 	45
+#0748 	
+	Toxapex 		Merciless
+Limber
+Regenerator 	50 	63 	152 	53 	142 	35
+#0749 	
+	Mudbray 		Own Tempo
+Stamina
+Inner Focus 	70 	100 	70 	45 	55 	45
+#0750 	
+	Mudsdale 		Own Tempo
+Stamina
+Inner Focus 	100 	125 	100 	55 	85 	35
+#0751 	
+	Dewpider 		Water Bubble
+Water Absorb 	38 	40 	52 	40 	72 	27
+#0752 	
+	Araquanid 		Water Bubble
+Water Absorb 	68 	70 	92 	50 	132 	42
+#0753 	
+	Fomantis 		Leaf Guard
+Contrary 	40 	55 	35 	50 	35 	35
+#0754 	
+	Lurantis 		Leaf Guard
+Contrary 	70 	105 	90 	80 	90 	45
+#0755 	
+	Morelull 		Illuminate
+Effect Spore
+Rain Dish 	40 	35 	55 	65 	75 	15
+#0756 	
+	Shiinotic 		Illuminate
+Effect Spore
+Rain Dish 	60 	45 	80 	90 	100 	30
+#0757 	
+	Salandit 		Corrosion
+Oblivious 	48 	44 	40 	71 	40 	77
+#0758 	
+	Salazzle 		Corrosion
+Oblivious 	68 	64 	60 	111 	60 	117
+#0759 	
+	Stufful 		Fluffy
+Klutz
+Cute Charm 	70 	75 	50 	45 	50 	50
+#0760 	
+	Bewear 		Fluffy
+Klutz
+Unnerve 	120 	125 	80 	55 	60 	60
+#0761 	
+	Bounsweet 		Leaf Guard
+Oblivious
+Sweet Veil 	42 	30 	38 	30 	38 	32
+#0762 	
+	Steenee 		Leaf Guard
+Oblivious
+Sweet Veil 	52 	40 	48 	40 	48 	62
+#0763 	
+	Tsareena 		Leaf Guard
+Queenly Majesty
+Sweet Veil 	72 	120 	98 	50 	98 	72
+#0764 	
+	Comfey 		Flower Veil
+Triage
+Natural Cure 	51 	52 	90 	82 	110 	100
+#0765 	
+	Oranguru 		Inner Focus
+Telepathy
+Symbiosis 	90 	60 	80 	90 	110 	60
+#0766 	
+	Passimian 		Receiver
+Defiant 	100 	120 	90 	40 	60 	80
+#0767 	
+	Wimpod 		Wimp Out 	25 	35 	40 	20 	30 	80
+#0768 	
+	Golisopod 		Emergency Exit 	75 	125 	140 	60 	90 	40
+#0769 	
+	Sandygast 		Water Compaction
+Sand Veil 	55 	55 	80 	70 	45 	15
+#0770 	
+	Palossand 		Water Compaction
+Sand Veil 	85 	75 	110 	100 	75 	35
+#0771 	
+	Pyukumuku 		Innards Out
+Unaware 	55 	60 	130 	30 	130 	5
+#0772 	
+	Type: Null 		Battle Armor 	95 	95 	95 	95 	95 	59
+#0773 	
+	Silvally 		RKS System 	95 	95 	95 	95 	95 	95
+#0774 	
+	Minior 		Shields Down 	60 	60 	100 	60 	100 	60
+#0775 	
+	Komala 		Comatose 	65 	115 	65 	75 	95 	65
+#0776 	
+	Turtonator 		Shell Armor 	60 	78 	135 	91 	85 	36
+#0777 	
+	Togedemaru 		Iron Barbs
+Lightning Rod
+Sturdy 	65 	98 	63 	40 	73 	96
+#0778 	
+	Mimikyu 		Disguise 	55 	90 	80 	50 	105 	96
+#0779 	
+	Bruxish 		Dazzling
+Strong Jaw
+Wonder Skin 	68 	105 	70 	70 	70 	92
+#0780 	
+	Drampa 		Berserk
+Sap Sipper
+Cloud Nine 	78 	60 	85 	135 	91 	36
+#0781 	
+	Dhelmise 		Steelworker 	70 	131 	100 	86 	90 	40
+#0782 	
+	Jangmo-o 		Bulletproof
+Soundproof
+Overcoat 	45 	55 	65 	45 	45 	45
+#0783 	
+	Hakamo-o 		Bulletproof
+Soundproof
+Overcoat 	55 	75 	90 	65 	70 	65
+#0784 	
+	Kommo-o 		Bulletproof
+Soundproof
+Overcoat 	75 	110 	125 	100 	105 	85
+#0785 	
+	Tapu Koko 		Electric Surge
+Telepathy 	70 	115 	85 	95 	75 	130
+#0786 	
+	Tapu Lele 		Psychic Surge
+Telepathy 	70 	85 	75 	130 	115 	95
+#0787 	
+	Tapu Bulu 		Grassy Surge
+Telepathy 	70 	130 	115 	85 	95 	75
+#0788 	
+	Tapu Fini 		Misty Surge
+Telepathy 	70 	75 	115 	95 	130 	85
+#0789 	
+	Cosmog 		Unaware 	43 	29 	31 	29 	31 	37
+#0790 	
+	Cosmoem 		Sturdy 	43 	29 	131 	29 	131 	37
+#0791 	
+	Solgaleo 		Full Metal Body 	137 	137 	107 	113 	89 	97
+#0792 	
+	Lunala 		Shadow Shield 	137 	113 	89 	137 	107 	97
+#0793 	
+	Nihilego 		Beast Boost 	109 	53 	47 	127 	131 	103
+#0794 	
+	Buzzwole 		Beast Boost 	107 	139 	139 	53 	53 	79
+#0795 	
+	Pheromosa 		Beast Boost 	71 	137 	37 	137 	37 	151
+#0796 	
+	Xurkitree 		Beast Boost 	83 	89 	71 	173 	71 	83
+#0797 	
+	Celesteela 		Beast Boost 	97 	101 	103 	107 	101 	61
+#0798 	
+	Kartana 		Beast Boost 	59 	181 	131 	59 	31 	109
+#0799 	
+	Guzzlord 		Beast Boost 	223 	101 	53 	97 	53 	43
+#0800 	
+	Necrozma 		Prism Armor 	97 	107 	101 	127 	89 	79
+#0801 	
+	Magearna 		Soul-Heart 	80 	95 	115 	130 	115 	65
+#0802 	
+	Marshadow 		Technician 	90 	125 	80 	90 	90 	125
+#0803 	
+	Poipole 		Beast Boost 	67 	73 	67 	73 	67 	73
+#0804 	
+	Naganadel 		Beast Boost 	73 	73 	73 	127 	73 	121
+#0805 	
+	Stakataka 		Beast Boost 	61 	131 	211 	53 	101 	13
+#0806 	
+	Blacephalon 		Beast Boost 	53 	127 	53 	151 	79 	107
+#0807 	
+	Zeraora 		Volt Absorb 	88 	112 	75 	102 	80 	143
+#0808 	
+	Meltan 		Magnet Pull 	46 	65 	65 	55 	35 	34
+#0809 	
+	Melmetal 		Iron Fist 	135 	143 	143 	80 	65 	34
+#0810 	
+	Grookey 		Overgrow
+Grassy Surge 	50 	65 	50 	40 	40 	65
+#0811 	
+	Thwackey 		Overgrow
+Grassy Surge 	70 	85 	70 	55 	60 	80
+#0812 	
+	Rillaboom 		Overgrow
+Grassy Surge 	100 	125 	90 	60 	70 	85
+#0813 	
+	Scorbunny 		Blaze
+Libero 	50 	71 	40 	40 	40 	69
+#0814 	
+	Raboot 		Blaze
+Libero 	65 	86 	60 	55 	60 	94
+#0815 	
+	Cinderace 		Blaze
+Libero 	80 	116 	75 	65 	75 	119
+#0816 	
+	Sobble 		Torrent
+Sniper 	50 	40 	40 	70 	40 	70
+#0817 	
+	Drizzile 		Torrent
+Sniper 	65 	60 	55 	95 	55 	90
+#0818 	
+	Inteleon 		Torrent
+Sniper 	70 	85 	65 	125 	65 	120
+#0819 	
+	Skwovet 		Cheek Pouch
+Gluttony 	70 	55 	55 	35 	35 	25
+#0820 	
+	Greedent 		Cheek Pouch
+Gluttony 	120 	95 	95 	55 	75 	20
+#0821 	
+	Rookidee 		Keen Eye
+Unnerve
+Big Pecks 	38 	47 	35 	33 	35 	57
+#0822 	
+	Corvisquire 		Keen Eye
+Unnerve
+Big Pecks 	68 	67 	55 	43 	55 	77
+#0823 	
+	Corviknight 		Pressure
+Unnerve
+Mirror Armor 	98 	87 	105 	53 	85 	67
+#0824 	
+	Blipbug 		Swarm
+Compoundeyes
+Telepathy 	25 	20 	20 	25 	45 	45
+#0825 	
+	Dottler 		Swarm
+Compoundeyes
+Telepathy 	50 	35 	80 	50 	90 	30
+#0826 	
+	Orbeetle 		Swarm
+Frisk
+Telepathy 	60 	45 	110 	80 	120 	90
+#0827 	
+	Nickit 		Run Away
+Unburden
+Stakeout 	40 	28 	28 	47 	52 	50
+#0828 	
+	Thievul 		Run Away
+Unburden
+Stakeout 	70 	58 	58 	87 	92 	90
+#0829 	
+	Gossifleur 		Cotton Down
+Regenerator
+Effect Spore 	40 	40 	60 	40 	60 	10
+#0830 	
+	Eldegoss 		Cotton Down
+Regenerator
+Effect Spore 	60 	50 	90 	80 	120 	60
+#0831 	
+	Wooloo 		Fluffy
+Run Away
+Bulletproof 	42 	40 	55 	40 	45 	48
+#0832 	
+	Dubwool 		Fluffy
+Steadfast
+Bulletproof 	72 	80 	100 	60 	90 	88
+#0833 	
+	Chewtle 		Strong Jaw
+Shell Armor
+Swift Swim 	50 	64 	50 	38 	38 	44
+#0834 	
+	Drednaw 		Strong Jaw
+Shell Armor
+Swift Swim 	90 	115 	90 	48 	68 	74
+#0835 	
+	Yamper 		Ball Fetch
+Rattled 	59 	45 	50 	40 	50 	26
+#0836 	
+	Boltund 		Strong Jaw
+Competitive 	69 	90 	60 	90 	60 	121
+#0837 	
+	Rolycoly 		Steam Engine
+Heatproof
+Flash Fire 	30 	40 	50 	40 	50 	30
+#0838 	
+	Carkol 		Steam Engine
+Flame Body
+Flash Fire 	80 	60 	90 	60 	70 	50
+#0839 	
+	Coalossal 		Steam Engine
+Flame Body
+Flash Fire 	110 	80 	120 	80 	90 	30
+#0840 	
+	Applin 		Ripen
+Gluttony
+Bulletproof 	40 	40 	80 	40 	40 	20
+#0841 	
+	Flapple 		Ripen
+Gluttony
+Hustle 	70 	110 	80 	95 	60 	70
+#0842 	
+	Appletun 		Ripen
+Gluttony
+Thick Fat 	110 	85 	80 	100 	80 	30
+#0843 	
+	Silicobra 		Sand Spit
+Shed Skin
+Sand Veil 	52 	57 	75 	35 	50 	46
+#0844 	
+	Sandaconda 		Sand Spit
+Shed Skin
+Sand Veil 	72 	107 	125 	65 	70 	71
+#0845 	
+	Cramorant 		Gulp Missile 	70 	85 	55 	85 	95 	85
+#0846 	
+	Arrokuda 		Swift Swim
+Propeller Tail 	41 	63 	40 	40 	30 	66
+#0847 	
+	Barraskewda 		Swift Swim
+Propeller Tail 	61 	123 	60 	60 	50 	136
+#0848 	
+	Toxel 		Rattled
+Static
+Klutz 	40 	38 	35 	54 	35 	40
+#0849 	
+	Toxtricity 		Punk Rock
+Plus
+Technician 	75 	98 	70 	114 	70 	75
+#0850 	
+	Sizzlipede 		Flash Fire
+White Smoke
+Flame Body 	50 	65 	45 	50 	50 	45
+#0851 	
+	Centiskorch 		Flash Fire
+White Smoke
+Flame Body 	100 	115 	65 	90 	90 	65
+#0852 	
+	Clobbopus 		Limber
+Technician 	50 	68 	60 	50 	50 	32
+#0853 	
+	Grapploct 		Limber
+Technician 	80 	118 	90 	70 	80 	42
+#0854 	
+	Sinistea 		Weak Armor
+Cursed Body 	40 	45 	45 	74 	54 	50
+#0855 	
+	Polteageist 		Weak Armor
+Cursed Body 	60 	65 	65 	134 	114 	70
+#0856 	
+	Hatenna 		Healer
+Anticipation
+Magic Bounce 	42 	30 	45 	56 	53 	39
+#0857 	
+	Hattrem 		Healer
+Anticipation
+Magic Bounce 	57 	40 	65 	86 	73 	49
+#0858 	
+	Hatterene 		Healer
+Anticipation
+Magic Bounce 	57 	90 	95 	136 	103 	29
+#0859 	
+	Impidimp 		Prankster
+Frisk
+Pickpocket 	45 	45 	30 	55 	40 	50
+#0860 	
+	Morgrem 		Prankster
+Frisk
+Pickpocket 	65 	60 	45 	75 	55 	70
+#0861 	
+	Grimmsnarl 		Prankster
+Frisk
+Pickpocket 	95 	120 	65 	95 	75 	60
+#0862 	
+	Obstagoon 		Reckless
+Guts
+Defiant 	93 	90 	101 	60 	81 	95
+#0863 	
+	Perrserker 		Battle Armor
+Tough Claws
+Steely Spirit 	70 	110 	100 	50 	60 	50
+#0864 	
+	Cursola 		Weak Armor
+Perish Body 	60 	95 	50 	145 	130 	30
+#0865 	
+	Sirfetch'd 		Steadfast
+Scrappy 	62 	135 	95 	68 	82 	65
+#0866 	
+	Mr. Rime 		Tangled Feet
+Screen Cleaner
+Ice Body 	80 	85 	75 	110 	100 	70
+#0867 	
+	Runerigus 		Wandering Spirit 	58 	95 	145 	50 	105 	30
+#0868 	
+	Milcery 		Sweet Veil
+Aroma Veil 	45 	40 	40 	50 	61 	34
+#0869 	
+	Alcremie 		Sweet Veil
+Aroma Veil 	65 	60 	75 	110 	121 	64
+#0870 	
+	Falinks 		Battle Armor
+Defiant 	65 	100 	100 	70 	60 	75
+#0871 	
+	Pincurchin 		Lightning Rod
+Electric Surge 	48 	101 	95 	91 	85 	15
+#0872 	
+	Snom 		Shield Dust
+Ice Scales 	30 	25 	35 	45 	30 	20
+#0873 	
+	Frosmoth 		Shield Dust
+Ice Scales 	70 	65 	60 	125 	90 	65
+#0874 	
+	Stonjourner 		Power Spot 	100 	125 	135 	20 	20 	70
+#0875 	
+	Eiscue 		Ice Face 	75 	80 	110 	65 	90 	50
+#0876 	
+	Indeedee 		Inner Focus
+Synchronize
+Psychic Surge 	60 	65 	55 	105 	95 	95
+#0877 	
+	Morpeko 		Hunger Switch 	58 	95 	58 	70 	58 	97
+#0878 	
+	Cufant 		Sheer Force
+Heavy Metal 	72 	80 	49 	40 	49 	40
+#0879 	
+	Copperajah 		Sheer Force
+Heavy Metal 	122 	130 	69 	80 	69 	30
+#0880 	
+	Dracozolt 		Volt Absorb
+Hustle
+Sand Rush 	90 	100 	90 	80 	70 	75
+#0881 	
+	Arctozolt 		Volt Absorb
+Static
+Slush Rush 	90 	100 	90 	90 	80 	55
+#0882 	
+	Dracovish 		Water Absorb
+Strong Jaw
+Sand Rush 	90 	90 	100 	70 	80 	75
+#0883 	
+	Arctovish 		Water Absorb
+Ice Body
+Slush Rush 	90 	90 	100 	80 	90 	55
+#0884 	
+	Duraludon 		Light Metal
+Heavy Metal
+Stalwart 	70 	95 	115 	120 	50 	85
+#0885 	
+	Dreepy 		Clear Body
+Infiltrator
+Cursed Body 	28 	60 	30 	40 	30 	82
+#0886 	
+	Drakloak 		Clear Body
+Infiltrator
+Cursed Body 	68 	80 	50 	60 	50 	102
+#0887 	
+	Dragapult 		Clear Body
+Infiltrator
+Cursed Body 	88 	120 	75 	100 	75 	142
+#0888 	
+	Zacian 		Intrepid Sword 	92 	120 	115 	80 	115 	138
+#0889 	
+	Zamazenta 		Dauntless Shield 	92 	120 	115 	80 	115 	138
+#0890 	
+	Eternatus 		Pressure 	140 	85 	95 	145 	95 	130
+#0891 	
+	Kubfu 		Inner Focus 	60 	90 	60 	53 	50 	72
+#0892 	
+	Urshifu 		Unseen Fist 	100 	130 	100 	63 	60 	97
+#0893 	
+	Zarude 		Leaf Guard 	105 	120 	105 	70 	95 	105
+#0894 	
+	Regieleki 		Transistor 	80 	100 	50 	100 	50 	200
+#0895 	
+	Regidrago 		Dragon's Maw 	200 	100 	50 	100 	50 	80
+#0896 	
+	Glastrier 		Chilling Neigh 	100 	145 	130 	65 	110 	30
+#0897 	
+	Spectrier 		Grim Neigh 	100 	65 	60 	145 	80 	130
+#0898 	
+	Calyrex 		Unnerve 	100 	80 	80 	80 	80 	80
+#0899 	
+	Wyrdeer 		Intimidate
+Frisk
+Sap Sipper 	103 	105 	72 	105 	75 	65
+#0900 	
+	Kleavor 		Swarm
+Sheer Force
+Steadfast 	70 	135 	95 	45 	70 	85
+#0901 	
+	Ursaluna 		Guts
+Bulletproof
+Unnerve 	130 	140 	105 	45 	80 	50
+#0902 	
+	Basculegion 		Rattled
+Adaptability
+Mold Breaker 	120 	112 	65 	80 	75 	78
+#0903 	
+	Sneasler 		Pressure
+Poison Touch 	80 	130 	60 	40 	80 	120
+#0904 	
+	Overqwil 		Poison Point
+Swift Swim
+Intimidate 	85 	115 	95 	65 	65 	85
+#0905 	
+	Enamorus 		Healer
+Contrary 	74 	115 	70 	135 	80 	106
+#0906 	
+	Sprigatito 		Overgrow
+Protean 	40 	61 	54 	45 	45 	65
+#0907 	
+	Floragato 		Overgrow
+Protean 	61 	80 	63 	60 	63 	83
+#0908 	
+	Meowscarada 		Overgrow
+Protean 	76 	110 	70 	81 	70 	123
+#0909 	
+	Fuecoco 		Blaze
+Unaware 	67 	45 	59 	63 	40 	36
+#0910 	
+	Crocalor 		Blaze
+Unaware 	81 	55 	78 	90 	58 	49
+#0911 	
+	Skeledirge 		Blaze
+Unaware 	104 	75 	100 	110 	75 	66
+#0912 	
+	Quaxly 		Torrent
+Moxie 	55 	65 	45 	50 	45 	50
+#0913 	
+	Quaxwell 		Torrent
+Moxie 	70 	85 	65 	65 	60 	65
+#0914 	
+	Quaquaval 		Torrent
+Moxie 	85 	120 	80 	85 	75 	85
+#0915 	
+	Lechonk 		Aroma Veil
+Gluttony
+Thick Fat 	54 	45 	40 	35 	45 	35
+#0916 	
+	Oinkologne 		Lingering Aroma
+Gluttony
+Thick Fat 	110 	100 	75 	59 	80 	65
+#0917 	
+	Tarountula 		Insomnia
+Stakeout 	35 	41 	45 	29 	40 	20
+#0918 	
+	Spidops 		Insomnia
+Stakeout 	60 	79 	92 	52 	86 	35
+#0919 	
+	Nymble 		Swarm
+Tinted Lens 	33 	46 	40 	21 	25 	45
+#0920 	
+	Lokix 		Swarm
+Tinted Lens 	71 	102 	78 	52 	55 	92
+#0921 	
+	Pawmi 		Static
+Natural Cure
+Iron Fist 	45 	50 	20 	40 	25 	60
+#0922 	
+	Pawmo 		Volt Absorb
+Natural Cure
+Iron Fist 	60 	75 	40 	50 	40 	85
+#0923 	
+	Pawmot 		Volt Absorb
+Natural Cure
+Iron Fist 	70 	115 	70 	70 	60 	105
+#0924 	
+	Tandemaus 		Run Away
+Pickup
+Own Tempo 	50 	50 	45 	40 	45 	75
+#0925 	
+	Maushold 		Friend Guard
+Cheek Pouch
+Technician 	74 	75 	70 	65 	75 	111
+#0926 	
+	Fidough 		Own Tempo
+Klutz 	37 	55 	70 	30 	55 	65
+#0927 	
+	Dachsbun 		Well-Baked Body
+Aroma Veil 	57 	80 	115 	50 	80 	95
+#0928 	
+	Smoliv 		Early Bird
+Harvest 	41 	35 	45 	58 	51 	30
+#0929 	
+	Dolliv 		Early Bird
+Harvest 	52 	53 	60 	78 	78 	33
+#0930 	
+	Arboliva 		Seed Sower
+Harvest 	78 	69 	90 	125 	109 	39
+#0931 	
+	Squawkabilly 		Intimidate
+Hustle
+Guts 	82 	96 	51 	45 	51 	92
+#0932 	
+	Nacli 		Purifying Salt
+Sturdy
+Clear Body 	55 	55 	75 	35 	35 	25
+#0933 	
+	Naclstack 		Purifying Salt
+Sturdy
+Clear Body 	60 	60 	100 	35 	65 	35
+#0934 	
+	Garganacl 		Purifying Salt
+Sturdy
+Clear Body 	100 	100 	130 	45 	90 	35
+#0935 	
+	Charcadet 		Flash Fire
+Flame Body 	40 	50 	40 	50 	40 	35
+#0936 	
+	Armarouge 		Flash Fire
+Weak Armor 	85 	60 	100 	125 	80 	75
+#0937 	
+	Ceruledge 		Flash Fire
+Weak Armor 	75 	125 	80 	60 	100 	85
+#0938 	
+	Tadbulb 		Own Tempo
+Static
+Damp 	61 	31 	41 	59 	35 	45
+#0939 	
+	Bellibolt 		Electromorphosis
+Static
+Damp 	109 	64 	91 	103 	83 	45
+#0940 	
+	Wattrel 		Wind Power
+Volt Absorb
+Competitive 	40 	40 	35 	55 	40 	70
+#0941 	
+	Kilowattrel 		Wind Power
+Volt Absorb
+Competitive 	70 	70 	60 	105 	60 	125
+#0942 	
+	Maschiff 		Intimidate
+Run Away
+Stakeout 	60 	78 	60 	40 	51 	51
+#0943 	
+	Mabosstiff 		Intimidate
+Guard Dog
+Stakeout 	80 	120 	90 	60 	70 	85
+#0944 	
+	Shroodle 		Unburden
+Pickpocket
+Prankster 	40 	65 	35 	40 	35 	75
+#0945 	
+	Grafaiai 		Unburden
+Poison Touch
+Prankster 	63 	95 	65 	80 	72 	110
+#0946 	
+	Bramblin 		Wind Rider
+Infiltrator 	40 	65 	30 	45 	35 	60
+#0947 	
+	Brambleghast 		Wind Rider
+Infiltrator 	55 	115 	70 	80 	70 	90
+#0948 	
+	Toedscool 		Mycelium Might 	40 	40 	35 	50 	100 	70
+#0949 	
+	Toedscruel 		Mycelium Might 	80 	70 	65 	80 	120 	100
+#0950 	
+	Klawf 		Anger Shell
+Shell Armor
+Regenerator 	70 	100 	115 	35 	55 	75
+#0951 	
+	Capsakid 		Chlorophyll
+Insomnia
+Klutz 	50 	62 	40 	62 	40 	50
+#0952 	
+	Scovillain 		Chlorophyll
+Insomnia
+Moody 	65 	108 	65 	108 	65 	75
+#0953 	
+	Rellor 		Compoundeyes
+Shed Skin 	41 	50 	60 	31 	58 	30
+#0954 	
+	Rabsca 		Synchronize
+Telepathy 	75 	50 	85 	115 	100 	45
+#0955 	
+	Flittle 		Anticipation
+Frisk
+Speed Boost 	30 	35 	30 	55 	30 	75
+#0956 	
+	Espathra 		Opportunist
+Frisk
+Speed Boost 	95 	60 	60 	101 	60 	105
+#0957 	
+	Tinkatink 		Mold Breaker
+Own Tempo
+Pickpocket 	50 	45 	45 	35 	64 	58
+#0958 	
+	Tinkatuff 		Mold Breaker
+Own Tempo
+Pickpocket 	65 	55 	55 	45 	82 	78
+#0959 	
+	Tinkaton 		Mold Breaker
+Own Tempo
+Pickpocket 	85 	75 	77 	70 	105 	94
+#0960 	
+	Wiglett 		Gooey
+Rattled
+Sand Veil 	10 	55 	25 	35 	25 	95
+#0961 	
+	Wugtrio 		Gooey
+Rattled
+Sand Veil 	35 	100 	50 	50 	70 	120
+#0962 	
+	Bombirdier 		Big Pecks
+Keen Eye
+Rocky Payload 	70 	103 	85 	60 	85 	82
+#0963 	
+	Finizen 		Water Veil 	70 	45 	40 	45 	40 	75
+#0964 	
+	Palafin 		Zero to Hero 	100 	70 	72 	53 	62 	100
+#0965 	
+	Varoom 		Overcoat
+Slow Start 	45 	70 	63 	30 	45 	47
+#0966 	
+	Revavroom 		Overcoat
+Filter 	80 	119 	90 	54 	67 	90
+#0967 	
+	Cyclizar 		Shed Skin
+Regenerator 	70 	95 	65 	85 	65 	121
+#0968 	
+	Orthworm 		Earth Eater
+Sand Veil 	70 	85 	145 	60 	55 	65
+#0969 	
+	Glimmet 		Toxic Debris
+Corrosion 	48 	35 	42 	105 	60 	60
+#0970 	
+	Glimmora 		Toxic Debris
+Corrosion 	83 	55 	90 	130 	81 	86
+#0971 	
+	Greavard 		Pickup
+Fluffy 	50 	61 	60 	30 	55 	34
+#0972 	
+	Houndstone 		Sand Rush
+Fluffy 	72 	101 	100 	50 	97 	68
+#0973 	
+	Flamigo 		Scrappy
+Tangled Feet
+Costar 	82 	115 	74 	75 	64 	90
+#0974 	
+	Cetoddle 		Thick Fat
+Snow Cloak
+Sheer Force 	108 	68 	45 	30 	40 	43
+#0975 	
+	Cetitan 		Thick Fat
+Slush Rush
+Sheer Force 	170 	113 	65 	45 	55 	73
+#0976 	
+	Veluza 		Mold Breaker
+Sharpness 	90 	102 	73 	78 	65 	70
+#0977 	
+	Dondozo 		Unaware
+Oblivious
+Water Veil 	150 	100 	115 	65 	65 	35
+#0978 	
+	Tatsugiri 		Commander
+Storm Drain 	68 	50 	60 	120 	95 	82
+#0979 	
+	Annihilape 		Vital Spirit
+Inner Focus
+Defiant 	110 	115 	80 	50 	90 	90
+#0980 	
+	Clodsire 		Poison Point
+Water Absorb
+Unaware 	130 	75 	60 	45 	100 	20
+#0981 	
+	Farigiraf 		Cud Chew
+Armor Tail
+Sap Sipper 	120 	90 	70 	110 	70 	60
+#0982 	
+	Dudunsparce 		Serene Grace
+Run Away
+Rattled 	125 	100 	80 	85 	75 	55
+#0983 	
+	Kingambit 		Defiant
+Supreme Overlord
+Pressure 	100 	135 	120 	60 	85 	50
+#0984 	
+	Great Tusk 		Protosynthesis 	115 	131 	131 	53 	53 	87
+#0985 	
+	Scream Tail 		Protosynthesis 	115 	65 	99 	65 	115 	111
+#0986 	
+	Brute Bonnet 		Protosynthesis 	111 	127 	99 	79 	99 	55
+#0987 	
+	Flutter Mane 		Protosynthesis 	55 	55 	55 	135 	135 	135
+#0988 	
+	Slither Wing 		Protosynthesis 	85 	135 	79 	85 	105 	81
+#0989 	
+	Sandy Shocks 		Protosynthesis 	85 	81 	97 	121 	85 	101
+#0990 	
+	Iron Treads 		Quark Drive 	90 	112 	120 	72 	70 	106
+#0991 	
+	Iron Bundle 		Quark Drive 	56 	80 	114 	124 	60 	136
+#0992 	
+	Iron Hands 		Quark Drive 	154 	140 	108 	50 	68 	50
+#0993 	
+	Iron Jugulis 		Quark Drive 	94 	80 	86 	122 	80 	108
+#0994 	
+	Iron Moth 		Quark Drive 	80 	70 	60 	140 	110 	110
+#0995 	
+	Iron Thorns 		Quark Drive 	100 	134 	110 	70 	84 	72
+#0996 	
+	Frigibax 		Thermal Exchange
+Ice Body 	65 	75 	45 	35 	45 	55
+#0997 	
+	Arctibax 		Thermal Exchange
+Ice Body 	90 	95 	66 	45 	65 	62
+#0998 	
+	Baxcalibur 		Thermal Exchange
+Ice Body 	115 	145 	92 	75 	86 	87
+#0999 	
+	Gimmighoul 		Rattled 	45 	30 	70 	75 	70 	10
+#1000 	
+	Gholdengo 		Good as Gold 	87 	60 	95 	133 	91 	84
+#1001 	
+	Wo-Chien 		Tablets of Ruin 	85 	85 	100 	95 	135 	70
+#1002 	
+	Chien-Pao 		Sword of Ruin 	80 	120 	80 	90 	65 	135
+#1003 	
+	Ting-Lu 		Vessel of Ruin 	155 	110 	125 	55 	80 	45
+#1004 	
+	Chi-Yu 		Beads of Ruin 	55 	80 	80 	135 	120 	100
+#1005 	
+	Roaring Moon 		Protosynthesis 	105 	139 	71 	55 	101 	119
+#1006 	
+	Iron Valiant 		Quark Drive 	74 	130 	90 	120 	60 	116
+#1007 	
+	Koraidon 		Orichalcum Pulse 	100 	135 	115 	85 	100 	135
+#1008 	
+	Miraidon 		Hadron Engine 	100 	85 	100 	135 	115 	135
+#1009 	
+	Walking Wake 		Protosynthesis 	99 	83 	91 	125 	83 	109
+#1010 	
+	Iron Leaves 		Quark Drive 	90 	130 	88 	70 	108 	104
