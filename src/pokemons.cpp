@@ -649,7 +649,7 @@ namespace Pokemons
 
 	void OutputPokemonListCSV(const PokemonList& pokemonList)
 	{
-		std::ofstream file("moves.csv");
+		std::ofstream file("pokemons.csv");
 
 		file << "Gamepress link,Gamepress key,Gamepress display name,Pokegenie display name,Pokemon fandom display name\n";
 
@@ -761,11 +761,7 @@ namespace Pokemons
 			//Assert the format have not changed
 			assert(items.size() == 48);
 
-			if (items[2] == "Normal")
-			{
-				items[2] = "";
-			}
-			PokegeniePokemonDisplayName pokegenieDisplayName{ items[1], items[2], items[21] };
+			PokegeniePokemonDisplayName pokegenieDisplayName{ items[1], items[2] == "Normal" ? "" : items[2], items[21]};
 			auto pokemonIt = std::find_if(pokemonList.begin(), pokemonList.end(), [&pokegenieDisplayName](const Pokemon& pokemon)
 				{
 					return pokemon.pokegenieDisplayName.name == pokegenieDisplayName.name &&
