@@ -409,7 +409,8 @@ namespace
 		}
 
 		std::string name = gamepressDisplayName;
-		bool isMega = Utils::RemoveSubstringFront(name, "Mega ") || Utils::RemoveSubstringFront(name, "Primal ");
+		bool isMega = Utils::RemoveSubstringFront(name, "Mega ");
+		bool isPrimal = Utils::RemoveSubstringFront(name, "Primal ");
 		bool isShadow = Utils::RemoveSubstringFront(name, "Shadow ");
 
 		bool isAlolan = Utils::RemoveSubstringFront(name, "Alolan ");
@@ -446,6 +447,10 @@ namespace
 		if (isMega)
 		{
 			ss << "-mega";
+		}
+		else if (isPrimal)
+		{
+			ss << "-primal";
 		}
 		else if (isShadow)
 		{
