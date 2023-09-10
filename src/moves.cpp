@@ -79,6 +79,10 @@ namespace
 		{
 			return "Mud-Slap";
 		}
+		else if (gamepressDisplayName.contains("Techno Blast"))
+		{
+			return "Techno Blast";
+		}
 		return gamepressDisplayName;
 	}
 

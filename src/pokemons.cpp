@@ -470,6 +470,10 @@ namespace
 		{
 			return { "Giratina", "Altered", shadow };
 		}
+		else if (gamepressDisplayName == "Shaymin (Land Forme)")
+		{
+			return { "Shaymin", "Land", shadow };
+		}
 		else if (gamepressDisplayName == "Landorus (Incarnate Forme)")
 		{
 			return { "Landorus", "", shadow };
@@ -477,6 +481,22 @@ namespace
 		else if (gamepressDisplayName == "Zygarde (10% Forme)")
 		{
 			return { "Zygarde", "10%", shadow };
+		}
+		else if (gamepressDisplayName == "Meloetta (Aria Forme)")
+		{
+			return { "Meloetta", "Aria", shadow };
+		}
+		else if (gamepressDisplayName == "Genesect - Shock Drive")
+		{
+			return { "Genesect", "Shock", shadow };
+		}
+		else if (gamepressDisplayName == "Genesect - Douse Drive")
+		{
+			return { "Genesect", "Douse", shadow };
+		}
+		else if (gamepressDisplayName == "Hoopa (Confined)")
+		{
+			return { "Hoopa", "Confined", shadow };
 		}
 		else if (gamepressDisplayName == "Zacian - Hero of Many Battles")
 		{
@@ -797,6 +817,7 @@ namespace Pokemons
 						return true;
 					}
 					if (fastMove->gamepressDisplayName == "Hidden Power" ||
+						chargedMove->gamepressDisplayName.contains("Techno Blast") ||
 						chargedMove->gamepressDisplayName == "Frustration")//Too many corner cases
 					{
 						return true;
