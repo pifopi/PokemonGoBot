@@ -395,13 +395,13 @@ namespace
 		{
 			return "898-shadow-rider";
 		}
-		else if (gamepressDisplayName == "Oinkologne (Male)")
-		{
-			return "916";
-		}
 		else if (gamepressDisplayName == "Oinkologne (Female)")
 		{
-			return "916-0";
+			return "916-female";
+		}
+		else if (gamepressDisplayName == "Oinkologne (Male)")
+		{
+			return "916-male";
 		}
 		else if (gamepressDisplayName == "Gimmighoul (Roaming Form)")
 		{
@@ -505,6 +505,10 @@ namespace
 		else if (gamepressDisplayName == "Zamazenta - Hero of Many Battles")
 		{
 			return { "Zamazenta", "Hero", shadow };
+		}
+		else if (gamepressDisplayName == "Oinkologne (Male)")
+		{
+			return { "Oinkologne", "Female", shadow };
 		}
 
 		bool isAlolan = Utils::RemoveSubstringFront(name, "Alolan ");
