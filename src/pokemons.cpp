@@ -403,6 +403,30 @@ namespace
 		{
 			return "916-male";
 		}
+		else if (gamepressDisplayName == "Naclistack")
+		{
+			return "933";//TODO report error to gamepress (typo)
+		}
+		else if (gamepressDisplayName == "Palafin (Zero Form)")
+		{
+			return "964";
+		}
+		else if (gamepressDisplayName == "Palafin (Hero Form)")
+		{
+			return "964-hero";
+		}
+		else if (gamepressDisplayName == "Espartha")
+		{
+			return "956";//TODO report error to gamepress (typo)
+		}
+		else if (gamepressDisplayName == "Revaroom")
+		{
+			return "966";//TODO report error to gamepress (typo)
+		}
+		else if (gamepressDisplayName == "Clodsire ")
+		{
+			return "980";//TODO report error to gamepress (space)
+		}
 		else if (gamepressDisplayName == "Gimmighoul (Roaming Form)")
 		{
 			return "976-roaming";
@@ -466,7 +490,19 @@ namespace
 		bool isShadow = Utils::RemoveSubstringFront(name, "Shadow ");
 		const std::string shadow = isShadow ? "1" : "0";
 
-		if (gamepressDisplayName == "Giratina (Altered Forme)")
+		if (gamepressDisplayName == "Wormadam (Plant Cloak)")
+		{
+			return { "Wormadam", "Plant", shadow };
+		}
+		else if (gamepressDisplayName == "Wormadam (Sandy Cloak)")
+		{
+			return { "Wormadam", "Sandy", shadow };
+		}
+		else if (gamepressDisplayName == "Wormadam (Trash Cloak)")
+		{
+			return { "Wormadam", "Trash", shadow };
+		}
+		else if (gamepressDisplayName == "Giratina (Altered Forme)")
 		{
 			return { "Giratina", "Altered", shadow };
 		}
@@ -482,6 +518,10 @@ namespace
 		{
 			return { "Zygarde", "10%", shadow };
 		}
+		else if (gamepressDisplayName == "Zygarde (50% Forme)")
+		{
+			return { "Zygarde", "50%", shadow };
+		}
 		else if (gamepressDisplayName == "Meloetta (Aria Forme)")
 		{
 			return { "Meloetta", "Aria", shadow };
@@ -493,6 +533,22 @@ namespace
 		else if (gamepressDisplayName == "Genesect - Douse Drive")
 		{
 			return { "Genesect", "Douse", shadow };
+		}
+		else if (gamepressDisplayName == "Gourgeist - Super Size")
+		{
+			return { "Gourgeist", "Super", shadow };
+		}
+		else if (gamepressDisplayName == "Gourgeist - Large Size")
+		{
+			return { "Gourgeist", "Large", shadow };
+		}
+		else if (gamepressDisplayName == "Gourgeist - Average Size")
+		{
+			return { "Gourgeist", "Average", shadow };
+		}
+		else if (gamepressDisplayName == "Gourgeist - Small Size")
+		{
+			return { "Gourgeist", "Small", shadow };
 		}
 		else if (gamepressDisplayName == "Hoopa (Confined)")
 		{
@@ -506,9 +562,13 @@ namespace
 		{
 			return { "Zamazenta", "Hero", shadow };
 		}
-		else if (gamepressDisplayName == "Oinkologne (Male)")
+		else if (gamepressDisplayName == "Oinkologne (Female)")
 		{
 			return { "Oinkologne", "Female", shadow };
+		}
+		else if (gamepressDisplayName == "Oinkologne (Male)")
+		{
+			return { "Oinkologne", "Male", shadow };
 		}
 
 		bool isAlolan = Utils::RemoveSubstringFront(name, "Alolan ");
